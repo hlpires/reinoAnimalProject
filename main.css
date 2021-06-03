@@ -58,15 +58,16 @@ h1:hover{
 }
 .intro{
     background-color: rgb(255, 255, 255);
-    height: 600px;
+    height: 1000px;
     width: 100%;
     float: left;
     position: relative;
+    align-items: center;
 
 }
 .redesSociais{
     width: 60px;
-    margin-left: 150px;
+    margin-left: 50px;
     position: absolute;
     transition: all .2s ease-in-out;
     margin-top: 70px;
@@ -79,6 +80,13 @@ h1:hover{
     width: 100px;
     position: relative;
     float: right;
-    margin-right: 130px;
+    margin-right: 260px;
     margin-top: 30px;
+}
+.backgroundIntro{
+width: 80%;
+height: 600px;
+margin: 0 auto;
+margin-top: 100px;
+
 }
