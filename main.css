@@ -14,7 +14,7 @@ body{
   }
 
 .logo{
-width:270px;
+width:400px;
 float:left;
 position: relative;
 margin-top: 10px;
@@ -22,11 +22,12 @@ margin-left: 200px;
 }
 header{
 background-color: rgb(27, 27, 27);
-height: 200px;
+height: 160px;
 width: 100%;
 float: left;
 margin: 0 auto;
 font-family: raleway;
+border-bottom: 4px solid #ba6e2d;
 
 }
 .menu{
@@ -34,8 +35,8 @@ display:inline-flex;
 width: 30%;
 position: relative;
 text-align:center;
-margin-top: 100px;
-left: 04%;
+margin-top: 80px;
+left: -3%;
 margin-left: 140px;
 color: white;
 
@@ -45,11 +46,12 @@ h1{
     margin-left: 55px;
     font-weight:lighter;
     cursor: pointer;
-    font-size: 22px;
+    font-size: 25px;
     transition: all .2s ease-in-out;
 }
 h1:hover{
     transform: scale(1.35);
+    color: #ba6e2d;
 
 
 }
