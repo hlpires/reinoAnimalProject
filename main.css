@@ -63,3 +63,12 @@ h1:hover{
     position: relative;
 
 }
+.redesSociais{
+    width: 50px;
+    margin-left: 120px;
+    position: relative;
+    transition: all .2s ease-in-out;
+}
+.redesSociais:hover{
+    transform: scale(1.35);
+}
