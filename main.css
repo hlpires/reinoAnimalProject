@@ -14,15 +14,15 @@ body{
   }
 
 .logo{
-width:400px;
+width:350px;
 float:left;
 position: relative;
-margin-top: 10px;
-margin-left: 200px;
+margin-top: 20px;
+margin-left: 150px;
 }
 header{
 background-color: rgb(27, 27, 27);
-height: 160px;
+height: 140px;
 width: 100%;
 float: left;
 margin: 0 auto;
@@ -32,21 +32,21 @@ border-bottom: 4px solid #ba6e2d;
 }
 .menu{
 display:inline-flex;
-width: 30%;
+width: 40%;
 position: relative;
 text-align:center;
-margin-top: 80px;
-left: -3%;
+margin-top: 60px;
+left: 0%;
 margin-left: 140px;
 color: white;
 
 }
 
 h1{
-    margin-left: 55px;
+    margin-left: 40px;
     font-weight:lighter;
     cursor: pointer;
-    font-size: 25px;
+    font-size: 23px;
     transition: all .2s ease-in-out;
 }
 h1:hover{
@@ -54,9 +54,10 @@ h1:hover{
     color: #ba6e2d;
 
 
+
 }
 .intro{
-    background-color: red;
+    background-color: rgb(255, 255, 255);
     height: 600px;
     width: 100%;
     float: left;
@@ -64,11 +65,20 @@ h1:hover{
 
 }
 .redesSociais{
-    width: 50px;
+    width: 60px;
     margin-left: 150px;
-    position: relative;
+    position: absolute;
     transition: all .2s ease-in-out;
+    margin-top: 70px;
 }
 .redesSociais:hover{
     transform: scale(1.35);
+    cursor: pointer;
+}
+.pata{
+    width: 100px;
+    position: relative;
+    float: right;
+    margin-right: 130px;
+    margin-top: 30px;
 }
