@@ -62,7 +62,7 @@ h1:hover{
     width: 100%;
     float: left;
     position: relative;
-    align-items: center;
+    
 
 }
 .redesSociais{
@@ -88,5 +88,5 @@ width: 80%;
 height: 600px;
 margin: 0 auto;
 margin-top: 100px;
-
+align-items: center;
 }
