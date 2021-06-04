@@ -250,16 +250,18 @@ h2{
     
         .petHotel{
             margin: 0 auto;
-            margin-right: 16vw;
+            margin-right: 14vw;
           
           
             height: 30vw;
             width:calc(45vh);
             
-            background-color: rgb(201, 54, 54);
+            background-color: rgb(255, 255, 255);
             float: left;
             max-height: 800px;
             text-align: center;
+            box-shadow: 0 20px 20px 0 rgb(231 235 240), 0 0 0 1px #e6ecf8;
+            
         }
         .tosa{
             margin: 0 auto;
@@ -267,21 +269,23 @@ h2{
             height: 30vw;
             width:calc(45vh);
             
-            background-color: rgb(236, 17, 17);
+            background-color: rgb(255, 255, 255);
             float: left;
             max-height: 800px;
             text-align: center;
+            box-shadow: 0 20px 20px 0 rgb(231 235 240), 0 0 0 1px #e6ecf8;
         }
         .banho{
             margin: 0 auto;
-            margin-left: 15.5vw;
+            margin-left: 13.5vw;
             height: 30vw;
             width:calc(45vh);
             
-            background-color: rgb(233, 37, 37);
+            background-color: rgb(255, 255, 255);
             float: left;
             max-height: 800px;
             text-align: center;
+            box-shadow: 0 20px 20px 0 rgb(231 235 240), 0 0 0 1px #e6ecf8;
         }
        
     
