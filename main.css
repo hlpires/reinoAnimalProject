@@ -118,7 +118,7 @@ max-height: 1000px;
 h2{
     top: 2vw;
     font-size:calc(02vw + 1vh + 10px);
-    color:rgb(250, 249, 249);
+    color:rgb(8, 8, 8);
     opacity: 1!important;
     position: absolute;
     left: 10%;
