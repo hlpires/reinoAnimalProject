@@ -234,32 +234,53 @@ h2{
         .img1{
             position: relative;
             width: 30vh;
-            margin-left: 18vw;
+            
             
          }
          .img2{
             width: 30vh;
         }
-    
         .img3{
             width: 30vh;
-            margin-left: -28.5vw;
+            
         }
-        #h41{
-            font-size: 30px;
-            color: black;
-            font-family: raleway;
-            margin-left: 24vw;
-            font-weight: bold;
+    
+        .petHotel{
+            margin: 0 auto;
+            margin-right: 20vw;
+          
+          
+            height: 60vw;
+            width:calc(45vh);
+            
+            background-color: rgb(201, 54, 54);
+            float: left;
+            max-height: 800px;
+            text-align: center;
+        }
+        .tosa{
+            margin: 0 auto;
+            
+            height: 80vw;
+            width:calc(45vh);
+            
+            background-color: rgb(236, 17, 17);
+            float: left;
+            max-height: 800px;
+            text-align: center;
+        }
+        .banho{
+            margin: 0 auto;
+            
+            height: 80vw;
+            width:calc(45vh);
+            
+            background-color: rgb(233, 37, 37);
+            float: left;
+            max-height: 800px;
+            text-align: center;
         }
        
-        #h43{
-            font-size: 30px;
-            color: black;
-            font-family: raleway;
-            margin-left: -28.5vw;
-            font-weight: bold;
-        }
     
  }
     
