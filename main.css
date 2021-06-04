@@ -232,15 +232,18 @@ h2{
 
     @media (min-width:1025px){
         .img1{
+            margin-top: 03vw;
             position: relative;
             width: 30vh;
             
             
          }
          .img2{
+             margin-top: 03vw;
             width: 30vh;
         }
         .img3{
+            margin-top: 03vw;
             width: 30vh;
             
         }
@@ -250,7 +253,7 @@ h2{
             margin-right: 16vw;
           
           
-            height: 60vw;
+            height: 30vw;
             width:calc(45vh);
             
             background-color: rgb(201, 54, 54);
@@ -261,7 +264,7 @@ h2{
         .tosa{
             margin: 0 auto;
             
-            height: 80vw;
+            height: 30vw;
             width:calc(45vh);
             
             background-color: rgb(236, 17, 17);
@@ -272,7 +275,7 @@ h2{
         .banho{
             margin: 0 auto;
             margin-left: 15.5vw;
-            height: 80vw;
+            height: 30vw;
             width:calc(45vh);
             
             background-color: rgb(233, 37, 37);
