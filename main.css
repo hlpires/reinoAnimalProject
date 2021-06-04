@@ -151,7 +151,7 @@ h2{
         max-height: 1180px;
     }
     h3{
-        padding-top:calc(20vw - 12vh);
+        padding-top:calc(14vw - 12vh);
         font-size: 60px;
         color: black;
         max-height: 80px;
@@ -177,7 +177,7 @@ h2{
         
         height: 80vw;
         width:calc(45vh);
-        border-bottom: 5px solid black;
+        
         background-color: rgb(255, 255, 255);
         float: left;
         max-height: 800px;
@@ -188,7 +188,7 @@ h2{
         
         height: 80vw;
         width:calc(45vh);
-        border-bottom: 5px solid black;
+        
         background-color: rgb(255, 255, 255);
         float: left;
         max-height: 800px;
@@ -200,7 +200,7 @@ h2{
       
         height: 60vw;
         width:calc(45vh);
-        border-bottom: 5px solid black;
+        
         background-color: rgb(255, 255, 255);
         float: left;
         max-height: 800px;
