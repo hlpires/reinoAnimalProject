@@ -14,11 +14,12 @@ body{
   }
 
 .logo{
-width:350px;
+width:50vh;
 float:left;
 position: relative;
 margin-top: 20px;
 margin-left: 150px;
+max-width: 400px;
 }
 header{
 background-color: rgb(27, 27, 27);
@@ -45,10 +46,10 @@ color: white;
 }
 
 h1{
-    margin-left: 40px;
+    margin-left: 4vw;
     font-weight:lighter;
     cursor: pointer;
-    font-size: 23px;
+    font-size: 1vw;
     transition: all .2s ease-in-out;
 }
 h1:hover{
@@ -88,21 +89,21 @@ h1:hover{
 .backgroundIntro{
 flex: 1;
 width: 100vw;
-height: 35.6vw;
+height:calc(23.0vw + 10vh);
 margin: 0 auto;
 margin-top: 0px;
 align-items: center;
 float: right;
-
 z-index: 1;
 background-size: 100%;
 max-width: 2300px;
 max-height: 1000px;
+border-bottom: 10px solid black;
 
 }
 .descIntro{
 width: 60vw;
-height: 35.6vw;
+height:calc(23.0vw + 10vh);
 background-color:rgb(0,0,0); 
 background-color:rgba(0,0,0,0.3);
 position: absolute;
@@ -116,23 +117,26 @@ max-height: 1000px;
 }
 h2{
     top: 2vw;
-    font-size:60px;
-    color:rgba(255,255,255);
+    font-size:calc(02vw + 1vh + 10px);
+    color:rgb(250, 249, 249);
     opacity: 1!important;
     position: absolute;
     left: 10%;
     margin: 0 auto;
     max-width: 500px;
-    
+    margin-left:calc(14vw - 8vh);
+    font-family: raleway;
 }
 .wpp{
-    background-color: green;
-    height: 07vw;
-    width: 20vw;
+    background-color: transparent;
+    height: 17vw;
+    width:60vw;
     position: absolute;
-    margin-left: 30%;
+    margin-left:calc(20vw - 7vh);
     margin-top:30%;
-    max-width: 400px;
-    max-height: 200px;
-    
+    max-width: 459px;
+    max-height: 111px;
+    background-image: url(./IMG/wpp.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
     }
