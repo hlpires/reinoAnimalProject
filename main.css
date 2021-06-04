@@ -171,6 +171,7 @@ h2{
       max-width: 100%;
       margin-top:calc(-3vh + 10vw);
       flex-wrap: wrap;
+      background-size:cover!important;
     }
     .banho{
         margin: 0 auto;
@@ -206,21 +207,66 @@ h2{
         max-height: 800px;
         text-align: center;
     }
+    
     .img1{
        position: relative;
        width: 35vh;
        
        
     }
+
+
+
     .img2{
         width: 35vh;
     }
+
+
+  
+
     .img3{
         width: 35vh;
         
     }
-    h4{
+
+
+    @media (min-width:1025px){
+        .img1{
+            position: relative;
+            width: 30vh;
+            margin-left: 18vw;
+            
+         }
+         .img2{
+            width: 30vh;
+        }
+    
+        .img3{
+            width: 30vh;
+            margin-left: -28.5vw;
+        }
+        #h41{
+            font-size: 30px;
+            color: black;
+            font-family: raleway;
+            margin-left: 24vw;
+            font-weight: bold;
+        }
+       
+        #h43{
+            font-size: 30px;
+            color: black;
+            font-family: raleway;
+            margin-left: -28.5vw;
+            font-weight: bold;
+        }
+    
+ }
+    
+    
+        h4{
         font-size: 30px;
         color: black;
         font-family: raleway;
+        font-weight: bold;
     }
