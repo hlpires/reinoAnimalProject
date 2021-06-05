@@ -7,5 +7,6 @@ $('.fotos').slick({
   slidesToShow: 4,
   adaptiveHeight: true,
   autoplay:true,
-  autoplaySpeed:2000
+  autoplaySpeed:1200,
+  speed:1000
 });
