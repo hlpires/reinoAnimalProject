@@ -30,7 +30,7 @@ width: 100%;
 float: left;
 margin: 0 auto;
 font-family: raleway;
-border-bottom: 06px solid #070707;
+border-bottom: 04px solid #070707;
 max-height: 250px;
 min-height: 150px;
 
@@ -103,7 +103,7 @@ z-index: 1;
 background-size: 100%;
 max-width: 2300px;
 max-height: 1000px;
-border-bottom: 10px solid black;
+border-bottom: 04px solid #070707;
 
 }
 .descIntro{
@@ -332,7 +332,7 @@ background-color: rgb(29, 29, 29);
 width: 100%;
 float: left;
 max-height: 600px;
-border-bottom: 6px solid black;
+
 
 }
 h5{
@@ -420,7 +420,7 @@ h7{
     background-color: rgb(22, 22, 22);
     float: left;
     width: 100%;
-    border-bottom: 6px solid black;
+    
     max-height:300px;
 }
 .contato{
