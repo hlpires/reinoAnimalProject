@@ -73,17 +73,17 @@ h1:hover{
     min-height: 500px;
 
 }
-/*.redesSociais{
-    width:calc(15vw);
-    margin-left: 22vw;
-    position: absolute;
+.redesSociais{
+    width:200px;
+    float: right;
+    position: relative;
     transition: all .0s ease-in-out;
-    margin-top: -10.5vw;
-}*/
-/*.redesSociais:hover{
+ 
+}
+.redesSociais:hover{
     transform: scale(1.35);
     cursor: pointer;
-}*/
+}
 .pata{
     width: 100px;
     position: relative;
