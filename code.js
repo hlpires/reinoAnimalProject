@@ -1,6 +1,6 @@
 
 
-$('.fotos').slick({
+$('#fotos').slick({
   dots:false,
   infinite: true,
   speed: 300,

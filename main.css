@@ -1,4 +1,5 @@
 
+
 body{
     margin: 0 auto;
     height: 100%;
@@ -8,6 +9,7 @@ body{
     overflow-y: scroll;
     
 }
+
 @font-face {
     font-family: raleway;
     src: url(./fontes/Raleway-Italic-VariableFont_wght.ttf);
@@ -51,6 +53,8 @@ h1{
     cursor: pointer;
     font-size: 1.3vw;
     transition: all .2s ease-in-out;
+    color: white;
+    
 }
 h1:hover{
     transform: scale(1.35);
@@ -141,7 +145,7 @@ h2{
     background-repeat: no-repeat;
     cursor: pointer;
     }
-    .servicos{
+    #servicos{
         background-color: rgb(255, 255, 255);
         height: 100vh;
         width: 100vw;
@@ -149,17 +153,18 @@ h2{
         margin-top: 0;
         max-width: 2300px;
         max-height: 1180px;
+        text-align: center;
     }
     h3{
         padding-top:calc(14vw - 12vh);
-        font-size: 60px;
+        font-size: 50px;
         color: black;
         max-height: 80px;
         font-family: raleway;
-        border-bottom: 4px solid rgb(235, 118, 8);
         max-width: 440px;
         margin:0 auto;
         position: relative;
+        
 
     }
     article{
@@ -175,10 +180,9 @@ h2{
     }
     .banho{
         margin: 0 auto;
-        
         height: 80vw;
         width:calc(45vh);
-        
+        box-shadow: 0 20px 20px 0 rgb(150, 167, 185), 0 0 0 1px #aebedf;
         background-color: rgb(255, 255, 255);
         float: left;
         max-height: 800px;
@@ -189,7 +193,7 @@ h2{
         
         height: 80vw;
         width:calc(45vh);
-        
+        box-shadow: 0 20px 20px 0 rgb(150, 167, 185), 0 0 0 1px #aebedf;
         background-color: rgb(255, 255, 255);
         float: left;
         max-height: 800px;
@@ -201,7 +205,7 @@ h2{
       
         height: 60vw;
         width:calc(45vh);
-        
+        box-shadow: 0 20px 20px 0 rgb(150, 167, 185), 0 0 0 1px #aebedf;
         background-color: rgb(255, 255, 255);
         float: left;
         max-height: 800px;
@@ -262,7 +266,10 @@ h2{
             max-height: 800px;
             text-align: center;
             box-shadow: 0 20px 20px 0 rgb(150, 167, 185), 0 0 0 1px #aebedf;
-            
+            transition: all .2s ease-in-out;
+        }
+        .petHotel:hover{
+            transform: scale(1.1);
         }
         .tosa{
             margin: 0 auto;
@@ -275,7 +282,12 @@ h2{
             max-height: 800px;
             text-align: center;
             box-shadow: 0 20px 20px 0 rgb(150, 167, 185), 0 0 0 1px #aebedf;
+            transition: all .2s ease-in-out;
         }
+        .tosa:hover{
+            transform: scale(1.1);
+        }
+      
         .banho{
             margin: 0 auto;
             margin-left: 12.5vw;
@@ -287,6 +299,10 @@ h2{
             max-height: 800px;
             text-align: center;
             box-shadow: 0 20px 20px 0 rgb(150, 167, 185), 0 0 0 1px #aebedf;
+            transition: all .2s ease-in-out;
+        }
+        .banho:hover{
+            transform: scale(1.1);
         }
       
             
@@ -301,20 +317,21 @@ h2{
         font-weight: bold;
     }
 
-.visite-nos{
+#visite-nos{
 margin-top:calc(129vh - 45vw - 200px);
 height:calc(10vw + 6vh);
 background-color: rgb(29, 29, 29);
 width: 100%;
 float: left;
 max-height: 600px;
+border-bottom: 6px solid black;
 
 }
 h5{
     margin-top: 80px;
     text-align: center;
-    font-size: 60px;
-    color: rgb(235, 118, 8);
+    font-size: 50px;
+    color: rgb(255, 255, 255);
     font-family: raleway;
     font-weight: bold;
 }
@@ -325,11 +342,12 @@ h5{
     text-align: center;
     background-color: rgb(255, 255, 255);
     float: left;
-    max-height: 800px;
+    max-height: 1000px;
     border-bottom: 6px solid black;
 }
 .mapa{
-    margin-top: 10vw;
+    margin-top: 07vw;
+    width: 25vw;
 }
 h6{
     margin-top: 70px;
@@ -339,23 +357,24 @@ h6{
     font-family: raleway;
     font-weight: bold;
 }
-.fotos{
-    margin-top:calc(80px);
-    background-color: rgb(235, 118, 8);
+#fotos{
+    margin-top:150px;
+    background-color: rgb(255, 255, 255);
     width: 100%;
     height: 33vw;
     float: left;
     display: flex;
     max-height: 1000px;
     z-index: 2;
-    border-bottom: 6px solid black;
+    
 }
-.fotos img{
-    margin-top:calc(3vw + 3vh);
-    width:18vw;
-    margin-left: 4.1vw;
+#fotos img{
+    margin-top: 28px;
+    width:24.2vw;
+    height: 30vw;
+  
     z-index: 0;
-    max-width: 550px;
+    max-width: 750px;
     z-index: 1;
     
 }
@@ -378,10 +397,10 @@ border: none;
 }
 
 h7{
-    margin-top: 20px;
+    margin-top: 40px;
     text-align: center;
     font-size: 50px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: raleway;
     font-weight: bold;
     position: absolute;
@@ -389,31 +408,34 @@ h7{
 }
 .photo{
     text-align: center;
-    height: 10vw;
-    background-color: rgb(235, 118, 8);
+    height:calc(06vw + 3vh);
+    background-color: rgb(22, 22, 22);
     float: left;
     width: 100%;
-    margin-bottom: -520px;
+    border-bottom: 6px solid black;
     max-height:300px;
 }
 .contato{
-    margin-top: 34vw;
+    margin-top: 600px;
     width: 100%;
-    height: 20vw;
-    max-height: 900px;
+    height: 27vw;
+    max-height: 2000px;
     background-color: rgb(18, 18, 19);
     float: left;
     text-align: center;
+    
 }
 h8{
+margin-top:400px;
 position:absolute;
 font-size: 25px;
- color: white;
- top: 390%;
- left: 38%;
+color: white;
+left: 39%;
+
 
 }
 .endLogo{
-    margin-top: 4vw;
+    margin-top:200px;
     width: 30vw;
+    max-width: 600px;
 }
