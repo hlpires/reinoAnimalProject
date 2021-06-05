@@ -161,11 +161,18 @@ h2{
         color: black;
         max-height: 80px;
         font-family: raleway;
-        max-width: 440px;
+        max-width: 370px;
         margin:0 auto;
         position: relative;
-        
+        border-bottom: 3px solid black;
+        font-weight:bolder;
 
+    }
+    p{
+        font-family: raleway;
+        margin:10px;
+        font-size:20px;
+        font-weight:580;
     }
     article{
         height: 80vw;
@@ -270,6 +277,7 @@ h2{
         }
         .petHotel:hover{
             transform: scale(1.1);
+            
         }
         .tosa{
             margin: 0 auto;
@@ -428,7 +436,7 @@ h7{
 h8{
 margin-top:400px;
 position:absolute;
-font-size: 25px;
+font-size: 20px;
 color: white;
 left: 39%;
 
