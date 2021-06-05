@@ -337,12 +337,15 @@ h6{
     font-weight: bold;
 }
 .fotos{
-    margin-top: 100px;
+    margin-top: 300px;
     background-color: rgb(253, 252, 251);
     width: 100%;
     height: 40vw;
     float: left;
+    display: flex;
 }
 .fotos img{
-
+    width:20vw;
+    margin-left: 4vw;
 }
+
