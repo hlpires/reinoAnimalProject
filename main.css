@@ -303,7 +303,7 @@ h2{
 
 .visite-nos{
 margin-top:calc(129vh - 50vw - 200px);
-height:calc(14vw + 6vh);
+height:calc(10vw + 6vh);
 background-color: rgb(29, 29, 29);
 width: 100%;
 float: left;
@@ -311,6 +311,7 @@ max-height: 600px;
 
 }
 h5{
+    margin-top: 80px;
     text-align: center;
     font-size: 60px;
     color: white;
@@ -329,7 +330,7 @@ h5{
     margin-top: 05vw;
 }
 h6{
-    margin-top: 50px;
+    margin-top: 70px;
     text-align: center;
     font-size: 50px;
     color: rgb(0, 0, 0);
@@ -345,6 +346,7 @@ h6{
     display: flex;
 }
 .fotos img{
+    margin-top: 3vw;
     width:18vw;
     margin-left: 4.1vw;
     z-index: 0;
