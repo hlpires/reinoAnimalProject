@@ -328,10 +328,17 @@ h5{
     margin-top: 05vw;
 }
 h6{
-    margin-top: 100px;
+    margin-top: 50px;
     text-align: center;
     font-size: 50px;
     color: rgb(0, 0, 0);
     font-family: raleway;
     font-weight: bold;
+}
+.fotos{
+    margin-top: 100px;
+    background-color: rgb(202, 139, 20);
+    width: 100%;
+    height: 40vw;
+    float: left;
 }
