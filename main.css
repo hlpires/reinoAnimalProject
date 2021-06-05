@@ -302,7 +302,7 @@ h2{
     }
 
 .visite-nos{
-margin-top:calc(130vh - 1000px) ;
+margin-top:calc(129vh - 50vw - 200px);
 height:calc(14vw + 6vh);
 background-color: rgb(29, 29, 29);
 width: 100%;
@@ -328,7 +328,7 @@ h5{
     margin-top: 05vw;
 }
 h6{
-    margin-top: 2vw;
+    margin-top: 100px;
     text-align: center;
     font-size: 50px;
     color: rgb(0, 0, 0);
