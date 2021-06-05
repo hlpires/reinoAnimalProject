@@ -325,6 +325,7 @@ h5{
     text-align: center;
     background-color: rgb(255, 255, 255);
     float: left;
+    max-height: 700px;
 }
 .mapa{
     margin-top: 05vw;
@@ -344,12 +345,14 @@ h6{
     height: 30vw;
     float: left;
     display: flex;
+    max-height: 1000px;
 }
 .fotos img{
     margin-top: 3vw;
     width:18vw;
     margin-left: 4.1vw;
     z-index: 0;
+    max-width: 550px;
     
 }
 .slick-next {
@@ -371,13 +374,14 @@ border: none;
 }
 
 h7{
-    margin-top: 10px;
+    margin-top: 50px;
     text-align: center;
     font-size: 50px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: raleway;
     font-weight: bold;
-    position: relative;
+    position: absolute;
+    right: 47.5%;
 }
 .photo{
     text-align: center;
@@ -388,3 +392,4 @@ h7{
     margin-bottom: -120px;
     max-height:300px;
 }
+
