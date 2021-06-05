@@ -235,26 +235,27 @@ h2{
             margin-top: 03vw;
             position: relative;
             width: 30vh;
-            
+            max-width: 300px;
             
          }
          .img2{
              margin-top: 03vw;
             width: 30vh;
+            max-width: 300px;
         }
         .img3{
             margin-top: 03vw;
             width: 30vh;
-            
+            max-width: 300px;
         }
     
         .petHotel{
             margin: 0 auto;
-            margin-right: 14vw;
+            margin-right: 12vw;
           
           
             height: 30vw;
-            width:calc(45vh);
+            width:calc(42vh);
             
             background-color: rgb(255, 255, 255);
             float: left;
@@ -267,7 +268,7 @@ h2{
             margin: 0 auto;
             
             height: 30vw;
-            width:calc(45vh);
+            width:calc(42vh);
             
             background-color: rgb(255, 255, 255);
             float: left;
@@ -277,9 +278,9 @@ h2{
         }
         .banho{
             margin: 0 auto;
-            margin-left: 13.5vw;
+            margin-left: 12.5vw;
             height: 30vw;
-            width:calc(45vh);
+            width:calc(42vh);
             
             background-color: rgb(255, 255, 255);
             float: left;
