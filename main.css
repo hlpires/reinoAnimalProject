@@ -156,7 +156,7 @@ h2{
         color: black;
         max-height: 80px;
         font-family: raleway;
-        border-bottom: 4px solid black;
+        border-bottom: 4px solid rgb(235, 118, 8);
         max-width: 440px;
         margin:0 auto;
         position: relative;
@@ -261,7 +261,7 @@ h2{
             float: left;
             max-height: 800px;
             text-align: center;
-            box-shadow: 0 20px 20px 0 rgb(231 235 240), 0 0 0 1px #e6ecf8;
+            box-shadow: 0 20px 20px 0 rgb(150, 167, 185), 0 0 0 1px #aebedf;
             
         }
         .tosa{
@@ -274,7 +274,7 @@ h2{
             float: left;
             max-height: 800px;
             text-align: center;
-            box-shadow: 0 20px 20px 0 rgb(231 235 240), 0 0 0 1px #e6ecf8;
+            box-shadow: 0 20px 20px 0 rgb(150, 167, 185), 0 0 0 1px #aebedf;
         }
         .banho{
             margin: 0 auto;
@@ -286,7 +286,7 @@ h2{
             float: left;
             max-height: 800px;
             text-align: center;
-            box-shadow: 0 20px 20px 0 rgb(231 235 240), 0 0 0 1px #e6ecf8;
+            box-shadow: 0 20px 20px 0 rgb(150, 167, 185), 0 0 0 1px #aebedf;
         }
       
             
@@ -314,7 +314,7 @@ h5{
     margin-top: 80px;
     text-align: center;
     font-size: 60px;
-    color: white;
+    color: rgb(235, 118, 8);
     font-family: raleway;
     font-weight: bold;
 }
@@ -341,7 +341,7 @@ h6{
 }
 .fotos{
     margin-top:calc(80px);
-    background-color: rgb(177, 119, 10);
+    background-color: rgb(235, 118, 8);
     width: 100%;
     height: 33vw;
     float: left;
@@ -390,7 +390,7 @@ h7{
 .photo{
     text-align: center;
     height: 10vw;
-    background-color: rgb(177, 119, 10);
+    background-color: rgb(235, 118, 8);
     float: left;
     width: 100%;
     margin-bottom: -520px;
