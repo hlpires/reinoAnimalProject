@@ -137,7 +137,7 @@ $('#fotos').slick({
   slidesToShow: 1,
   adaptiveHeight: true,
   autoplay:true,
-  autoplaySpeed:1200,
+  autoplaySpeed:1000,
   speed:1000
 });
 }
