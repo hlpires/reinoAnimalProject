@@ -9,28 +9,51 @@ const menuItems = document.querySelectorAll('.menu a[href^="#"]');
 	 
 	  smoothScrollTo(0, to);
 	}
+	/*var reseti = setInterval(scrollToIdOnClick,4000);*/
 	
 	function scrollToIdOnClick(event) {
-		event.preventDefault();
-		const to = getScrollTopByHref(event.currentTarget)-120;
+		
+		const i=188;
+		const j=0;
+		const k=140;
+		
+
+		if(jQuery('#bServicos').data('clicked')) {																	
+		var to = getScrollTopByHref(event.currentTarget)-i;
 		scrollToPosition(to);
+
+		}if(jQuery('#Localizacao').data('clicked')){
+	
+		
+		var ti = getScrollTopByHref(event.currentTarget)-j;
+		scrollToPosition(ti);
+		
+		}if(jQuery('#bFotos').data('clicked')){
+		
+		
+		var te = getScrollTopByHref(event.currentTarget)-k;
+		scrollToPosition(te);
+		
+		
+		}
+		
 		
 	}
+	
+	jQuery('#bServicos').click(function(){
+		$(this).data('clicked', true);
+	  });
+
+
+	  jQuery('#Localizacao').click(function(){
+		$(this).data('clicked', true);
+	  });
 
 	
-	function set(){
-		if(jQuery('#servicos').data('clicked')) {
-			scrollToldOnClick();
-		}else if(jQuery('#visite-nos').data('clicked')){
-			scrollToldOnClick1();
-	
-		}else if(jQuery('#bFotos').data('clicked')){
-			scrollToldOnClick2();
-	
-	}
-	
-	}
-set();
+	  jQuery('#bFotos').click(function(){
+		$(this).data('clicked', true);
+	  });
+
 
 
 	menuItems.forEach(item => {
