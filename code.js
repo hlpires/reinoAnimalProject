@@ -68,7 +68,7 @@ const menuItems = document.querySelectorAll('.menu a[href^="#"]');
 	  const distanceY = endY - startY;
 	  const startTime = new Date().getTime();
 	
-	  duration = typeof duration !== 'undefined' ? duration : 400;
+	  duration = typeof duration !== 'undefined' ? duration : 1000;
 	
 	  
 	  const easeInOutQuart = (time, from, distance, duration) => {
