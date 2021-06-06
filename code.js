@@ -16,7 +16,7 @@ var $target = $('#servicos');
 					$('.servicos').addClass('servicosAnime');
 					
 				
-				} if(documentTop > visiteTop - 800 ){
+				} if(documentTop > visiteTop - 700 ){
 					$('.mapaDiv').addClass('mapaAnime');
 					clearInterval(clock);
 				} 
