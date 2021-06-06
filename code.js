@@ -26,6 +26,7 @@ const menuItems = document.querySelectorAll('.menu a[href^="#"]');
 	
 		
 		var ti = getScrollTopByHref(event.currentTarget)-j;
+		console.log(j);
 		scrollToPosition(ti);
 		
 		}if(jQuery('#bFotos').data('clicked')){
