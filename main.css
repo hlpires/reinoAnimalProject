@@ -154,7 +154,7 @@ h2{
     background-repeat: no-repeat;
     cursor: pointer;
     }
-    #servicos{
+    .servicos{
         background-color: rgb(255, 255, 255);
         height: 100vh;
         width: 100vw;
@@ -163,7 +163,16 @@ h2{
         max-width: 2300px;
         max-height: 1180px;
         text-align: center;
+        transition: all .3s ease-in-out;
+        transform: translate3d(0,0,0);
+        opacity: 0;
     }
+    .servicosAnime{
+        opacity: 1;
+        transform: translate3d(0,0,0);
+    }
+
+    
     h3{
         padding-top:calc(14vw - 12vh);
         font-size: 50px;
