@@ -1,7 +1,8 @@
 
 var $target = $('#servicos');
 				
-				offset = $(window).height() * 1/6+100;
+				
+				var clock = setInterval(animeScroll,1000);
 	
 		function animeScroll() {
 			var documentTop = $(document).scrollTop();
@@ -9,9 +10,11 @@ var $target = $('#servicos');
 	
 			$target.each(function(){
 				var itemTop = $('#servicos').offset().top;
-				
-				if (documentTop > itemTop - offset) {
+				console.log(itemTop);
+				console.log(documentTop);
+				if (documentTop > itemTop - 400) {
 					$('.servicos').addClass('servicosAnime');
+					clearInterval(clock);
 				
 				} else {
 					
