@@ -9,20 +9,23 @@ var $target = $('#servicos');
 			
 	
 			$target.each(function(){
-				var itemTop = $('#servicos').offset().top;
-				console.log(itemTop);
-				console.log(documentTop);
-				if (documentTop > itemTop - 800) {
-					$('.servicos').addClass('servicosAnime');
-					clearInterval(clock);
+				var servicosTop = $('#servicos').offset().top;
+				var visiteTop = $('#mapaDiv').offset().top;
 				
-				} else {
+				if (documentTop > servicosTop - 800) {
+					$('.servicos').addClass('servicosAnime');
 					
-				}
+				
+				} if(documentTop > visiteTop - 800 ){
+					$('.mapaDiv').addClass('mapaAnime');
+					clearInterval(clock);
+				} 
 			});
 		}
 animeScroll();
-		
+
+
+
 $('#fotos').slick({
   dots:false,
   infinite: true,
