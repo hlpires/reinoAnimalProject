@@ -163,13 +163,14 @@ h2{
         max-width: 2300px;
         max-height: 1180px;
         text-align: center;
-        transition: 2s;
-        transform: translate3d(100px,0,0);
+        
+        transform: translate3d(-100px,0,0);
         opacity: 0;
     }
     .servicosAnime{
         opacity: 1;
-        transform: translate(200,0,0)!important;
+        transform: translate3d(0,0,0);
+        transition: 0.8s;
     }
 
     

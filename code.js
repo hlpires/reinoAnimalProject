@@ -12,7 +12,7 @@ var $target = $('#servicos');
 				var itemTop = $('#servicos').offset().top;
 				console.log(itemTop);
 				console.log(documentTop);
-				if (documentTop > itemTop - 400) {
+				if (documentTop > itemTop - 800) {
 					$('.servicos').addClass('servicosAnime');
 					clearInterval(clock);
 				
