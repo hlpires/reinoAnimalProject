@@ -12,7 +12,7 @@ const menuItems = document.querySelectorAll('.menu a[href^="#"]');
 	/*var reseti = setInterval(scrollToIdOnClick,4000);*/
 	
 	function scrollToIdOnClick(event) {
-		
+		event.preventDefault();
 		const i=188;
 		const j=0;
 		const k=140;
