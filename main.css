@@ -74,15 +74,24 @@ h1:hover{
 
 }
 .redesSociais{
-    width:200px;
+    width:100px;
     float: right;
     position: relative;
     transition: all .0s ease-in-out;
+    margin-right: -35px;
+    margin-top:-80px;
  
 }
 .redesSociais:hover{
     transform: scale(1.35);
     cursor: pointer;
+}
+.instagram{
+    width: 350px;
+    transition: all .0s ease-in-out;
+    float: right;
+    margin-top: 40px;
+    margin-right: 60px;
 }
 .pata{
     width: 100px;
