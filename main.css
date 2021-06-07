@@ -70,7 +70,7 @@ h1{
     color: transparent;
     border: none;
     border-bottom: transparent;
-    min-width: 200px;
+    min-width: 200px                                                                                                ;
 }
 h1:hover{
     transform: scale(1.35);
@@ -564,17 +564,15 @@ text-align: center;
         .petHotel{
             margin: 0 auto;
             margin-right: 12vw;
-            margin-top: 100px;
-            min-height: 600px;
-          
-            min-width: 400px;
-            height: 35vw;
+            margin-top: 50px;
+            min-height: 500px;
+         
+            height:calc(20vw + 200px);
             width:25vw;
             max-width: 450px;
             background-color: rgb(255, 255, 255);
             float: left;
             max-height: 800px;
-            min-height: 600px;
             text-align: center;
             box-shadow: 0 20px 20px 0 rgb(150, 167, 185), 0 0 0 1px #aebedf;
             transition: all .2s ease-in-out;
@@ -585,19 +583,17 @@ text-align: center;
         }
         .tosa{
             margin: 0 auto;
-            margin-top: 100px;
-            height: 35vw;
+            margin-top: 50px;
+            height:calc(20vw + 200px);
             width:25vw;
-            max-width: 450px;
+            min-height: 500px;
             background-color: rgb(255, 255, 255);
             float: left;
             max-height: 800px;
-            
+   
             text-align: center;
             box-shadow: 0 20px 20px 0 rgb(150, 167, 185), 0 0 0 1px #aebedf;
             transition: all .2s ease-in-out;
-            min-height: 600px;
-            min-width: 400px;
         }
         .tosa:hover{
             transform: scale(1.1);
@@ -605,19 +601,19 @@ text-align: center;
       
         .banho{
           margin: 0 auto;
-            margin-top: 100px;
-            height: 35vw;
+            margin-top: 50px;
+            height:calc(20vw + 200px);
             width:25vw;
-            max-width: 450px;
+            min-height: 500px;
             background-color: rgb(255, 255, 255);
             float: left;
             max-height: 800px;
-            min-height: 600px;
+   
             text-align: center;
             box-shadow: 0 20px 20px 0 rgb(150, 167, 185), 0 0 0 1px #aebedf;
             transition: all .2s ease-in-out;
             margin-left: 10vw;
-            min-width: 400px;
+            
           
         }
         .banho:hover{
