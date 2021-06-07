@@ -91,32 +91,24 @@ const menuItems = document.querySelectorAll('.menu a[href^="#"]');
 
 
 
-var $target = $('#servicos');
-if($(window).width() < 1000)
-{				
+
+if($(window).width() < 1000){
 				
-				var clock = setInterval(animeScroll,200);
+				
+		var clock1 = setInterval(animeScroll1,200);
 	
-		function animeScroll() {
-			var documentTop = $(document).scrollTop();
+		function animeScroll1() {
 			
+			$('.servicos').addClass('servicosAnime');
+			$('.mapaDiv').addClass('mapaAnime');
+			clearInterval(clock1);
 	
-			$target.each(function(){
-				var servicosTop = $('#servicos').offset().top;
-				var visiteTop = $('#mapaDiv').offset().top;
-				
-				if (200 >100) {
-					$('.servicos').addClass('servicosAnime');
-					
-				
-				} if(200 > 100){
-					$('.mapaDiv').addClass('mapaAnime');
-					clearInterval(clock);
-				} 
-			});
+			
 		}
+		animeScroll1();
 	}else{
-		var clock = setInterval(animeScroll,200);
+		var clock = setInterval(animeScroll,100);
+		var $target = $('#servicos');
 	
 		function animeScroll() {
 			var documentTop = $(document).scrollTop();
@@ -130,15 +122,16 @@ if($(window).width() < 1000)
 					$('.servicos').addClass('servicosAnime');
 					
 				
-				} if(documentTop > visiteTop - 700 ){
+				} if(documentTop > visiteTop - 800 ){
 					$('.mapaDiv').addClass('mapaAnime');
 					clearInterval(clock);
 				} 
 			});
+			animeScroll();
 		}
 
 	}
-animeScroll();
+
 
 
 if($(window).width() >= 1000)
