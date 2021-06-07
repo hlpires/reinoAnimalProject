@@ -94,7 +94,7 @@ const menuItems = document.querySelectorAll('.menu a[href^="#"]');
 var $target = $('#servicos');
 				
 				
-				var clock = setInterval(animeScroll,1000);
+				var clock = setInterval(animeScroll,200);
 	
 		function animeScroll() {
 			var documentTop = $(document).scrollTop();
