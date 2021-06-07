@@ -1,14 +1,13 @@
-
 html{
-    
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 body{
     margin: 0 auto;
     height: 100%;
     width: 100%;
     max-width: 2300px;
-    overflow-x: hidden;
-    overflow-y: scroll;
+    
     font-family: Arial, Helvetica, sans-serif!important;
     
 }
@@ -28,7 +27,7 @@ a:hover {
     cursor:pointer;  
 }
 .logo{
-width:50vh;
+width:50vw;
 float:left;
 position: relative;
 margin-top: 20px;
@@ -60,12 +59,14 @@ color: white;
 }
 
 h1{
+    width: 0px;
+    height: 0px;
     margin-left: 80px;
     font-weight:lighter;
     cursor: pointer;
     font-size: 28px;
     transition: all .2s ease-in-out;
-    color: white;
+    color: transparent;
     border: none;
     border-bottom: transparent;
     
@@ -88,13 +89,14 @@ h1:hover{
 
 }
 .redesSociais{
-    width:60px;
+    width:0px;
     float: right;
     position: relative;
     transition: all .0s ease-in-out;
     margin-right: -35px;
     margin-top:55px;
     max-width: 100px;
+    height: 0px;
  
 }
 .redesSociais:hover{
@@ -102,10 +104,10 @@ h1:hover{
     cursor: pointer;
 }
 .instagram{
-    width: 350px;
+    width: 38vw;
     transition: all .0s ease-in-out;
     float: right;
-    margin-top: 40px;
+    margin-top:calc(-240px + 15vw);
     margin-right: 60px;
 }
 .pata{
@@ -162,7 +164,7 @@ h2{
     width:60vw;
     position: absolute;
     margin-left:80px;
-    margin-top:30%;
+    margin-top:170px;
     max-width: 459px;
     max-height: 111px;
     background-image: url(./IMG/wpp.png);
@@ -202,7 +204,8 @@ h2{
         text-align: center;
         position:absolute;   
         border-bottom: 3px solid black;    
-        max-width: 380px; 
+        
+        width: 400px;
 
     }
     p{
@@ -232,36 +235,37 @@ h2{
     .banho{
         margin: 0 auto;
         margin-top: -120px;
-        height: 140vw;
-        width:calc(55vh);
+        height:calc(40vh + 80vw);
+        width:calc(105vw);
         box-shadow: 0 20px 20px 0 rgb(150, 167, 185), 0 0 0 1px #aebedf;
         background-color: rgb(255, 255, 255);
         float: left;
-        max-height: 2000px;
+        max-height: 1400px;
         text-align: center;
         margin-left: 20px;
     }
+   
     .tosa{
         margin: 0 auto;
         margin-top: 220px;
-        height: 140vw;
-        width:calc(55vh);
+        height:calc(40vh + 80vw);
+        width:calc(105vw);
         box-shadow: 0 20px 20px 0 rgb(150, 167, 185), 0 0 0 1px #aebedf;
         background-color: rgb(255, 255, 255);
         float: left;
-        max-height: 2000px;
+        max-height: 1200px;
         text-align: center;
         margin-left: 20px;
     }
     .petHotel{
         margin: 0 auto;
         margin-top: 220px;
-        height: 140vw;
-        width:calc(55vh);
+        height:calc(40vh + 80vw);
+        width:calc(105vw);
         box-shadow: 0 20px 20px 0 rgb(150, 167, 185), 0 0 0 1px #aebedf;
         background-color: rgb(255, 255, 255);
         float: left;
-        max-height: 2000px;
+        max-height:calc(1800px - 75vw);
         text-align: center;
         margin-left: 20px;
     }
@@ -290,7 +294,7 @@ h2{
         
     }
     .visite-nos{
-        margin-top:3500px;
+        margin-top:3000px;
         height:20vw;
         background-color: rgb(29, 29, 29);
         width: 100%;
@@ -393,7 +397,7 @@ h7{
 }
 .photo{
     text-align: center;
-    height:calc(06vw + 3vh);
+    height:120px;
     background-color: rgb(22, 22, 22);
     float: left;
     width: 100%;
@@ -431,6 +435,38 @@ text-align: center;
 
 
     @media (min-width:1025px){
+       
+        .instagram{
+            width: 450px;
+    transition: all .0s ease-in-out;
+    float: right;
+    margin-top: -60px;
+    margin-right: 60px;
+    transition: 0.6s;
+        }
+        .instagram:hover{
+            transform: scale(1.2);
+        }
+        h1{
+            width: 130px;
+            margin-top: 10px;
+            margin-left: 80px;
+            font-weight:lighter;
+            cursor: pointer;
+            font-size: 28px;
+            transition: all .2s ease-in-out;
+            color: white;
+            border: none;
+            border-bottom: transparent;
+            
+        }
+        h1:hover{
+            transform: scale(1.35);
+            color: #ba6e2d;
+        
+        
+        
+        }
         .servicos{
             background-color: rgb(255, 255, 255);
             height: 100vh;
@@ -461,6 +497,10 @@ text-align: center;
             background-image: url(./IMG/wpp.png);
             background-repeat: no-repeat;
             cursor: pointer;
+            transition: 0.6s;
+            }
+            .wpp:hover{
+                transform: scale(1.1);
             }
             article{
                 height: 180vw;
@@ -473,6 +513,9 @@ text-align: center;
               flex-wrap: nowrap;
               background-size:cover!important;
               margin: 10px;
+            }
+            h3{
+                width: 380px;
             }
             h4{
                 font-size: 30px;
