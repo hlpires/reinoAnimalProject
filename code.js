@@ -91,23 +91,27 @@ const menuItems = document.querySelectorAll('.menu a[href^="#"]');
 
 
 
-
-if($(window).width() < 1000){
-				
-				
-		var clock1 = setInterval(animeScroll1,200);
 	
+	var clock = setInterval(tela,200);
+	
+
+function tela(){
+
+
+	if($(window).width() < 1000){
+
+
 		function animeScroll1() {
 			
 			$('.servicos').addClass('servicosAnime');
 			$('.mapaDiv').addClass('mapaAnime');
-			clearInterval(clock1);
+			clearInterval(clock);
 	
 			
 		}
 		animeScroll1();
 	}else{
-		var clock = setInterval(animeScroll,100);
+		
 		var $target = $('#servicos');
 	
 		function animeScroll() {
@@ -127,12 +131,13 @@ if($(window).width() < 1000){
 					clearInterval(clock);
 				} 
 			});
-			animeScroll();
+			
 		}
+		animeScroll();
 
 	}
-
-
+}
+tela();
 
 if($(window).width() >= 1000)
 {
