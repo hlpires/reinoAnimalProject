@@ -149,7 +149,7 @@ max-height: 1000px;
 }
 h2{
     top:    50px;
-    font-size:40px;
+    font-size:calc(40px );
     color:rgb(0, 0, 0);
     opacity: 1!important;
     position: absolute;
@@ -516,7 +516,7 @@ text-align: center;
             height: 17vw;
             width:60vw;
             position: absolute;
-            margin-left:calc(180px + 1vw);
+            margin-left:calc(20px + 08vw);
             margin-top:155px;
             max-width: 459px;
             max-height: 111px;
@@ -563,7 +563,7 @@ text-align: center;
             
             margin: 0 auto;
             max-width: 500px;
-            margin-left:calc(160px + 1vw);
+            margin-left:calc(20px + 08vw);
             font-family: raleway;
         }
         .img1{
