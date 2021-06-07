@@ -1,5 +1,7 @@
 
-
+html{
+    
+}
 body{
     margin: 0 auto;
     height: 100%;
@@ -86,12 +88,12 @@ h1:hover{
 
 }
 .redesSociais{
-    width:100px;
+    width:60px;
     float: right;
     position: relative;
     transition: all .0s ease-in-out;
     margin-right: -35px;
-    margin-top:-80px;
+    margin-top:55px;
     max-width: 100px;
  
 }
