@@ -105,11 +105,11 @@ if($(window).width() < 1000)
 				var servicosTop = $('#servicos').offset().top;
 				var visiteTop = $('#mapaDiv').offset().top;
 				
-				if (documentTop > servicosTop - 1800) {
+				if (200 >100) {
 					$('.servicos').addClass('servicosAnime');
 					
 				
-				} if(documentTop > visiteTop - 1700 ){
+				} if(200 > 100){
 					$('.mapaDiv').addClass('mapaAnime');
 					clearInterval(clock);
 				} 
