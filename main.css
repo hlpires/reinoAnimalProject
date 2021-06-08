@@ -519,8 +519,9 @@ text-align: center;
             height: 17vw;
             width:60vw;
             position: absolute;
+            
             margin-left:calc(20px + 11vw);
-            margin-top:calc(-200px + 30vw );
+            margin-top:calc(-120px + 26vw );
             max-width: 459px;
             max-height: 111px;
             background-image: url(./IMG/wpp.png);
@@ -558,15 +559,15 @@ text-align: center;
                 font-weight:bold;
             }
         h2{
-            top:calc(-200px + 20vw );
+            top:calc(-180px + 20vw );
             font-size:40px;
             color:rgb(0, 0, 0);
             opacity: 1!important;
             position: absolute;
-            
+            padding-bottom: 20px;
             margin: 0 auto;
             max-width: 500px;
-            margin-left:calc(20px + 09vw);
+            margin-left:calc(40px + 09vw);
             font-family: raleway;
         }
         .img1{
