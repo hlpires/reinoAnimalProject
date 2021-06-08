@@ -37,7 +37,7 @@ margin-right: 5vw;
 }
 header{
 background-color: rgb(27, 27, 27);
-height: 7vw;
+height: 6vw;
 width: 100%;
 float: left;
 margin: 0 auto;
@@ -298,7 +298,7 @@ h2{
         
     }
     .visite-nos{
-        margin-top:3800px;
+        margin-top:calc(3400px + 82vw - 50vh);
         height:20vw;
         background-color: rgb(29, 29, 29);
         width: 100%;
@@ -444,7 +444,7 @@ text-align: center;
             width:calc(10vw + 200px);
             float:left;
             position: relative;
-            margin-top: 30px;
+            margin-top: 23px;
             margin-left: 80px;
             max-width: 400px;
             
@@ -477,7 +477,7 @@ text-align: center;
         }
         h1{
             margin-left: 30px;
-            margin-top: 0px;
+            margin-top:-10px;
            margin-right:calc(-250px + 14vw);
             font-weight:lighter;
             cursor: pointer;
