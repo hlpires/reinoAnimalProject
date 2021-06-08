@@ -572,19 +572,26 @@ text-align: center;
         .img1{
             margin-top: 03vw;
             position: relative;
-            width: 30vh;
-            max-width: 300px;
+            width: 16vw;
+            max-width: 420px;
             
+            min-width: 230px;
          }
          .img2{
-             margin-top: 03vw;
-            width: 30vh;
-            max-width: 300px;
+            margin-top: 03vw;
+            position: relative;
+            width: 16vw;
+            max-width: 420px;
+            
+            min-width: 230px;
         }
         .img3{
             margin-top: 03vw;
-            width: 30vh;
-            max-width: 300px;
+            position: relative;
+            width: 16vw;
+            max-width: 420px;
+            
+            min-width: 230px;
         }
     
         .petHotel{
