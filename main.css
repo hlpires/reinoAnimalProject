@@ -600,7 +600,7 @@ text-align: center;
             float: left;
             max-height: 800px;
             text-align: center;
-            box-shadow: 0 20px 20px 0 rgb(150, 167, 185), 0 0 0 1px #aebedf;
+            box-shadow: 0 40px 40px 0 rgb(125, 144, 165), 0 0 0 1px #aebedf;
             transition: all .2s ease-in-out;
         }
         .petHotel:hover{
@@ -618,7 +618,7 @@ text-align: center;
             max-height: 800px;
    
             text-align: center;
-            box-shadow: 0 20px 20px 0 rgb(150, 167, 185), 0 0 0 1px #aebedf;
+            box-shadow: 0 40px 40px 0 rgb(125, 144, 165), 0 0 0 1px #aebedf;
             transition: all .2s ease-in-out;
         }
         .tosa:hover{
@@ -636,7 +636,7 @@ text-align: center;
             max-height: 800px;
    
             text-align: center;
-            box-shadow: 0 20px 20px 0 rgb(150, 167, 185), 0 0 0 1px #aebedf;
+            box-shadow: 0 40px 40px 0 rgb(125, 144, 165), 0 0 0 1px #aebedf;
             transition: all .2s ease-in-out;
             margin-left: 10vw;
             
