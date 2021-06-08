@@ -450,14 +450,15 @@ text-align: center;
             }
         .menu{
             display:inline-flex;
-            width: 20%;
+            width: 10%;
             position: relative;
             text-align:center;
-            margin-top: 60px;
-            left: 0%;
-            margin-left:-120px;
+            margin-top: 70px;
+            display: flex;
+         
+          
             color: white;
-            
+           
             }
        
         .instagram{
@@ -474,9 +475,9 @@ text-align: center;
             transform: scale(1.2);
         }
         h1{
-            width: 0px;
-            margin-top: 10px;
-           margin-right: -50px;
+            margin-left: 30px;
+            margin-top: 0px;
+           margin-right:calc(-250px + 14vw);
             font-weight:lighter;
             cursor: pointer;
             font-size: 28px;
@@ -484,6 +485,7 @@ text-align: center;
             color: white;
             border: none;
             border-bottom: transparent;
+            padding:20px
             
         }
         h1:hover{
