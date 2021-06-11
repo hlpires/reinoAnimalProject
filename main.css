@@ -374,6 +374,77 @@ h5{
     transform: scale(1.1);
     transition: 1s;
 }
+.produtos{
+    height: 30vw;
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    float: left;
+    max-height: 700px;
+}
+.boxes{
+    margin-top: 20px;
+    height: 25vw;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    max-height: 600px;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    height: 25vw;
+    width: 25vw;
+    background-color: transparent;
+    float: left;
+    margin: 30px;
+    margin-top: 20px;
+    max-height: 450px;
+    border: 2px solid blue;
+    text-align: center;
+    font-family: ralewayB;
+    font-size: 25px;
+    max-width: 400px;
+}
+#box1{
+    width: 53%;
+   
+   border: 2px solid black;
+}
+#box2{
+    border: 2px solid black;
+    width: 37%;
+    margin-top: 0px;
+    max-width: 200px;
+   
+}
+#box3{
+    width: 90%;
+    border: 2px solid black;
+    margin-top: 92px;
+}
+#box4{
+    width: 60%;
+  
+   border: 2px solid black;
+}
+#box5{
+    border: 2px solid black;
+    width: 90%;
+    margin-top: 136px;
+}
+h11{
+     position: relative;
+     margin-top: 50px;
+     width: 100%;
+     float: left;
+}
+
+
+
+
+
 h6{
     margin-top: 70px;
     text-align: center;
@@ -489,10 +560,10 @@ text-align: center;
         h1{
             margin-left: 30px;
             margin-top:-10px;
-           margin-right:calc(-250px + 14vw);
+           margin-right:calc(-250px + 8vw);
             font-weight:lighter;
             cursor: pointer;
-            font-size: 28px;
+            font-size: 22px;
             transition: all .2s ease-in-out;
             color: white;
             border: none;
@@ -665,11 +736,99 @@ text-align: center;
         .banho:hover{
             transform: scale(1.1);
         }
+        .produtos{
+            height: 30vw;
+            background-color: transparent;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            float: left;
+            max-height: 700px;
+        }
+        .boxes{
+            margin-top: 20px;
+            height: 25vw;
+            background-color: rgb(255, 255, 255);
+            width: 100%;
+            max-height: 600px;
+            float: left;
+            display: flex;
+            justify-content: center;
+        }
+        .box{
+            height: 25vw;
+            width: 25vw;
+            background-color: transparent;
+            float: left;
+            margin: 30px;
+            margin-top: 20px;
+            max-height: 450px;
+            border: 2px solid blue;
+            text-align: center;
+            font-family: ralewayB;
+            font-size: 25px;
+            max-width: 400px;
+        }
+        #box1{
+            width: 53%;
+           
+           border: 2px solid black;
+        }
+        #box2{
+            border: 2px solid black;
+            width: 37%;
+            margin-top: 0px;
+            max-width: 200px;
+           
+        }
+        #box3{
+            width: 90%;
+            border: 2px solid black;
+            margin-top: 92px;
+        }
+        #box4{
+            width: 60%;
+          
+           border: 2px solid black;
+        }
+        #box5{
+            border: 2px solid black;
+            width: 90%;
+            margin-top: 136px;
+        }
+        h11{
+             position: relative;
+             margin-top: 50px;
+             width: 100%;
+             float: left;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         
-            .mapaDiv{
+        .mapaDiv{
                 margin-top: 0vw;
                 width: 100%;
-                height: 50vw;
+                height: calc(300px + 25vw);
                 text-align: center;
                 background-color: rgb(255, 255, 255);
                 float: left;
