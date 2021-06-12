@@ -137,6 +137,9 @@ header{
         margin:80px;
         max-height: 400px;
         max-width: 300px;
+        
+        display: inline-block;
+      
 
     }
     .contato{
@@ -167,7 +170,69 @@ header{
         width: 30vw;
         max-width: 600px;
         min-width: 500px;
+     
+    }
+    #imgBox{
+        width: 06vw;
+        height: 13vw;
+        margin-left: 30%;
+       
+    }
+    #imgBox1{
+        width: 10vw;
+        height: 13vw;
+        margin-left: 14%;
+    }
+    #imgBox2{
+        width: 10vw;
+        height: 13vw;
+        margin-left: 15%;
+    }
+    #imgBox3{
+        width: 08vw;
+        height: 13vw;
+        margin-left: 20%;
+       
+    }
+    #imgBox4{
+        width: 07vw;
+        height: 12vw;
+        padding-bottom: 1vw;
+        margin-left: 25%;
+    }
+    #boxtext{
+        width: 14vw;
+        height: 5vw;
+        background-color: black;
+       
+    }
+    #boxtext1{
+        width: 14vw;
+        height: 5vw;
+        background-color: black;
+       
     }
 
-}
+    #boxtext2{
+        width: 14vw;
+        height: 5vw;
+        background-color: black;
+       
+    }
+
+    #boxtext3{
+        width: 14vw;
+        height: 5vw;
+        background-color: black;
+       
+    }
+    #boxtext4{
+        width: 14vw;
+        height: 5vw;
+        background-color: black;
+       
+    }
+
+
+
 
