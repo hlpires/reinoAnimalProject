@@ -176,6 +176,7 @@ header{
         width: 06vw;
         height: 13vw;
         margin-left: 30%;
+        margin-top: -20px;
        
     }
     #imgBox1{
@@ -229,6 +230,14 @@ header{
         margin-left: 5%;
         margin-top: 30px;
     }
+    #imgBox9{
+        width: 12vw;
+        height: 10vw;
+        padding-bottom: 3vw;
+        margin-left: 5%;
+        margin-top: 30px;
+    }
+
 
 
 
@@ -298,6 +307,14 @@ header{
         height: 6.9vw;
         background-color: rgb(27, 27, 27);
         margin-top: -30px;
+       
+    }
+    #boxtext9{
+        width: 14vw;
+        height: 6.9vw;
+        background-color: rgb(27, 27, 27);
+        margin-top: -30px;
+       
        
     }
 
