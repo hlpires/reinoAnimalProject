@@ -1,0 +1,139 @@
+html{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+body{
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    max-width: 2300px;
+    
+    font-family: Arial, Helvetica, sans-serif!important;
+    
+}
+@font-face {
+    font-family: raleway;
+    src: url(./fontes/Poppins-ExtraLight.ttf);
+  }
+
+  @font-face {
+    font-family: ralewayB;
+    src: url(./fontes/Poppins-SemiBold.ttf);
+  }
+  @font-face {
+    font-family: ralewayb;
+    src: url(./fontes/Poppins-Light.ttf);
+  }
+header{
+    background-color: rgb(27, 27, 27);
+    height: 6vw;
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+    font-family: raleway;
+    border-bottom: 04px solid #070707;
+    max-height: 250px;
+    min-height: 150px;
+    
+    }
+    .logo{
+        width:50vw;
+        float:left;
+        position: relative;
+        margin-top: 20px;
+        margin-left: 130px;
+        max-width: 400px;
+        margin-right: 5vw;
+        }
+        .menu{
+            display:inline-flex;
+            width: 10%;
+            position: relative;
+            text-align:center;
+            margin-top: 70px;
+            display: flex;
+         
+          
+            color: white;
+           
+            }
+    .roupas{
+        height: 80vw;
+        background-color: #f0f0f0;
+        max-height: 1950px;
+        border: 2PX SOLID BLUE;
+    }
+    h2{
+        
+        color: #ba6e2d;
+        text-align: center;
+    }
+    h1{
+        margin-left: 30px;
+        
+       margin-right:calc(-250px + 8vw);
+        font-weight:lighter;
+        cursor: pointer;
+        font-size: 22px;
+        transition: all .2s ease-in-out;
+        color: white;
+        border: none;
+        border-bottom: transparent;
+        padding:0px;
+        margin-left: 8vw;
+    }
+    h1:hover{
+        transform: scale(1.35);
+        color: #ba6e2d;
+    
+    
+    
+    }
+    h2{ 
+        
+         font-family: ralewayB;
+
+    }
+    .select{
+        float: left;
+        height: 16vw;
+        margin-top: 120px;
+        width: 13vw;
+        background-color: rgb(255, 255, 255);
+        margin-left: 70px;
+        border: 3px solid grey;
+        font-family: ralewayb;
+        max-height: 340px;
+        max-width: 320px;
+    }
+    
+    .select form{
+        margin-left: 10px;
+        
+    }
+    .select label{
+        margin-top:15px;
+        display:inline-block;
+
+    
+    }
+    .itemsBox{
+        height: 60vw;
+        width: 80vw;
+        background-color: #f0f0f0;
+        border: 2px solid red;
+        float: right;
+       display:flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
+    .item{
+        height: 6vw;
+        width: 6vw;
+        border: 2px solid blue;
+        margin:80px
+       
+       
+
+    }
