@@ -131,7 +131,7 @@ header{
         max-width: 80%;
     }
     .item{
-        height: 18vw;
+        height: 23vw;
         width: 14vw;
         border: 2px solid blue;
         margin:80px;
@@ -202,37 +202,48 @@ header{
     }
     #boxtext{
         width: 14vw;
-        height: 5vw;
-        background-color: black;
+        height: 6.9vw;
+        background-color: rgb(27, 27, 27);
        
     }
     #boxtext1{
         width: 14vw;
-        height: 5vw;
-        background-color: black;
+        height: 7.9vw;
+        background-color: rgb(27, 27, 27);
        
     }
 
     #boxtext2{
         width: 14vw;
-        height: 5vw;
-        background-color: black;
+        height: 7.9vw;
+        background-color: rgb(27, 27, 27);
        
     }
 
     #boxtext3{
         width: 14vw;
-        height: 5vw;
-        background-color: black;
+        height: 7.9vw;
+        background-color: rgb(27, 27, 27);
        
     }
     #boxtext4{
         width: 14vw;
-        height: 5vw;
-        background-color: black;
+        height: 7.9vw;
+        background-color: rgb(27, 27, 27);
        
     }
+h3{
+font-family: ralewayB;
+color: #ba6e2d;
+text-align: center;
+}
 
-
-
+p1{
+font-family: ralewayb;
+color: #ba6e2d;
+text-align: center;
+width: 100%;
+float: right;
+margin-top: 20px;
+}
 
