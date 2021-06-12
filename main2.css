@@ -200,6 +200,40 @@ header{
         padding-bottom: 1vw;
         margin-left: 25%;
     }
+    #imgBox5{
+        width: 07vw;
+        height: 12vw;
+        padding-bottom: 1vw;
+        margin-left: 25%;
+        margin-top: 30px;
+    }
+
+    #imgBox6{
+        width: 11vw;
+        height: 12vw;
+        padding-bottom: 1vw;
+        margin-left: 10%;
+        margin-top: 30px;
+    }
+    #imgBox7{
+        width: 07vw;
+        height: 12vw;
+        padding-bottom: 1vw;
+        margin-left: 25%;
+        margin-top: 20px;
+    }
+    #imgBox8{
+        width: 12vw;
+        height: 10vw;
+        padding-bottom: 3vw;
+        margin-left: 5%;
+        margin-top: 30px;
+    }
+
+
+
+
+
     #boxtext{
         width: 14vw;
         height: 6.9vw;
@@ -226,12 +260,47 @@ header{
         background-color: rgb(27, 27, 27);
        
     }
-    #boxtext4{
+    #boxtext{
         width: 14vw;
         height: 7.9vw;
         background-color: rgb(27, 27, 27);
        
     }
+     #boxtext4{
+        width: 14vw;
+        height: 7.9vw;
+        background-color: rgb(27, 27, 27);
+       
+    }
+    #boxtext5{
+        width: 14vw;
+        height: 6.9vw;
+        background-color: rgb(27, 27, 27);
+        margin-top: -30px;
+       
+    }
+    #boxtext6{
+        width: 14vw;
+        height: 6.9vw;
+        background-color: rgb(27, 27, 27);
+        margin-top: -30px;
+       
+    }
+    #boxtext7{
+        width: 14vw;
+        height: 6.9vw;
+        background-color: rgb(27, 27, 27);
+        margin-top: -20px;
+       
+    }
+    #boxtext8{
+        width: 14vw;
+        height: 6.9vw;
+        background-color: rgb(27, 27, 27);
+        margin-top: -30px;
+       
+    }
+
 h3{
 font-family: ralewayB;
 color: #ba6e2d;
