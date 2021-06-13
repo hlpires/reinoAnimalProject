@@ -120,7 +120,7 @@ header{
     
     }
     .itemsBox{
-        height: 160vw;
+        height: 60vw;
         width: 80vw;
         background-color: #f0f0f0;
         border: 2px solid red;
@@ -266,21 +266,21 @@ header{
         width: 14vw;
         height: 7.9vw;
         background-color: rgb(27, 27, 27);
-       
+       margin-top: -20px;
     }
 
     #boxtext2{
         width: 14vw;
         height: 7.9vw;
         background-color: rgb(27, 27, 27);
-       
+        margin-top: -20px;
     }
 
     #boxtext3{
         width: 14vw;
         height: 7.9vw;
         background-color: rgb(27, 27, 27);
-       
+        margin-top: -20px;
     }
     #boxtext{
         width: 14vw;
@@ -292,7 +292,7 @@ header{
         width: 14vw;
         height: 7.9vw;
         background-color: rgb(27, 27, 27);
-       
+        margin-top: -20px;
     }
     #boxtext5{
         width: 14vw;

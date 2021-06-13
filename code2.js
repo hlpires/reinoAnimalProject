@@ -7,6 +7,11 @@
     w3AddClass(x[i], "show");
   }
 }*/
+
+$("form input:checkbox").on('change', function() {
+  $("form input:checkbox").not(this).prop('checked', false);  
+});
+
 var clock = setInterval(check,200)
 function check(){
   var checkRacao = document.getElementById('racao').checked;
@@ -14,10 +19,11 @@ function check(){
   var checkCasas= document.getElementById('casasCamas').checked;
   var checkArranhadores = document.getElementById('arranhadores').checked;
   var checkBrinquedos = document.getElementById('brinquedos').checked;
+  
   let activeFilters = [];
 
   if (checkRacao) {
-  
+    $('.item').hide();
     
   }
   if (checkRoupas) {
