@@ -70,6 +70,9 @@ header{
         color: #ba6e2d;
         text-align: center;
     }
+    #gpslogo{
+        width: 230px;
+    }
     h1{
         margin-left: 30px;
         
