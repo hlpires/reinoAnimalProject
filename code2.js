@@ -23,26 +23,54 @@ function check(){
   let activeFilters = [];
 
   if (checkRacao) {
-    $('.item').hide();
+    $('.racao').show();
+    $('.brinquedo').hide();
+    $('.camaCasa').hide();
+    $('.arranhador').hide();
+    $('.roupa').hide();
     
   }
   if (checkRoupas) {
-    activeFilters.push('blue');
-    console.log('aperto racao');
-    $('.item1').hide();
+    $('.roupa').show();
+    $('.brinquedo').hide();
+    $('.camaCasa').hide();
+    $('.arranhador').hide();
+    $('.racao').hide();
+    
   }
   if (checkCasas) {
-    activeFilters.push('green');
+    $('.camaCasa').show();
+    $('.brinquedo').hide();
+    $('.racao').hide();
+    $('.arranhador').hide();
+    $('.roupa').hide();
     
   }
   if (checkArranhadores) {
-    activeFilters.push('purple');
+    $('.arranhador').show();
+    $('.brinquedo').hide();
+    $('.camaCasa').hide();
+    $('.racao').hide();
+    $('.roupa').hide();
+    
   
   }
   if (checkBrinquedos) {
-    activeFilters.push('purple');
+    $('.brinquedo').show();
+    $('.racao').hide();
+    $('.camaCasa').hide();
+    $('.arranhador').hide();
+    $('.roupa').hide();
+    
     
   }
+  /*if("form input:checkbox" = false){
+    $('.brinquedo').show();
+    $('.racao').show();
+    $('.camaCasa').show();
+    $('.arranhador').show();
+    $('.roupa').show();
+  }*/
 }
 
 

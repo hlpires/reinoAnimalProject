@@ -123,7 +123,7 @@ header{
         height: 60vw;
         width: 80vw;
         background-color: #f0f0f0;
-        border: 2px solid red;
+      
         float: right;
        display:flex;
         justify-content: center;
@@ -131,7 +131,7 @@ header{
         max-height: 3750px;
         max-width: 80%;
     }
-    .item{
+    .camaCasa{
         height: 23vw;
         width: 14vw;
         border: 4px solid #ba6e2d;
@@ -143,7 +143,43 @@ header{
       
 
     }
-    .item1{
+    .arranhador{
+        height: 23vw;
+        width: 14vw;
+        border: 4px solid #ba6e2d;
+        margin:80px;
+        max-height: 400px;
+        max-width: 300px;
+        box-shadow: 0 20px 20px 0 rgb(125 144 165), 0 0 0 1px #aebedf;
+        display: inline-block;
+      
+
+    }
+    .brinquedo{
+        height: 23vw;
+        width: 14vw;
+        border: 4px solid #ba6e2d;
+        margin:80px;
+        max-height: 400px;
+        max-width: 300px;
+        box-shadow: 0 20px 20px 0 rgb(125 144 165), 0 0 0 1px #aebedf;
+        display: inline-block;
+      
+
+    }
+    .roupa{
+        height: 23vw;
+        width: 14vw;
+        border: 4px solid #ba6e2d;
+        margin:80px;
+        max-height: 400px;
+        max-width: 300px;
+        box-shadow: 0 20px 20px 0 rgb(125 144 165), 0 0 0 1px #aebedf;
+        display: inline-block;
+      
+
+    }
+    .racao{
         height: 23vw;
         width: 14vw;
         border: 4px solid #ba6e2d;
