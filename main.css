@@ -737,7 +737,7 @@ text-align: center;
         .banho:hover{
             transform: scale(1.1);
         }
-        photo
+       
         .produtos{
             height: 30vw;
             background-color: transparent;
@@ -897,7 +897,7 @@ text-align: center;
                     font-weight: bold;
                 }
                 .contato{
-                    margin-top:35vw;
+                    margin-top:calc(200px + 10vw);
                     width: 100%;
                     height:calc(1400px - 60vw);
                     max-height: 450px;
