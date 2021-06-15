@@ -136,6 +136,8 @@ header{
         font-family: ralewayb;
         max-height: 340px;
         max-width: 320px;
+        min-height: 400px;
+        min-width: 250px;
     }
     
     .select form{
