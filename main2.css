@@ -93,6 +93,11 @@ header{
         height: 10vw;
         margin-left: 100px;
         float: right;
+        transition: 1s;
+    }
+    #gpslogo:hover{
+    transform: scale(1.2);
+    cursor: pointer;
     }
     h1{
         margin-left: 30px;
