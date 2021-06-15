@@ -445,14 +445,6 @@ h11{
 
 
 
-h6{
-    margin-top: 70px;
-    text-align: center;
-    font-size: 40px;
-    color: rgb(0, 0, 0);
-    font-family: ralewayb;
-    font-weight: bold;
-}
 
 .slick-next {
 
@@ -825,8 +817,24 @@ text-align: center;
 
 
 
-
-
+        h6{
+           
+        
+            text-align: center;
+            font-size: 35px;
+            color: rgb(0, 0, 0);
+            font-family: ralewayb;
+            font-weight: bold;
+            float: left;
+            
+        }
+        .boxTextMap{
+            margin-top: 220px;
+            height:22vw;
+            border: 2px solid red;
+            width: 35vw;
+            margin: 3vw;
+        }
 
 
 
@@ -842,14 +850,18 @@ text-align: center;
                 background-color: rgb(255, 255, 255);
                 float: left;
                 max-height: 1000px;
-               
+                display: flex;
+              justify-content: center;
                 transform: translate3d(-100px,0,0);
                 opacity: 0;
+               
             }
             .mapa{
-                margin-top: 120px;
+                margin-top: 220px;
                 width: 30vw;
                 max-width: 600px;
+                float: right;
+                margin: 3vw;
             }
             
             .mapaAnime{
