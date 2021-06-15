@@ -171,7 +171,8 @@ header{
         max-width: 300px;
         box-shadow: 0 20px 20px 0 rgb(125 144 165), 0 0 0 1px #aebedf;
         display: inline-block;
-      
+        min-height: 300px;
+        min-width: 200px;
 
     }
     .arranhador{
@@ -183,7 +184,8 @@ header{
         max-width: 300px;
         box-shadow: 0 20px 20px 0 rgb(125 144 165), 0 0 0 1px #aebedf;
         display: inline-block;
-      
+        min-height: 300px;
+        min-width: 200px;
 
     }
     .brinquedo{
@@ -195,7 +197,8 @@ header{
         max-width: 300px;
         box-shadow: 0 20px 20px 0 rgb(125 144 165), 0 0 0 1px #aebedf;
         display: inline-block;
-      
+        min-height: 300px;
+        min-width: 200px;
 
     }
     .roupa{
@@ -207,6 +210,8 @@ header{
         max-width: 300px;
         box-shadow: 0 20px 20px 0 rgb(125 144 165), 0 0 0 1px #aebedf;
         display: inline-block;
+        min-height: 300px;
+        min-width: 200px;
       
 
     }
@@ -219,7 +224,8 @@ header{
         max-width: 300px;
         box-shadow: 0 20px 20px 0 rgb(125 144 165), 0 0 0 1px #aebedf;
         display: inline-block;
-      
+        min-height: 300px;
+        min-width: 200px;
 
     }
     .contato{
@@ -256,7 +262,7 @@ header{
         width: 06vw;
         height: 13vw;
         margin-left: 30%;
-        margin-top: -20px;
+        margin-top: 0px;
        
     }
     #imgBox1{
@@ -325,15 +331,19 @@ header{
 
     #boxtext{
         width: 14vw;
-        height: 6.9vw;
+        height: 100.9vw;
         background-color: rgb(27, 27, 27);
-       
+        margin-top: -20px;
+        min-height: 175px;
+        min-width: 200px;
     }
     #boxtext1{
         width: 14vw;
         height: 7.9vw;
         background-color: rgb(27, 27, 27);
        margin-top: -20px;
+       min-height: 175px;
+       min-width: 200px;
     }
 
     #boxtext2{
@@ -341,6 +351,8 @@ header{
         height: 7.9vw;
         background-color: rgb(27, 27, 27);
         margin-top: -20px;
+        min-height: 175px;
+        min-width: 200px;
     }
 
     #boxtext3{
@@ -348,17 +360,23 @@ header{
         height: 7.9vw;
         background-color: rgb(27, 27, 27);
         margin-top: -20px;
+        min-height: 175px;
+        min-width: 200px;
     }
     #boxtext{
         width: 14vw;
         height: 7.9vw;
         background-color: rgb(27, 27, 27);
+        min-height: 175px;
+        min-width: 200px;
        
     }
      #boxtext4{
         width: 14vw;
         height: 7.9vw;
         background-color: rgb(27, 27, 27);
+        min-height: 175px;
+        min-width: 200px;
         margin-top: -20px;
     }
     #boxtext5{
@@ -366,35 +384,40 @@ header{
         height: 6.9vw;
         background-color: rgb(27, 27, 27);
         margin-top: -30px;
-       
+        min-height: 175px;
+        min-width: 200px;
     }
     #boxtext6{
         width: 14vw;
         height: 6.9vw;
         background-color: rgb(27, 27, 27);
         margin-top: -30px;
-       
+        min-height: 175px;
+        min-width: 200px;
     }
     #boxtext7{
         width: 14vw;
         height: 6.9vw;
         background-color: rgb(27, 27, 27);
         margin-top: -20px;
-       
+        min-height: 175px;
+        min-width: 200px;
     }
     #boxtext8{
         width: 14vw;
         height: 6.9vw;
         background-color: rgb(27, 27, 27);
         margin-top: -30px;
-       
+        min-height: 175px;
+        min-width: 200px;
     }
     #boxtext9{
         width: 14vw;
         height: 6.9vw;
         background-color: rgb(27, 27, 27);
         margin-top: -30px;
-       
+        min-height: 175px;
+        min-width: 200px;
        
     }
 
