@@ -484,11 +484,11 @@ h7{
 }
 .photo{
     text-align: center;
-    height:120px;
+   
     background-color: rgb(22, 22, 22);
     float: left;
     width: 100%;
-    
+    height: 30vw;
     max-height:400px;
 }
 .contato{
@@ -543,7 +543,7 @@ text-align: center;
             color: white;
            
             }
-       
+       .produtos
         .instagram{
             width:0px;
             transition: all .0s ease-in-out;
@@ -737,6 +737,7 @@ text-align: center;
         .banho:hover{
             transform: scale(1.1);
         }
+        photo
         .produtos{
             height: 30vw;
             background-color: transparent;
@@ -764,21 +765,28 @@ text-align: center;
             margin: 30px;
             margin-top: 20px;
             max-height: 450px;
-            border: 2px solid blue;
+            box-shadow: 0 40px 40px 0 rgb(125 144 165), 0 0 0 1px #aebedf;
             text-align: center;
             font-family: ralewayB;
             font-size: 25px;
-            max-width: 400px;
+            max-width: 310px;
+            background-color: transparent;
+            border: none;
+            transition: 1.2s;
+        }
+        .box:hover{
+            transform: scale(1.2);
         }
         #box1{
             width: 53%;
            
            border: 2px solid black;
         }
+        
         #box2{
             border: 2px solid black;
             width: 37%;
-            margin-top: 0px;
+            margin-top: 60px;
             max-width: 200px;
            
         }
