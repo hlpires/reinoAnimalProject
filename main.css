@@ -187,7 +187,7 @@ h2{
         height: 100vh;
         width: 100vw;
         float: left;
-        margin-top: 253px;
+        
         max-width: 2300px;
         max-height: 1180px;
         text-align: center;
@@ -566,9 +566,9 @@ text-align: center;
             height: 100vh;
             width: 100vw;
             float: left;
-            margin-top: 253px;
+            margin-top: 02.25vw;
             max-width: 2300px;
-            max-height: 880px;
+            max-height: 1080px;
             background-image: url(./IMG/paw.png);
             
             flex-wrap: nowrap;
@@ -604,6 +604,9 @@ text-align: center;
             h3{
                 width: 380px;
                 border-bottom: 4px solid #ba6e2d;
+                position: absolute;
+                top: 0%;
+                color: white;
             }
             h4{
                 font-size: 30px;
@@ -662,19 +665,19 @@ text-align: center;
         }
         .tosa{
             margin: 0 auto;
-            margin-top: 50px;
-            height:calc(20vw + 200px);
-            width:23vw;
+            margin-top: 250px;
+            height:calc(23vw + 200px);
+            width:20vw;
             min-height: 600px;
             box-shadow: 0 10px 10px 0 rgb(125 144 165), 0 0 0 2px black;
           
-            background-color: transparent;
-            max-height: 800px;
+            background-color: white;
+            max-height: 900px;
            
             text-align: center;  
             transition: all .2s ease-in-out;
             
-            margin-right: 24vw;
+            margin-right: 28vw;
         }
         .tosa:hover{
             transform: scale(1.1);
@@ -682,25 +685,25 @@ text-align: center;
       
         .banho{
           margin: 0 auto;
-            margin-top: 50px;
-            height:calc(20vw + 200px);
-            width:23vw;
+            margin-top: 250px;
+            height:calc(23vw + 200px);
+            width:20vw;
             min-height: 600px;
             box-shadow: 0 10px 10px 0 rgb(125 144 165), 0 0 0 2px black;
         
-            max-height: 800px;
-            background-color: transparent;
+            max-height: 900px;
+            background-color: white;
             text-align: center;
            
             transition: all .2s ease-in-out;
-            margin-left: 24vw;
+            margin-left: 28vw;
             
           
         }
         .banho:hover{
             transform: scale(1.1);
         }
-       
+       h6
         .produtos{
             height: 30vw;
             background-color: transparent;
@@ -789,15 +792,15 @@ text-align: center;
 
 
         h6{
-           
-        
-            text-align: center;
-            font-size: 35px;
+         
+            font-size: 30px;
             color: rgb(0, 0, 0);
             font-family: ralewayb;
             font-weight: bold;
-            float: left;
-            
+            float: right;
+            width: 55%;
+            margin-right: 16vw;
+           
         }
         .boxTextMap{
             margin-top: 220px;
@@ -805,7 +808,7 @@ text-align: center;
             border: 2px solid red;
             width: 35vw;
             margin: 3vw;
-            box-shadow: ;
+            background-image: url(./IMG/walking.png);
         }
 
 
@@ -826,14 +829,15 @@ text-align: center;
               justify-content: center;
                 transform: translate3d(-100px,0,0);
                 opacity: 0;
-               
+             
             }
             .mapa{
-                margin-top: 220px;
+              
                 width: 30vw;
                 max-width: 600px;
                 float: right;
-                margin: 3vw;
+                margin-right: 15vw;
+                border: 3px solid black;
             }
             
             .mapaAnime{
