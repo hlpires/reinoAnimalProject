@@ -727,14 +727,14 @@ text-align: center;
             justify-content: center;
         }
         .box{
-            height: 25vw;
+            height: 23vw;
             width: 25vw;
             background-color: transparent;
             float: left;
             margin: 30px;
-            margin-top: 20px;
+            margin-top: 10vw;
             max-height: 450px;
-            box-shadow: 0 40px 40px 0 rgb(125 144 165), 0 0 0 1px #aebedf;
+            box-shadow: 0 20px 20px 0 rgb(125 144 165), 0 0 0 1px #aebedf;
             text-align: center;
             font-family: ralewayB;
             font-size: 25px;
@@ -748,29 +748,29 @@ text-align: center;
         }
         #box1{
             width: 53%;
-           
-           border: 2px solid black;
+            border: none;
+          
         }
         
         #box2{
-            border: 2px solid black;
+           
             width: 37%;
             margin-top: 60px;
             max-width: 200px;
-           
+            border: none;
         }
         #box3{
             width: 90%;
-            border: 2px solid black;
+            border: none;
             margin-top: 92px;
         }
         #box4{
             width: 60%;
+            border: none;
           
-           border: 2px solid black;
         }
         #box5{
-            border: 2px solid black;
+            border: none;
             width: 90%;
             margin-top: 136px;
         }
