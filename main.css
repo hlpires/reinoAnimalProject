@@ -708,7 +708,7 @@ text-align: center;
        h6
         .produtos{
             height: 30vw;
-            background-color: transparent;
+            background-color: white!important;
             width: 100%;
             display: flex;
             justify-content: center;
@@ -716,10 +716,10 @@ text-align: center;
             max-height: 700px;
         }
         .boxes{
-            margin-top: 20px;
-            height: 25vw;
+            margin-top: 0px;
+            height: 30vw;
             background-color: rgb(255, 255, 255);
-            width: 100%;
+            width: 100vw;
             max-height: 600px;
             float: left;
             display: flex;
