@@ -647,7 +647,7 @@ text-align: center;
             position: relative;
             width: 16vw;
             max-width: 420px;
-            
+            height: 16vw;
             min-width: 230px;
         }
         .img3{
