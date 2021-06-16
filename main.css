@@ -233,19 +233,9 @@ h2{
         font-family: ralewayB;
         font-weight: bold;
     }
-    article{
-        height: 180vw;
-        width: 100vw;
-        background-color: rgb(255, 255, 255);
-        display: flex;
-        max-height: 600px;
-      max-width: 100%;
-      margin-top:calc(-3vh + 06vw);
-      flex-wrap: wrap;
-      background-size:cover!important;
-    }
+  
     .banho{
-        margin: 0 auto;
+        
         margin-top: -120px;
         height:calc(40vh + 80vw);
         width:calc(105vw);
@@ -259,7 +249,7 @@ h2{
     }
    
     .tosa{
-        margin: 0 auto;
+       
         margin-top: 120px;
         height:calc(40vh + 80vw);
         width:calc(105vw);
@@ -570,6 +560,7 @@ text-align: center;
         
         
         }
+        
         .servicos{
             background-color: rgb(255, 255, 255);
             height: 100vh;
@@ -578,8 +569,10 @@ text-align: center;
             margin-top: 253px;
             max-width: 2300px;
             max-height: 880px;
-            text-align: center;
-            
+          
+            flex-wrap: nowrap;
+            display: flex;
+            justify-content: center;
             transform: translate3d(-100px,0,0);
             opacity: 0;
         }
@@ -606,18 +599,7 @@ text-align: center;
                 transform: scale(1.1);
             }
             
-            article{
-                height: 180vw;
-                width: 100vw;
-                background-color: rgb(255, 255, 255);
-                display:flex;
-                max-height: 600px;
-              max-width: 100%;
-              margin-top:calc(-3vh + 06vw);
-              flex-wrap: nowrap;
-              background-size:cover!important;
-              margin: 10px;
-            }
+           
             h3{
                 width: 380px;
                 border-bottom: 4px solid #ba6e2d;
@@ -684,12 +666,13 @@ text-align: center;
             width:25vw;
             min-height: 600px;
             background-color: #fafafa;
-            float: left;
+            
             max-height: 800px;
             border: 2px solid rgb(194, 222, 241);
             text-align: center;  
             transition: all .2s ease-in-out;
             box-shadow: none;
+            margin-right: 20vw;
         }
         .tosa:hover{
             transform: scale(1.1);
@@ -702,13 +685,13 @@ text-align: center;
             width:25vw;
             min-height: 600px;
             background-color: rgb(255, 255, 255);
-            float: left;
+         
             max-height: 800px;
             border: 2px solid rgb(194, 222, 241);
             text-align: center;
             box-shadow: none;
             transition: all .2s ease-in-out;
-            margin-left: 10vw;
+            margin-left: 20vw;
             
           
         }
