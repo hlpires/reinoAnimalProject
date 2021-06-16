@@ -52,7 +52,7 @@ width: 100%;
 float: left;
 margin: 0 auto;
 font-family: raleway;
-border-bottom: 04px solid #070707;
+
 max-height: 250px;
 min-height: 150px;
 
@@ -97,7 +97,7 @@ h1:hover{
     position: relative;
     max-height: 543px;
     min-height: 500px;
-    border: 3px solid black;
+    border: 4px solid #ba6e2d;
 
 }
 .redesSociais{
@@ -141,7 +141,7 @@ z-index: 1;
 background-size: 100%;
 max-width: 2300px;
 max-height: 1000px;
-border-bottom: 04px solid #070707;
+border-bottom: 4px solid #ba6e2d;
 
 }
 .descIntro{
