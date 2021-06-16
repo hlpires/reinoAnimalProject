@@ -569,7 +569,8 @@ text-align: center;
             margin-top: 253px;
             max-width: 2300px;
             max-height: 880px;
-          
+            background-image: url(./IMG/paw.png);
+            
             flex-wrap: nowrap;
             display: flex;
             justify-content: center;
@@ -663,16 +664,17 @@ text-align: center;
             margin: 0 auto;
             margin-top: 50px;
             height:calc(20vw + 200px);
-            width:25vw;
+            width:23vw;
             min-height: 600px;
-            background-color: #fafafa;
-            
+            box-shadow: 0 10px 10px 0 rgb(125 144 165), 0 0 0 2px black;
+          
+            background-color: transparent;
             max-height: 800px;
-            border: 2px solid rgb(194, 222, 241);
+           
             text-align: center;  
             transition: all .2s ease-in-out;
-            box-shadow: none;
-            margin-right: 20vw;
+            
+            margin-right: 24vw;
         }
         .tosa:hover{
             transform: scale(1.1);
@@ -682,16 +684,16 @@ text-align: center;
           margin: 0 auto;
             margin-top: 50px;
             height:calc(20vw + 200px);
-            width:25vw;
+            width:23vw;
             min-height: 600px;
-            background-color: rgb(255, 255, 255);
-         
+            box-shadow: 0 10px 10px 0 rgb(125 144 165), 0 0 0 2px black;
+        
             max-height: 800px;
-            border: 2px solid rgb(194, 222, 241);
+            background-color: transparent;
             text-align: center;
-            box-shadow: none;
+           
             transition: all .2s ease-in-out;
-            margin-left: 20vw;
+            margin-left: 24vw;
             
           
         }
@@ -803,6 +805,7 @@ text-align: center;
             border: 2px solid red;
             width: 35vw;
             margin: 3vw;
+            box-shadow: ;
         }
 
 
