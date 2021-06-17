@@ -13,7 +13,7 @@ const menuItems = document.querySelectorAll('.menu a[href^="#"]');
 	
 	function scrollToIdOnClick(event) {
 		event.preventDefault();
-		const i=188;
+		const i=0;
 		const j=0;
 		const k=140;
 		
