@@ -590,7 +590,7 @@ text-align: center;
             position: absolute;
             
             margin-left:calc(20px + 11vw);
-            margin-top:calc(-120px + 15vw );
+            margin-top:calc(-120px + 18vw );
             max-width: 459px;
             max-height: 111px;
             background-image: url(./IMG/wpp.png);
@@ -623,7 +623,7 @@ text-align: center;
                 font-weight:bold;
             }
         h2{
-            margin-top:calc(-120px + 15vw );
+            margin-top:calc(-120px + 18vw );
             font-size:40px;
             color:rgb(0, 0, 0);
             opacity: 1!important;
