@@ -552,7 +552,7 @@ text-align: center;
             color: white;
             border: none;
             border-bottom: transparent;
-            padding:20px
+            
             
         }
         h1:hover{
@@ -601,7 +601,7 @@ text-align: center;
                 transform: scale(1.1);
             }
             
-           
+         
             h3{
                 width: 380px;
                 border-bottom: 4px solid #ba6e2d;
@@ -618,7 +618,7 @@ text-align: center;
             }
             p{
                 font-family: raleway;
-                margin:10px;
+                margin-top:-20px;
                 font-size:20px;
                 font-weight:bold;
             }
@@ -887,8 +887,14 @@ text-align: center;
                     font-family: raleway;
                     font-weight: bold;
                 }
+                .sobre{
+                    height: 35vw;
+                    width: 100vw;
+                    background-color: white;
+                    float: left;
+                }
                 .contato{
-                    margin-top:calc(200px + 10vw);
+                    margin-top:calc(200px + 100vw);
                     width: 100%;
                     height:calc(1400px - 60vw);
                     max-height: 450px;
