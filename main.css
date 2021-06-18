@@ -751,7 +751,7 @@ text-align: center;
             border: none;
           
         }
-        
+        .visite-nos
         #box2{
            
             width: 37%;
@@ -779,6 +779,13 @@ text-align: center;
              margin-top: 50px;
              width: 100%;
              float: left;
+        }
+        .sobredesc{
+            height: 30vw;
+            width: 100vw;
+            background-color: white;
+            border: 2px solid blue;
+            float: left;
         }
 
 
@@ -849,7 +856,7 @@ text-align: center;
                 transition: 0.5s;
             }
             #fotos{
-                margin-top:150px;
+                margin-top:0px;
                 background-color: #2b2b2b;
                 width: 100%;
                 height: 33vw;
@@ -857,34 +864,36 @@ text-align: center;
                 display: flex;
                 max-height: 1000px;
                 z-index: 2;
-                
+                max-width: 2200px;
+                margin: 0 auto;
             }
             #fotos img{
-                margin-top: 28px;
+                margin-top: 2vw;
                 width:24.2vw;
                 height: 30vw;
               
-                z-index: 0;
                 max-width: 750px;
                  max-height: 950px;
-                z-index: 1;
+        
                 
             }
             .visite-nos{
                 margin-top:0px;
-                height:calc(08vw + 3vh);
+                height:6vw;
                 background-color: rgb(29, 29, 29);
                 width: 100%;
                 float: left;
-                max-height: 1200px;
-                
+                max-height: 200px;
+                max-width: 2300px;
+                border-top: 3px solid #ba6e2d;
+                border-bottom: 3px solid #ba6e2d;
                 }
                 h5{
-                    margin-top:calc(25px + 1vw);
+                    margin-top:calc(05px + 1vw);
                     text-align: center;
-                    font-size: 50px;
+                    font-size: 45px;
                     color: rgb(255, 255, 255);
-                    font-family: raleway;
+                    font-family: ralewayB;
                     font-weight: bold;
                 }
                 .sobre{
@@ -894,7 +903,7 @@ text-align: center;
                     float: left;
                 }
                 .contato{
-                    margin-top:calc(200px + 100vw);
+                    margin-top:calc(200px + 73vw);
                     width: 100%;
                     height:calc(1400px - 60vw);
                     max-height: 450px;
