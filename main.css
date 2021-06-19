@@ -69,26 +69,7 @@ color: white;
 
 }
 
-h1{
-    width: 0px;
-    height: 0px;
-    margin-left: 80px;
-    font-weight:lighter;
-    cursor: pointer;
-    font-size: 28px;
-    transition: all .2s ease-in-out;
-    color: transparent;
-    border: none;
-    border-bottom: transparent;
-    min-width: 200px                                                                                                ;
-}
-h1:hover{
-    transform: scale(1.35);
-    color: #ba6e2d;
 
-
-
-}
 .intro{
     background-color: rgb(255, 255, 255);
     height: 50vw;
@@ -517,13 +498,9 @@ text-align: center;
             }
         .menu{
             display:inline-flex;
-            width: 10%;
             position: relative;
-            text-align:center;
-            margin-top: 70px;
+            text-align:center;     
             display: flex;
-         
-          
             color: white;
            
             }
@@ -544,7 +521,7 @@ text-align: center;
         h1{
             margin-left: 30px;
             margin-top:-10px;
-           margin-right:calc(-250px + 8vw);
+           
             font-weight:lighter;
             cursor: pointer;
             font-size: 22px;
@@ -885,9 +862,9 @@ text-align: center;
                 float: left;
                 max-height: 200px;
                 max-width: 2300px;
-                border-top: 3px solid #ba6e2d;
-                border-bottom: 3px solid #ba6e2d;
+            
                 }
+                
                 h5{
                     margin-top:calc(05px + 1vw);
                     text-align: center;
