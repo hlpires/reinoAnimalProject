@@ -186,14 +186,14 @@ max-height: 1000px;
         font-size:35px;
         font-weight:bold;
     }
-}
+
     h4{
         font-size: 60px;
         color: black;
         font-family: ralewayB;
         font-weight: bold;
     }
-  
+
     .banho{
         
         margin-top: -120px;
@@ -234,7 +234,7 @@ max-height: 1000px;
         margin-left: 20px;
         min-height: 1400px;
     }
-    
+
     .img1{
         margin-top: 70px;
        position: relative;
@@ -258,6 +258,7 @@ max-height: 1000px;
         width: 90vw;
         
     }
+}
     .visite-nos{
         margin-top:calc(3400px + 82vw - 50vh);
         height:20vw;
