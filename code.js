@@ -131,25 +131,25 @@ function tela(){
 					$('.mapaDiv').addClass('mapaAnime');
 					
 				}
-				 if(documentTop > produtosTop - 800 ){
+				 if(documentTop > produtosTop - 1000 ){
 					
 					$('.box').addClass('boxAnime');
 					
 					setTimeout(function() { 
 						$('.box1').addClass('boxAnime');
-					}, 1000);
+					}, 800);
 					setTimeout(function() { 
 						$('.box2').addClass('boxAnime');
-					}, 1500);
+					}, 1200);
 					setTimeout(function() { 
 						$('.box3').addClass('boxAnime');
-					}, 2000);
+					}, 1600);
 					setTimeout(function() { 
 						$('.box4').addClass('boxAnime');
-					}, 2500);
+					}, 2000);
 					setTimeout(function() { 
 						$('.box5').addClass('boxAnime');
-					}, 3000);
+					}, 2400);
 				} 
 			});
 			
