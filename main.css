@@ -771,6 +771,14 @@ text-align: center;
             background-color: transparent;
             border: none;
             transition: 1.2s;
+            transform: translate3d(-100px,0,0);
+            opacity: 0;
+        }
+       
+        .boxAnime{
+            opacity: 1;
+            transform: translate3d(0,0,0);
+            transition: 0.4s;
         }
         .box:hover{
             transform: scale(1.2);
@@ -803,6 +811,7 @@ text-align: center;
             width: 90%;
             margin-top: 136px;
         }
+        
         .slick-next {
 
             height: 0vw;

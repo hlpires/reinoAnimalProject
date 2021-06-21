@@ -121,6 +121,7 @@ function tela(){
 			$target.each(function(){
 				var servicosTop = $('#servicos').offset().top;
 				var visiteTop = $('#mapaDiv').offset().top;
+				var produtosTop = $('#box1').offset().top;
 				
 				if (documentTop > servicosTop - 800) {
 					$('.servicos').addClass('servicosAnime');
@@ -128,6 +129,10 @@ function tela(){
 				
 				} if(documentTop > visiteTop - 800 ){
 					$('.mapaDiv').addClass('mapaAnime');
+					
+				}
+				 if(documentTop > produtosTop - 800 ){
+					$('.box').addClass('boxAnime');
 					clearInterval(clock);
 				} 
 			});
@@ -138,6 +143,10 @@ function tela(){
 	}
 }
 tela();
+
+
+
+
 
 if($(window).width() >= 1000)
 {
