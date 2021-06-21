@@ -577,7 +577,7 @@ text-align: center;
             width: 100vw;
             float: left;
             margin-top: 0vw;
-            max-width: 2300px;
+            max-width: 2350px;
             max-height: 1080px;
             background-image: url(./IMG/paw.png);
             flex-wrap: nowrap;
@@ -597,8 +597,8 @@ text-align: center;
             width:60vw;
             position: absolute;
             
-            margin-left:calc(20px + 11vw);
-            margin-top:calc(-120px + 18vw );
+            margin-left:calc(190px + 3vw);
+            margin-top:calc(150px + 1vw);
             max-width: 459px;
             max-height: 111px;
             background-image: url(./IMG/wpp.png);
@@ -651,15 +651,15 @@ text-align: center;
                 font-weight:bold;
             }
             h2{
-                top:    50px;
+                left:calc(170px + 3vw);
                 font-size:calc(40px );
                 color:rgb(0, 0, 0);
                 opacity: 1!important;
                 position: absolute;
-                
+              top: 50px;
                 margin: 0 auto;
                 max-width: 500px;
-                margin-left:60px;
+               
                 font-family: raleway;
             }
         .img1{
@@ -845,7 +845,18 @@ text-align: center;
 
 
 
-
+        h20{
+         
+            font-size: 30px;
+            color: rgb(0, 0, 0);
+            font-family: ralewayb;
+            font-weight: bold;
+            float: right;
+        text-align: center;
+            
+            
+           
+        }
 
 
 
