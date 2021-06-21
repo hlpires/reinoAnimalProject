@@ -132,8 +132,24 @@ function tela(){
 					
 				}
 				 if(documentTop > produtosTop - 800 ){
+					
 					$('.box').addClass('boxAnime');
-					clearInterval(clock);
+					
+					setTimeout(function() { 
+						$('.box1').addClass('boxAnime');
+					}, 1000);
+					setTimeout(function() { 
+						$('.box2').addClass('boxAnime');
+					}, 1500);
+					setTimeout(function() { 
+						$('.box3').addClass('boxAnime');
+					}, 2000);
+					setTimeout(function() { 
+						$('.box4').addClass('boxAnime');
+					}, 2500);
+					setTimeout(function() { 
+						$('.box5').addClass('boxAnime');
+					}, 3000);
 				} 
 			});
 			
