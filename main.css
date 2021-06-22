@@ -1281,10 +1281,10 @@ text-align: center;
        
         p{
             font-family: ralewayb;
-            margin-top:-20px;
-            font-size:20px;
+           margin: 40px;
+            font-size:15px;
             font-weight:bold;
-            margin:calc(5px + 0.1vw);
+      
         }
         h2{
             left:calc(100px + 1vw);
