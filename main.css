@@ -1236,7 +1236,7 @@ text-align: center;
         width:60vw;
         position: absolute;
         
-        margin-left:calc(140px + 3vw);
+        margin-left:calc(85px + 3vw);
         margin-top:calc(180px + 1vw);
         max-width: 459px;
         max-height: 111px;
@@ -1289,7 +1289,7 @@ text-align: center;
       
         }
         h2{
-            left:calc(100px + 1vw);
+            left:calc(40px + 1vw);
             font-size:calc(34px );
             color:rgb(0, 0, 0);
             opacity: 1!important;
