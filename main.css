@@ -35,7 +35,7 @@ a:hover {
     text-decoration:none; 
     cursor:pointer;  
 }
-@media (max-width:1000px){
+@media (max-width:850px){
 header{
     background-color: rgb(27, 27, 27);
     height: 6vw;
@@ -1113,7 +1113,7 @@ text-align: center;
                 }
  
  }
- @media (max-width:1024px){
+ @media (max-width:1024px) and (min-width: 900px){
     header{
         background-color: rgb(27, 27, 27);
         height: 6vw;
@@ -1289,7 +1289,7 @@ text-align: center;
       
         }
         h2{
-            left:calc(40px + 1vw);
+            left:calc(0px + 1vw);
             font-size:calc(34px );
             color:rgb(0, 0, 0);
             opacity: 1!important;
