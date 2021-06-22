@@ -1388,11 +1388,11 @@ text-align: center;
     
     }
     .box1{
-        height: 23vw;
-        width: 25vw;
+        height: 25.5vw;
+        width: 27vw;
         background-color: transparent;
         float: left;
-        margin: 30px;
+        margin: 10px;
         margin-top:calc(2vw + 40px);
         max-height: 450px;
         box-shadow: 0 20px 20px 0 rgb(125 144 165), 0 0 0 1px #aebedf;
@@ -1408,11 +1408,11 @@ text-align: center;
     }
  
     .box2{
-        height: 23vw;
-        width: 25vw;
+        height: 25.5vw;
+        width: 27vw;
         background-color: transparent;
         float: left;
-        margin: 30px;
+        margin: 10px;
         margin-top:calc(2vw + 40px);
         max-height: 450px;
         box-shadow: 0 20px 20px 0 rgb(125 144 165), 0 0 0 1px #aebedf;
@@ -1436,11 +1436,11 @@ text-align: center;
         transform: scale(1.2);
     }
     .box3{
-        height: 23vw;
-        width: 25vw;
+        height: 25.5vw;
+        width: 27vw;
         background-color: transparent;
         float: left;
-        margin: 30px;
+        margin: 10px;
         margin-top:calc(2vw + 40px);
         max-height: 450px;
         box-shadow: 0 20px 20px 0 rgb(125 144 165), 0 0 0 1px #aebedf;
@@ -1457,11 +1457,11 @@ text-align: center;
    
    
     .box4{
-        height: 23vw;
-        width: 25vw;
+        height: 25.5vw;
+        width: 27vw;
         background-color: transparent;
         float: left;
-        margin: 30px;
+        margin: 10px;
         margin-top:calc(2vw + 40px);
         max-height: 450px;
         box-shadow: 0 20px 20px 0 rgb(125 144 165), 0 0 0 1px #aebedf;
@@ -1478,11 +1478,11 @@ text-align: center;
    
   
     .box5{
-        height: 23vw;
-        width: 25vw;
+        height: 25.5vw;
+        width: 27vw;
         background-color: transparent;
         float: left;
-        margin: 30px;
+        margin: 10px;
         margin-top:calc(2vw + 40px);
         max-height: 450px;
         box-shadow: 0 20px 20px 0 rgb(125 144 165), 0 0 0 1px #aebedf;
@@ -1520,22 +1520,24 @@ text-align: center;
     #box1{
         width: 53%;
         border: none;
+        margin-top: 20px;
       
     }
   
     #box2{
         border: 2px solid black;
-        width: 37%;
-        margin-top: 0px;
+        width: 45%;
+        margin-top: 20px;
         max-width: 200px;
        border: none;
     }
     #box3{
         width: 90%;
         border: none;
-        margin-top: 92px;
+        margin-top: 62px;
     }
     #box4{
+        margin-top: 22px;
         width: 60%;
         border: none;
       
@@ -1543,9 +1545,24 @@ text-align: center;
     #box5{
         border: none;
         width: 90%;
-        margin-top: 136px;
+        margin-top: 60px;
+        height: 40%;
     }
-    
+    #camaText{
+        margin-top: 34px;
+    }
+    #brinquedoText{
+        margin-top: 35px;
+    }
+    #racaoText{
+        margin-top: 19px;
+    }
+    #arranhadoresText{
+        margin-top: 16px;
+    }
+    #roupasText{
+        margin-top: 26px;
+    }
     .slick-next {
 
         height: 0vw;
@@ -1566,10 +1583,12 @@ text-align: center;
         
     h11{
          position: relative;
-         margin-top: 50px;
+         margin: 2px;
+        margin-top: 10px;
+     
          width: 100%;
          float: left;
-         font-size: 10px;
+         font-size: 15px;
     }
     .sobredesc{
         height: 30vw;
