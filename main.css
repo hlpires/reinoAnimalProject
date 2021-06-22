@@ -474,7 +474,7 @@ text-align: center;
 }
 
 }
-    @media (min-width:1504px){
+@media (min-width:1504px){
         header{
             background-color: rgb(27, 27, 27);
             height: 6vw;
@@ -509,18 +509,17 @@ text-align: center;
                 }
                 .intro{
                     background-color: rgb(255, 255, 255);
-                    height: 50vw;
+                    height:calc(23.2vw + 10vh);
                     width: 100%;
                     float: left;
                     position: relative;
-                    max-height: 543px;
-                    min-height: 500px;
+                    max-height: 1000px;
                     border: 4px solid #ba6e2d;
                 
                 }
                 .backgroundIntro{
                     flex: 1;
-                    width: 100vw;
+                    width: 100%;
                     height:calc(23.2vw + 10vh);
                     margin: 0 auto;
                     margin-top: 0px;
@@ -1122,7 +1121,7 @@ text-align: center;
         float: left;
         margin: 0 auto;
         font-family: raleway;
-        
+            
         max-height: 250px;
         min-height: 150px;
         
@@ -1150,33 +1149,33 @@ text-align: center;
             }
             .intro{
                 background-color: rgb(255, 255, 255);
-                height: 50vw;
+                height:calc(28.2vw + 10vh);
                 width: 100%;
                 float: left;
                 position: relative;
-                max-height: 543px;
-                min-height: 500px;
-                border: 4px solid #ba6e2d;
+                max-height: 800px;
+                border-bottom: 4px solid #ba6e2d;
+                border-top:4px solid #ba6e2d;
             
             }
             .backgroundIntro{
                 flex: 1;
                 width: 100vw;
-                height:calc(23.2vw + 10vh);
+                height:calc(28.2vw + 10vh);
                 margin: 0 auto;
                 margin-top: 0px;
                 align-items: center;
                 float: right;
                 z-index: 1;
                 background-size: 100%;
-                max-width: 2300px;
-                max-height: 1000px;
+                max-height: 800px;
+                
                 
                 
                 }
                 .descIntro{
                     width: 60vw;
-                    height:calc(23.0vw + 10vh);
+                    height:calc(28.2vw + 10vh);
                     background-color:rgb(0,0,0); 
                     background-color:rgba(0,0,0,0.3);
                     position: absolute;
@@ -1185,7 +1184,7 @@ text-align: center;
                     align-items: center;
                     text-align: center;
                     max-width: 1200px;
-                    max-height: 1000px;
+                    max-height: 800px;
                     
                     }
    
@@ -1213,7 +1212,7 @@ text-align: center;
    
     .servicos{
         background-color: #2b2b2b;
-        height: 100vh;
+        height: 150vh;
         width: 100vw;
         float: left;
         margin-top: 0vw;
@@ -1237,12 +1236,13 @@ text-align: center;
         width:60vw;
         position: absolute;
         
-        margin-left:calc(190px + 3vw);
-        margin-top:calc(150px + 1vw);
+        margin-left:calc(140px + 3vw);
+        margin-top:calc(180px + 1vw);
         max-width: 459px;
         max-height: 111px;
         background-image: url(./IMG/wpp.png);
         background-repeat: no-repeat;
+        background-size: 80%;
         cursor: pointer;
         }
         .wpp:hover{
@@ -1287,12 +1287,12 @@ text-align: center;
             margin:calc(5px + 0.1vw);
         }
         h2{
-            left:calc(170px + 3vw);
-            font-size:calc(40px );
+            left:calc(100px + 1vw);
+            font-size:calc(34px );
             color:rgb(0, 0, 0);
             opacity: 1!important;
             position: absolute;
-          top: 50px;
+            top: 50px;
             margin: 0 auto;
             max-width: 500px;
            
@@ -1334,14 +1334,14 @@ text-align: center;
         margin-top: 250px;
         height:calc(23vw + 200px);
         width:20vw;
-        min-height: 600px;
+        min-height: 500px;
         box-shadow: 0 10px 10px 0 rgb(125 144 165), 0 0 0 2px black;
         background-color: white;
         max-height: 880px;
         border-radius: 10%;
         text-align: center;  
         transition: all .2s ease-in-out;
-        min-width: 440px;
+        min-width: 400px;
         margin-right: 25%;
 
     
@@ -1354,15 +1354,15 @@ text-align: center;
         margin: auto;
         margin-top: 250px;
         height:calc(23vw + 200px);
-        width:20vw;
-        min-height: 600px;
+        
+        min-height: 500px;
         box-shadow: 0 10px 10px 0 rgb(125 144 165), 0 0 0 2px black;
         border-radius: 10%;
         max-height: 880px;
         background-color: white;
         text-align: center;
         transition: all .2s ease-in-out;
-        min-width: 440px;
+        min-width: 400px;
         margin-left: 25%;
       
     }
