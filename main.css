@@ -1299,30 +1299,20 @@ text-align: center;
             font-family: raleway;
         }
     .img1{
-        margin-top: 03vw;
+        margin-top: 04vw;
         position: relative;
-        width: 17vw;
-        max-width: 420px;
-        
-        min-width: 230px;
+        width: 21vw;
+        height: 17vw;
+      
      }
      .img2{
-        margin-top: 02vw;
-        position: relative;
-        width: 14vw;
-        max-width: 420px;
-        
-        min-width: 230px;
-    }
-    .img3{
         margin-top: 03vw;
         position: relative;
         width: 16vw;
-        max-width: 420px;
         
-        min-width: 230px;
+        
     }
-
+    
     
    
     .petHotel:hover{
