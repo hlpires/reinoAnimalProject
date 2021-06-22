@@ -474,7 +474,7 @@ text-align: center;
 }
 
 }
-@media (min-width:1504px){
+@media (min-width:1025px){
         header{
             background-color: rgb(27, 27, 27);
             height: 6vw;
