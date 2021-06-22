@@ -1375,7 +1375,7 @@ text-align: center;
        
     }
     .boxes{
-        margin-top: 0px;
+      
         height: 60vw;
         background-color: rgb(255, 255, 255);
         width: 100vw;
@@ -1393,7 +1393,7 @@ text-align: center;
         background-color: transparent;
         float: left;
         margin: 30px;
-        margin-top:calc(2vw + 100px);
+        margin-top:calc(2vw + 40px);
         max-height: 450px;
         box-shadow: 0 20px 20px 0 rgb(125 144 165), 0 0 0 1px #aebedf;
         text-align: center;
@@ -1413,7 +1413,7 @@ text-align: center;
         background-color: transparent;
         float: left;
         margin: 30px;
-        margin-top:calc(2vw + 100px);
+        margin-top:calc(2vw + 40px);
         max-height: 450px;
         box-shadow: 0 20px 20px 0 rgb(125 144 165), 0 0 0 1px #aebedf;
         text-align: center;
@@ -1441,7 +1441,7 @@ text-align: center;
         background-color: transparent;
         float: left;
         margin: 30px;
-        margin-top:calc(2vw + 100px);
+        margin-top:calc(2vw + 40px);
         max-height: 450px;
         box-shadow: 0 20px 20px 0 rgb(125 144 165), 0 0 0 1px #aebedf;
         text-align: center;
@@ -1462,7 +1462,7 @@ text-align: center;
         background-color: transparent;
         float: left;
         margin: 30px;
-        margin-top:calc(2vw + 100px);
+        margin-top:calc(2vw + 40px);
         max-height: 450px;
         box-shadow: 0 20px 20px 0 rgb(125 144 165), 0 0 0 1px #aebedf;
         text-align: center;
@@ -1483,7 +1483,7 @@ text-align: center;
         background-color: transparent;
         float: left;
         margin: 30px;
-        margin-top:calc(2vw + 100px);
+        margin-top:calc(2vw + 40px);
         max-height: 450px;
         box-shadow: 0 20px 20px 0 rgb(125 144 165), 0 0 0 1px #aebedf;
         text-align: center;
@@ -1569,6 +1569,7 @@ text-align: center;
          margin-top: 50px;
          width: 100%;
          float: left;
+         font-size: 10px;
     }
     .sobredesc{
         height: 30vw;
