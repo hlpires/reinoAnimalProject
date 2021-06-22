@@ -1212,7 +1212,7 @@ text-align: center;
    
     .servicos{
         background-color: #2b2b2b;
-        height: 150vh;
+        height: 100vh;
         width: 100vw;
         float: left;
         margin-top: 0vw;
@@ -1281,9 +1281,10 @@ text-align: center;
        
         p{
             font-family: ralewayb;
-           margin: 40px;
+            margin: 40px;
             font-size:15px;
             font-weight:bold;
+           margin-top: -30;
       
         }
         h2{
@@ -1324,15 +1325,15 @@ text-align: center;
         margin-top: 250px;
         height:calc(23vw + 200px);
         width:20vw;
-        min-height: 500px;
+        min-height: 450px;
         box-shadow: 0 10px 10px 0 rgb(125 144 165), 0 0 0 2px black;
         background-color: white;
         max-height: 880px;
         border-radius: 10%;
         text-align: center;  
         transition: all .2s ease-in-out;
-        min-width: 400px;
-        margin-right: 25%;
+        min-width: 320px;
+        margin-right: 15vw;
 
     
     }
@@ -1344,16 +1345,17 @@ text-align: center;
         margin: auto;
         margin-top: 250px;
         height:calc(23vw + 200px);
-        
-        min-height: 500px;
+        width: 320px;
+        min-height: 450px;
         box-shadow: 0 10px 10px 0 rgb(125 144 165), 0 0 0 2px black;
         border-radius: 10%;
         max-height: 880px;
         background-color: white;
         text-align: center;
         transition: all .2s ease-in-out;
-        min-width: 400px;
-        margin-left: 25%;
+        min-width: 320px;
+        margin-left: 15vw;
+   
       
     }
     .banho:hover{
