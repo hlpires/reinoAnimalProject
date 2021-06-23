@@ -273,7 +273,7 @@ a:hover {
     }
    
     .produtos{
-        height: 40vw;
+        height:calc(200px +  50vw);
         background-color: white!important;
         width: 100vw;
         display: block;
