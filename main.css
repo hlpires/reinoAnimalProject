@@ -240,8 +240,8 @@ a:hover {
         min-height: 250px;
         box-shadow: 0 10px 10px 0 rgb(125 144 165), 0 0 0 2px black;
         background-color: white;
-        
-        margin-left: 5vw;
+        float: left;
+        padding: 1vw;
         text-align: center;  
         transition: all .2s ease-in-out;
         
@@ -258,12 +258,12 @@ a:hover {
         width:90vw;
    
         box-shadow: 0 10px 10px 0 rgb(125 144 165), 0 0 0 2px black;
-        
+        padding: 1vw;
         max-height: 3200px;
         background-color: white;
         text-align: center;
         transition: all .2s ease-in-out;
-       margin-left: 5vw;
+    
         
    
       
