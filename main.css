@@ -38,22 +38,22 @@ a:hover {
 @media(max-width: 800px){
     header{
         background-color: rgb(27, 27, 27);
-        height: 6vw;
+        height: 2vw;
         width: 100%;
         float: left;
         margin: 0 auto;
         font-family: raleway;
             
         max-height: 250px;
-        min-height: 120px;
+        min-height: 80px;
         
         }
     .logo{
-        width:calc(5vw + 200px);
+        width:calc(2vw + 200px);
         float:left;
         position: relative;
-        margin-top: 33px;
-        margin-left: 30px;
+        margin-top: 13px;
+        margin-left: 10px;
         max-width: 400px;
         
         }
@@ -158,8 +158,8 @@ a:hover {
         width:60vw;
         position: absolute;
         
-        margin-left:calc(85px + 3vw);
-        margin-top:calc(180px + 1vw);
+        margin-left:calc(15px + 3vw);
+        margin-top:calc(100px + 1vw);
         max-width: 459px;
         max-height: 111px;
         background-image: url(./IMG/wpp.png);
@@ -212,11 +212,11 @@ a:hover {
         }
         h2{
             left:calc(0px + 1vw);
-            font-size:calc(34px );
+            font-size:calc(17px );
             color:rgb(0, 0, 0);
             opacity: 1!important;
             position: absolute;
-            top: 50px;
+            top: 30px;
             margin: 0 auto;
             max-width: 500px;
            
