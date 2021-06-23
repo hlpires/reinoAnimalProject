@@ -194,9 +194,9 @@ a:hover {
         p{
             font-family: ralewayB;
             margin: 40px;
-            font-size:16px;
+            font-size:22px;
             font-weight:bold;
-           margin-top: -30;
+           margin-top: -20;
       
         }
         h2{
@@ -234,14 +234,14 @@ a:hover {
     }
     .tosa{
         margin: auto;
-        margin-top: -0px;
-        height:calc(100vw + 200px);
-        width:100vw;
+        margin-top: -10px;
+        height:calc(120vw + 200px);
+        width:90vw;
         min-height: 250px;
         box-shadow: 0 10px 10px 0 rgb(125 144 165), 0 0 0 2px black;
         background-color: white;
-        max-height: 880px;
-    
+        
+        margin-left: 5vw;
         text-align: center;  
         transition: all .2s ease-in-out;
         
@@ -254,7 +254,7 @@ a:hover {
     .banho{
    
         margin-top: 150px;
-        height:calc(100vw + 200px);
+        height:calc(120vw + 200px);
         width:90vw;
    
         box-shadow: 0 10px 10px 0 rgb(125 144 165), 0 0 0 2px black;
@@ -263,7 +263,7 @@ a:hover {
         background-color: white;
         text-align: center;
         transition: all .2s ease-in-out;
-       
+       margin-left: 5vw;
         
    
       
@@ -515,7 +515,7 @@ a:hover {
 
     h20{
      
-        font-size: 30px;
+        font-size: 10px;
         color: rgb(0, 0, 0);
         font-family: ralewayb;
         font-weight: bold;
@@ -618,19 +618,18 @@ a:hover {
         }
         .visite-nos{
             margin-top:0px;
-            height:6vw;
+            height:18vw;
             background-color: rgb(29, 29, 29);
             width: 100%;
             float: left;
-            max-height: 200px;
-            max-width: 2300px;
+          
         
             }
             
             h5{
                 margin-top:5px;
                 text-align: center;
-                font-size: 35px;
+                font-size: 30px;
                 color: rgb(255, 255, 255);
                 font-family: ralewayB;
                 font-weight: bold;
