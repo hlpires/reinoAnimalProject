@@ -282,7 +282,9 @@ a:hover {
         max-height: 800px;
         max-width: 2300px;  
         margin: 0 auto;
-     
+        text-align: center;
+       
+
     }
     .boxes{
       
@@ -295,7 +297,17 @@ a:hover {
         justify-content: center;
         max-width: 2200px;
         flex-wrap: nowrap;
-    
+        background-image:url(./IMG/lolja.png);
+        background-size: 100vw;
+    }
+    h15{
+        margin-top: 10vw;
+        font-size: 15vw;
+        font-family: ralewayB;
+        position: relative;
+        float: left;
+        margin-left: 35vw;
+        border-bottom: 02px solid black;
     }
     .box1{
         height: 25.5vw;
@@ -555,7 +567,7 @@ a:hover {
           flex-wrap: wrap;
             transform: translate3d(-100px,0,0);
             opacity: 0;
-         
+      
         }
         .mapa{
           margin-top:calc(80px + 2vw);
