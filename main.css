@@ -123,7 +123,7 @@ a:hover {
    
     .servicos{
         background-color: #2b2b2b;
-        height: 200vh;
+        height:calc(150vh  + 600px);
         width: 100vw;
         float: left;
         margin-top: 0vw;
@@ -536,14 +536,13 @@ a:hover {
 
     h6{
      
-        font-size: 25px;
+        font-size: 20px;
         color: rgb(0, 0, 0);
         font-family: ralewayb;
         font-weight: bold;
-        float: right;
-        width: 50vw;
-        margin-right:calc(3vw + 50px);
-        max-width: 600px;
+        text-align: center;
+        width: 90vw;
+       
      
        
     }
@@ -565,23 +564,24 @@ a:hover {
     .mapaDiv{
             margin-top: 0vw;
             width: 100%;
-            height: calc(300px + 25vw);
+            height: calc(800px + 50vw);
             text-align: center;
             background-color: rgb(255, 255, 255);
             float: left;
             max-height: 1000px;
             display: flex;
           justify-content: center;
+          flex-wrap: wrap;
             transform: translate3d(-100px,0,0);
             opacity: 0;
          
         }
         .mapa{
           margin-top:calc(80px + 2vw);
-            width: 30vw;
+            width: 80vw;
             max-width: 600px;
-            float: right;
-            margin-right:calc(3vw + 150px);
+            margin: 0 auto;
+     
             border: 3px solid black;
         }
         .mapa:hover{
@@ -595,10 +595,10 @@ a:hover {
             transition: 0.5s;
         }
         #fotos{
-            margin-top:0px;
+            margin-top:30px;
             background-color: #2b2b2b;
             width: 100%;
-            height: 33vw;
+            height:calc(200px + 50vw);
             float: left;
             display: flex;
             max-height: 1000px;
@@ -608,8 +608,8 @@ a:hover {
         }
         #fotos img{
             margin-top: 2vw;
-            width:24.2vw;
-            height: 30vw;
+            width:100vw;
+            
           
             max-width: 750px;
              max-height: 950px;
@@ -618,7 +618,7 @@ a:hover {
         }
         .visite-nos{
             margin-top:0px;
-            height:18vw;
+            height:16vw;
             background-color: rgb(29, 29, 29);
             width: 100%;
             float: left;
@@ -670,7 +670,7 @@ a:hover {
               
             }
             #walking{
-                width: 50vw;
+                width:100vw;
                 max-width: 1000px;
             }
 
