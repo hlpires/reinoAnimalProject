@@ -266,15 +266,15 @@ header{
         margin-bottom: 10px;
         margin-left: 30%;
         margin-top: 10px;
-       max-width: 200px;
-       max-height: 220px;
+       max-width: 120px;
+       max-height: 212px;
     }
     #imgBox1{
         width: 10vw;
         height: 10vw;
         margin-left: 14%;
         max-width: 200px;
-        max-height: 220px;
+        max-height: 191px;
         margin-bottom: 02px;
     }
     #imgBox2{
@@ -282,7 +282,7 @@ header{
         height: 11vw;
         margin-left: 15%;
         max-width: 200px;
-        max-height: 220px;
+        max-height: 213px;
         margin-bottom: 40px;
     }
     #imgBox3{
@@ -290,49 +290,49 @@ header{
         width: 08vw;
         height: 10vw;
         margin-left: 20%;
-        max-width: 200px;
-        max-height: 220px;
+        max-width: 150px;
+        max-height: 195px;
       margin-bottom: 38px;
     }
     #imgBox4{
         margin-top: 20px;
         width: 07vw;
         height: 10vw;
-        padding-bottom: 1vw;
+  
         margin-left: 25%;
-        max-width: 200px;
-        max-height: 220px;
-        margin-bottom: 18px;
+        max-width: 150px;
+        max-height: 180px;
+        margin-bottom: 49px;
     }
     #imgBox5{
         width: 07vw;
         height: 10vw;
-        padding-bottom: 1vw;
+    
         margin-left: 25%;
         margin-top: 20px;
-        max-width: 200px;
-        max-height: 220px;
-        margin-bottom: 49px;
+        max-width: 150px;
+        max-height: 193px;
+        margin-bottom: 67px;
     }
 
     #imgBox6{
         width: 11vw;
         height: 9vw;
-        padding-bottom: 1vw;
+       
         margin-left: 10%;
         margin-top: 30px;
         max-width: 200px;
-        max-height: 220px;
-        margin-bottom: 28px;
+        max-height: 172px;
+        margin-bottom: 46px;
     }
     #imgBox7{
         width: 07vw;
         height: 10vw;
-        margin-bottom: 16px;
+        margin-bottom: 15px;
         margin-left: 25%;
         margin-top: 20px;
         max-width: 200px;
-        max-height: 220px;
+        max-height: 193px;
     }
     #imgBox8{
         width: 12vw;
@@ -341,7 +341,7 @@ header{
         margin-left: 5%;
         margin-top: 37px;
         max-width: 200px;
-        max-height: 220px;
+        max-height: 153px;
     }
     #imgBox9{
         width: 12vw;
@@ -351,7 +351,7 @@ header{
         margin-left: 5%;
         margin-top: 30px;
         max-width: 200px;
-        max-height: 220px;
+        max-height: 193px;
     }
 
 
