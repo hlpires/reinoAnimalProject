@@ -684,24 +684,25 @@ a:hover {
             
             }
         .logo{
-            width:20vw;
+            width:50vw;
             float:left;
             position: relative;
-            margin-top: 23px;
-            margin-left: 80px;
+            margin-top: 20px;
+            margin-left: 130px;
             max-width: 400px;
+            margin-right: 5vw;
             
             }
             .menu{
                 display:inline-flex;
-                width: 50%;
+                width: 10%;
                 position: relative;
                 text-align:center;
-                margin-top: 60px;
-                left: 7%;
-                
+                margin-top: 70px;
+                display: flex;
+             
+              
                 color: white;
-                
                 }
                 .intro{
                     background-color: rgb(255, 255, 255);
@@ -746,7 +747,7 @@ a:hover {
      
         h1{
             margin-left: 60px;
-            margin-top:10px;
+            margin-top:18px;
            
             font-weight:lighter;
             cursor: pointer;
