@@ -59,7 +59,7 @@ header{
            
             }
     .roupas{
-        height: 150vw;
+        height: 300vh;
         background-color: #f0f0f0;
         max-height: 4000px;
     
@@ -162,6 +162,7 @@ header{
         justify-content: center;
         flex-wrap: wrap;
         max-height: 2500px;
+        max-width: 2000px;
         
     }
     .camaCasa{
