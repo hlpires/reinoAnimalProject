@@ -73,7 +73,8 @@ header{
         float: left;
         justify-content: center;
         display: flex;
-        border: 8px solid #ba6e2d;;
+        border: 8px solid #ba6e2d;
+        max-height: 300px;
     }
     h2{
         
@@ -84,17 +85,18 @@ header{
     h4{
         color: #ba6e2d;
         text-align: center;
-        font-size: 2vw;
-        margin-top: 5vw;
+        font-size: 40px;
+        margin-top: 100px;
         width: 20%;
     }
     #gpslogo{
         margin-top: 20px;
-        width: 10vw;
-        height: 10vw;
+        width: 200px;
+        height:200px;
         margin-left: 100px;
         float: right;
         transition: 1s;
+    
     }
     #gpslogo:hover{
     transform: scale(1.2);
