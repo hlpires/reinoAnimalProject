@@ -140,7 +140,7 @@ header{
         max-height: 340px;
         max-width: 320px;
         min-height: 400px;
-        min-width: 250px;
+   
     }
     
     .select form{
@@ -168,7 +168,7 @@ header{
         height:400px;
         width: 250px;
         border: 4px solid #ba6e2d;
-        margin:80px;
+        margin: 4vw;
  
         box-shadow: 0 20px 20px 0 rgb(125 144 165), 0 0 0 1px #aebedf;
         display: inline-block;
@@ -179,7 +179,7 @@ header{
         height:400px;
         width: 250px;
         border: 4px solid #ba6e2d;
-        margin:80px;
+        margin: 4vw;
         box-shadow: 0 20px 20px 0 rgb(125 144 165), 0 0 0 1px #aebedf;
         display: inline-block;
     }
@@ -187,7 +187,7 @@ header{
         height:400px;
         width: 250px;
         border: 4px solid #ba6e2d;
-        margin:80px;
+        margin: 4vw;
         box-shadow: 0 20px 20px 0 rgb(125 144 165), 0 0 0 1px #aebedf;
         display: inline-block;
    
@@ -197,7 +197,7 @@ header{
         height:400px;
         width: 250px;
         border: 4px solid #ba6e2d;
-        margin:80px;
+        margin: 4vw;
     
         box-shadow: 0 20px 20px 0 rgb(125 144 165), 0 0 0 1px #aebedf;
         display: inline-block;
@@ -209,8 +209,7 @@ header{
         height:400px;
         width: 250px;
         border: 4px solid #ba6e2d;
-        margin:80px;
-        
+        margin: 4vw;
         box-shadow: 0 20px 20px 0 rgb(125 144 165), 0 0 0 1px #aebedf;
         display: inline-block;
   
