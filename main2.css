@@ -160,7 +160,7 @@ header{
        display:flex;
         justify-content: center;
         flex-wrap: wrap;
-        max-height: 3000px;
+        max-height: 2500px;
         max-width: 80%;
     }
     .camaCasa{
@@ -273,12 +273,14 @@ header{
         height: 10vw;
         margin-left: 14%;
         max-width: 200px;
+        max-height: 220px;
     }
     #imgBox2{
         width: 10vw;
         height: 11vw;
         margin-left: 15%;
         max-width: 200px;
+        max-height: 220px;
         margin-bottom: 38px;
     }
     #imgBox3{
@@ -287,6 +289,7 @@ header{
         height: 10vw;
         margin-left: 20%;
         max-width: 200px;
+        max-height: 220px;
       margin-bottom: 36px;
     }
     #imgBox4{
@@ -296,6 +299,7 @@ header{
         padding-bottom: 1vw;
         margin-left: 25%;
         max-width: 200px;
+        max-height: 220px;
         margin-bottom: 18px;
     }
     #imgBox5{
@@ -305,6 +309,7 @@ header{
         margin-left: 25%;
         margin-top: 20px;
         max-width: 200px;
+        max-height: 220px;
         margin-bottom: 47px;
     }
 
@@ -315,6 +320,7 @@ header{
         margin-left: 10%;
         margin-top: 30px;
         max-width: 200px;
+        max-height: 220px;
         margin-bottom: 26px;
     }
     #imgBox7{
@@ -324,14 +330,16 @@ header{
         margin-left: 25%;
         margin-top: 20px;
         max-width: 200px;
+        max-height: 220px;
     }
     #imgBox8{
         width: 12vw;
         height: 8vw;
-        padding-bottom: 3vw;
+        margin-bottom: 58px;
         margin-left: 5%;
         margin-top: 37px;
         max-width: 200px;
+        max-height: 220px;
     }
     #imgBox9{
         width: 12vw;
@@ -341,6 +349,7 @@ header{
         margin-left: 5%;
         margin-top: 30px;
         max-width: 200px;
+        max-height: 220px;
     }
 
 
@@ -350,15 +359,15 @@ header{
 
     #boxtext{
         width: 270px;
-        height: 7.9vw;
+        height: 174px;
         background-color: rgb(27, 27, 27);
         margin-top:-23px;
-        min-height: 175px;
+       
       
     }
     #boxtext1{
         width: 270px;
-        height: 7.9vw;
+        height: 174px;
         background-color: rgb(27, 27, 27);
        margin-top: 33px;
        min-height: 175px;
@@ -367,7 +376,7 @@ header{
 
     #boxtext2{
         width: 270px;
-        height: 7.9vw;
+        height: 174px;
         background-color: rgb(27, 27, 27);
         margin-top: -43px;
         min-height: 175px;
@@ -376,16 +385,16 @@ header{
 
     #boxtext3{
         width: 270px;
-        height: 7.9vw;
+        height: 174px;
         background-color: rgb(27, 27, 27);
         margin-top: -42px;
-        min-height: 175px;
        
+     
     }
 
      #boxtext4{
         width: 270px;
-        height: 7.9vw;
+        height: 174px;
         background-color: rgb(27, 27, 27);
         min-height: 175px;
      
@@ -393,7 +402,7 @@ header{
     }
     #boxtext5{
         width: 270px;
-        height: 6.9vw;
+        height: 174px;
         background-color: rgb(27, 27, 27);
         margin-top: -72px;
         min-height: 175px;
@@ -401,7 +410,7 @@ header{
     }
     #boxtext6{
         width: 270px;
-        height: 6.9vw;
+        height: 174px;
         background-color: rgb(27, 27, 27);
         margin-top: -42px;
         min-height: 175px;
@@ -409,7 +418,7 @@ header{
     }
     #boxtext7{
         width: 270px;
-        height: 6.9vw;
+        height: 174px;
         background-color: rgb(27, 27, 27);
         margin-top: -20px;
         min-height: 175px;
@@ -417,7 +426,7 @@ header{
     }
     #boxtext8{
         width: 270px;
-        height: 6.9vw;
+        height: 174px;
         background-color: rgb(27, 27, 27);
         margin-top: -42px;
         min-height: 175px;
@@ -425,7 +434,7 @@ header{
     }
     #boxtext9{
         width: 270px;
-        height: 6.9vw;
+        height: 174px;
         background-color: rgb(27, 27, 27);
         margin-top: -42px;
         min-height: 175px;
