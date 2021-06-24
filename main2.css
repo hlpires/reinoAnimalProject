@@ -63,7 +63,6 @@ header{
         background-color: #f0f0f0;
         max-height: 4000px;
     
-        border: 2PX SOLID BLUE;
       
     }
     #position{
@@ -167,70 +166,55 @@ header{
         min-width: 80%;
     }
     .camaCasa{
-        height: 23vw;
-        width: 14vw;
+        height:400px;
+        width: 250px;
         border: 4px solid #ba6e2d;
         margin:80px;
-        max-height: 400px;
-        max-width: 270px;
+ 
         box-shadow: 0 20px 20px 0 rgb(125 144 165), 0 0 0 1px #aebedf;
         display: inline-block;
-        min-height: 300px;
-        min-width: 200px;
+     
 
     }
     .arranhador{
-        height: 23vw;
-        width: 14vw;
+        height:400px;
+        width: 250px;
         border: 4px solid #ba6e2d;
         margin:80px;
-        max-height: 400px;
-        max-width: 270px;
         box-shadow: 0 20px 20px 0 rgb(125 144 165), 0 0 0 1px #aebedf;
         display: inline-block;
-        min-height: 300px;
-        min-width: 200px;
-
     }
     .brinquedo{
-        height: 23vw;
-        width: 14vw;
+        height:400px;
+        width: 250px;
         border: 4px solid #ba6e2d;
         margin:80px;
-        max-height: 400px;
-        max-width: 270px;
         box-shadow: 0 20px 20px 0 rgb(125 144 165), 0 0 0 1px #aebedf;
         display: inline-block;
-        min-height: 300px;
-        min-width: 200px;
+   
 
     }
     .roupa{
-        height: 23vw;
-        width: 14vw;
+        height:400px;
+        width: 250px;
         border: 4px solid #ba6e2d;
         margin:80px;
-        max-height: 400px;
-        max-width: 270px;
+    
         box-shadow: 0 20px 20px 0 rgb(125 144 165), 0 0 0 1px #aebedf;
         display: inline-block;
-        min-height: 300px;
-        min-width: 200px;
+      
       
 
     }
     .racao{
-        height: 23vw;
-        width: 14vw;
+        height:400px;
+        width: 250px;
         border: 4px solid #ba6e2d;
         margin:80px;
-        max-height: 400px;
-        max-width: 270px;
+        
         box-shadow: 0 20px 20px 0 rgb(125 144 165), 0 0 0 1px #aebedf;
         display: inline-block;
-        min-height: 300px;
-        min-width: 200px;
-
+  
     }
     .contato{
         margin-top:0vw;
@@ -376,7 +360,7 @@ header{
         height: 17.2vw;
         background-color: rgb(27, 27, 27);
         margin-top:-23px;
-    
+      
       
     }
     #boxtext1{
@@ -428,7 +412,7 @@ header{
        
     }
     #boxtext6{
-     width: 270px;
+     width: 250px;
         max-height: 174px;
         height: 17.2vw;
         background-color: rgb(27, 27, 27);
