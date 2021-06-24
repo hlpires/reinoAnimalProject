@@ -162,6 +162,7 @@ header{
         flex-wrap: wrap;
         max-height: 2500px;
         max-width: 80%;
+        min-width: 80%;
     }
     .camaCasa{
         height: 23vw;
@@ -274,6 +275,7 @@ header{
         margin-left: 14%;
         max-width: 200px;
         max-height: 220px;
+        margin-bottom: 02px;
     }
     #imgBox2{
         width: 10vw;
@@ -281,7 +283,7 @@ header{
         margin-left: 15%;
         max-width: 200px;
         max-height: 220px;
-        margin-bottom: 38px;
+        margin-bottom: 40px;
     }
     #imgBox3{
         margin-top: 20px;
@@ -290,7 +292,7 @@ header{
         margin-left: 20%;
         max-width: 200px;
         max-height: 220px;
-      margin-bottom: 36px;
+      margin-bottom: 38px;
     }
     #imgBox4{
         margin-top: 20px;
@@ -310,7 +312,7 @@ header{
         margin-top: 20px;
         max-width: 200px;
         max-height: 220px;
-        margin-bottom: 47px;
+        margin-bottom: 49px;
     }
 
     #imgBox6{
@@ -321,12 +323,12 @@ header{
         margin-top: 30px;
         max-width: 200px;
         max-height: 220px;
-        margin-bottom: 26px;
+        margin-bottom: 28px;
     }
     #imgBox7{
         width: 07vw;
         height: 10vw;
-        margin-bottom: 14px;
+        margin-bottom: 16px;
         margin-left: 25%;
         margin-top: 20px;
         max-width: 200px;
@@ -335,7 +337,7 @@ header{
     #imgBox8{
         width: 12vw;
         height: 8vw;
-        margin-bottom: 58px;
+        margin-bottom: 60px;
         margin-left: 5%;
         margin-top: 37px;
         max-width: 200px;
@@ -344,7 +346,7 @@ header{
     #imgBox9{
         width: 12vw;
         height: 10vw;
-        margin-bottom: 26px;
+        margin-bottom: 27px;
     
         margin-left: 5%;
         margin-top: 30px;
@@ -358,34 +360,38 @@ header{
 
 
     #boxtext{
-        width: 270px;
-        height: 174px;
+        max-width: 270px;
+        max-height: 174px;
+        height: 17.2vw;
         background-color: rgb(27, 27, 27);
         margin-top:-23px;
        
       
     }
     #boxtext1{
-        width: 270px;
-        height: 174px;
+        max-width: 270px;
+        max-height: 174px;
+        height: 17.2vw;
         background-color: rgb(27, 27, 27);
        margin-top: 33px;
-       min-height: 175px;
+     
              
     }
 
     #boxtext2{
-        width: 270px;
-        height: 174px;
+        max-width: 270px;
+        max-height: 174px;
+        height: 17.2vw;
         background-color: rgb(27, 27, 27);
         margin-top: -43px;
-        min-height: 175px;
+        
                    
     }
 
     #boxtext3{
-        width: 270px;
-        height: 174px;
+        max-width: 270px;
+        max-height: 174px;
+        height: 17.2vw;
         background-color: rgb(27, 27, 27);
         margin-top: -42px;
        
@@ -393,51 +399,56 @@ header{
     }
 
      #boxtext4{
-        width: 270px;
-        height: 174px;
+        max-width: 270px;
+        max-height: 174px;
+        height: 17.2vw;
         background-color: rgb(27, 27, 27);
-        min-height: 175px;
+   
      
         margin-top: -42px;
     }
     #boxtext5{
-        width: 270px;
-        height: 174px;
+        max-width: 270px;
+        max-height: 174px;
+        height: 17.2vw;
         background-color: rgb(27, 27, 27);
         margin-top: -72px;
-        min-height: 175px;
+     
        
     }
     #boxtext6{
-        width: 270px;
-        height: 174px;
+        max-width: 270px;
+        max-height: 174px;
+        height: 17.2vw;
         background-color: rgb(27, 27, 27);
         margin-top: -42px;
-        min-height: 175px;
+      
   
     }
     #boxtext7{
-        width: 270px;
-        height: 174px;
+        max-width: 270px;
+        max-height: 174px;
+        height: 17.2vw;
         background-color: rgb(27, 27, 27);
         margin-top: -20px;
-        min-height: 175px;
+      
      
     }
     #boxtext8{
-        width: 270px;
-        height: 174px;
+        max-width: 270px;
+        max-height: 174px;
+        height: 17.2vw;
         background-color: rgb(27, 27, 27);
         margin-top: -42px;
-        min-height: 175px;
-        
+      
     }
     #boxtext9{
-        width: 270px;
-        height: 174px;
+        max-width: 270px;
+        max-height: 174px;
+        height: 17.2vw;
         background-color: rgb(27, 27, 27);
         margin-top: -42px;
-        min-height: 175px;
+     
        
        
     }
