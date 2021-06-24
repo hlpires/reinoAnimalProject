@@ -494,7 +494,7 @@ a:hover {
          font-size: 15px;
     }
     .sobredesc{
-        height: 30vw;
+        height: 150vw;
         width: 100vw;
         background-color: white;
         
@@ -519,7 +519,9 @@ a:hover {
        
     }
 
-
+    #imgSobre{
+        width: 100vw;
+    }
 
 
 
@@ -1794,32 +1796,35 @@ a:hover {
          font-size: 15px;
     }
     .sobredesc{
-        height: 30vw;
+        height: 50vw;
         width: 100vw;
         background-color: white;
         
         float: left;
-        max-height: 700px;
+      
         max-width: 2300px;
     }
 
 
 
-
     h20{
-     
-        font-size: 30px;
+         
+        font-size: 18px;
         color: rgb(0, 0, 0);
-        font-family: ralewayb;
+        font-family: ralewayB;
         font-weight: bold;
         float: right;
-    text-align: center;
-        
+    margin-top: 100px;
+        width: 40vw;
+        max-width: 800px;
+        margin-right: 10%;
         
        
     }
+
     #imgSobre{
-        width: 40vw;
+        width: 50vw;
+        height: 55vw;
     }
 
 
