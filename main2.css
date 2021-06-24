@@ -155,16 +155,14 @@ header{
     }
     .itemsBox{
         height: 120vw;
-        width: 80vw;
-        background-color: #f0f0f0;
-   
+        width: 70vw;
+        background-color: #f0f0f0; 
         float: right;
        display:flex;
         justify-content: center;
         flex-wrap: wrap;
         max-height: 2500px;
-        max-width: 80%;
-        min-width: 80%;
+        
     }
     .camaCasa{
         height:400px;
@@ -248,7 +246,7 @@ header{
      
     }
     #imgBox{
-        width: 06vw;
+       width: 180px;
         height: 11vw;
         margin-bottom: 10px;
         margin-left: 30%;
@@ -258,7 +256,7 @@ header{
      min-height: 211px;
     }
     #imgBox1{
-        width: 10vw;
+        width: 180px;
         height: 10vw;
         margin-left: 14%;
         max-width: 200px;
@@ -267,7 +265,7 @@ header{
         min-height: 191px;
     }
     #imgBox2{
-        width: 10vw;
+        width: 180px;
         height: 11vw;
         margin-left: 15%;
         max-width: 200px;
@@ -287,7 +285,7 @@ header{
     }
     #imgBox4{
         margin-top: 20px;
-        width: 07vw;
+        width: 150px;
         height: 10vw;
         min-height: 211px;
         margin-left: 25%;
@@ -297,7 +295,7 @@ header{
         min-height: 180px;
     }
     #imgBox5{
-        width: 07vw;
+        width: 150px;
         height: 10vw;
         min-height: 211px;
         margin-left: 25%;
@@ -309,7 +307,7 @@ header{
     }
 
     #imgBox6{
-        width: 11vw;
+        width: 200px;
         height: 9vw;
         min-height: 173px;
         margin-left: 10%;
@@ -320,7 +318,7 @@ header{
         
     }
     #imgBox7{
-        width: 07vw;
+        width: 150px;
         height: 10vw;
         margin-bottom: 15px;
         margin-left: 25%;
@@ -330,7 +328,7 @@ header{
         min-height: 193px;
     }
     #imgBox8{
-        width: 12vw;
+        width: 220px;
         height: 8vw;
         margin-bottom: 60px;
         margin-left: 5%;
@@ -340,7 +338,7 @@ header{
         min-height: 152px;
     }
     #imgBox9{
-        width: 12vw;
+        width: 220px;
         height: 10vw;
         margin-bottom: 27px;
         min-height: 193px;
