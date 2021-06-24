@@ -122,7 +122,8 @@ function tela(){
 				var servicosTop = $('#servicos').offset().top;
 				var visiteTop = $('#mapaDiv').offset().top;
 				var produtosTop = $('#box1').offset().top;
-				
+				var sobreTop = $('#sobreDiv').offset().top;
+			
 				if (documentTop > servicosTop - 800) {
 					$('.servicos').addClass('servicosAnime');
 					
@@ -149,7 +150,12 @@ function tela(){
 					}, 2000);
 					setTimeout(function() { 
 						$('.box5').addClass('boxAnime');
-					}, 2400);
+					}, 2400);	
+				}
+				if(documentTop > sobreTop - 1000 ){
+					$('.sobredesc').addClass('sobreAnime');
+					
+
 				} 
 			});
 			

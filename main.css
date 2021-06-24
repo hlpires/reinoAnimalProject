@@ -698,7 +698,7 @@ a:hover {
                 position: relative;
                 text-align:center;
                 margin-top: 60px;
-                left: 6.5%;
+                left: 7%;
                 
                 color: white;
                 
@@ -1141,14 +1141,21 @@ a:hover {
             float: left;
             max-height: 700px;
             max-width: 2300px;
+            transition: 1.2s;
+            transform: translate3d(0,0,0);
+            opacity:0;
+        }
+        .sobreAnime{
+            opacity: 1;
+            transform: translate3d(0,0,0);
+            transition: 0.4s;
         }
 
         #imgSobre{
-            width: 40vw;
+            width: 35vw;
+            margin-left: 10%;
+        
         }
-
-
-
 
         h20{
          
