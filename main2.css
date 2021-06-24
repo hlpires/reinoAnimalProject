@@ -268,6 +268,7 @@ header{
         margin-top: 10px;
        max-width: 120px;
        max-height: 212px;
+     min-height: 211px;
     }
     #imgBox1{
         width: 10vw;
@@ -276,6 +277,7 @@ header{
         max-width: 200px;
         max-height: 191px;
         margin-bottom: 02px;
+        min-height: 191px;
     }
     #imgBox2{
         width: 10vw;
@@ -284,6 +286,7 @@ header{
         max-width: 200px;
         max-height: 213px;
         margin-bottom: 40px;
+        min-height: 211px;
     }
     #imgBox3{
         margin-top: 20px;
@@ -293,37 +296,41 @@ header{
         max-width: 150px;
         max-height: 195px;
       margin-bottom: 38px;
+      min-height: 190px;
     }
     #imgBox4{
         margin-top: 20px;
         width: 07vw;
         height: 10vw;
-  
+        min-height: 211px;
         margin-left: 25%;
         max-width: 150px;
         max-height: 180px;
         margin-bottom: 49px;
+        min-height: 180px;
     }
     #imgBox5{
         width: 07vw;
         height: 10vw;
-    
+        min-height: 211px;
         margin-left: 25%;
         margin-top: 20px;
         max-width: 150px;
         max-height: 193px;
         margin-bottom: 67px;
+        min-height: 192px;
     }
 
     #imgBox6{
         width: 11vw;
         height: 9vw;
-       
+        min-height: 173px;
         margin-left: 10%;
         margin-top: 30px;
         max-width: 200px;
         max-height: 172px;
         margin-bottom: 46px;
+        
     }
     #imgBox7{
         width: 07vw;
@@ -333,6 +340,7 @@ header{
         margin-top: 20px;
         max-width: 200px;
         max-height: 193px;
+        min-height: 193px;
     }
     #imgBox8{
         width: 12vw;
@@ -342,12 +350,13 @@ header{
         margin-top: 37px;
         max-width: 200px;
         max-height: 153px;
+        min-height: 152px;
     }
     #imgBox9{
         width: 12vw;
         height: 10vw;
         margin-bottom: 27px;
-    
+        min-height: 193px;
         margin-left: 5%;
         margin-top: 30px;
         max-width: 200px;
@@ -365,7 +374,7 @@ header{
         height: 17.2vw;
         background-color: rgb(27, 27, 27);
         margin-top:-23px;
-       
+    
       
     }
     #boxtext1{
@@ -417,11 +426,11 @@ header{
        
     }
     #boxtext6{
-        max-width: 270px;
+     width: 270px;
         max-height: 174px;
         height: 17.2vw;
         background-color: rgb(27, 27, 27);
-        margin-top: -42px;
+        margin-top: -41px;
       
   
     }
