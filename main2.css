@@ -134,12 +134,13 @@ header{
         margin-top: 120px;
         width: 13vw;
         background-color: rgb(255, 255, 255);
-        margin-left: 70px;
+        margin-left: 05vw;
         border: 3px solid grey;
         font-family: ralewayb;
         max-height: 340px;
         max-width: 320px;
         min-height: 400px;
+        min-width: 250px;
    
     }
     
