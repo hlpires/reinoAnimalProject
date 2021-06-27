@@ -25,22 +25,31 @@ const menuItems = document.querySelectorAll('.menu a[href^="#"]');
 		}if(jQuery('#Localizacao').data('clicked')){
 	
 		
-		var ti = getScrollTopByHref(event.currentTarget)-j;
+		var to = getScrollTopByHref(event.currentTarget)-j;
 		console.log(j);
-		scrollToPosition(ti);
+		scrollToPosition(to);
 		
 		}if(jQuery('#bFotos').data('clicked')){
 		
 		
-		var te = getScrollTopByHref(event.currentTarget)-k;
-		scrollToPosition(te);
+		var to = getScrollTopByHref(event.currentTarget)-k;
+		scrollToPosition(to);
 		
 		
+		}if(jQuery('#bsobre').data('clicked')){
+		
+		
+			var to = getScrollTopByHref(event.currentTarget)-k;
+			scrollToPosition(to);
 		}
-		
-		
-	}
-	
+		if(jQuery('#bprodutos').data('clicked')){
+
+
+		var to = getScrollTopByHref(event.currentTarget)-k;
+		scrollToPosition(to);
+}
+
+}
 	jQuery('#bServicos').click(function(){
 		$(this).data('clicked', true);
 	  });
@@ -52,6 +61,13 @@ const menuItems = document.querySelectorAll('.menu a[href^="#"]');
 
 	
 	  jQuery('#bFotos').click(function(){
+		$(this).data('clicked', true);
+	  });
+
+	  jQuery('#bsobre').click(function(){
+		$(this).data('clicked', true);
+	  });
+	  jQuery('#bprodutos').click(function(){
 		$(this).data('clicked', true);
 	  });
 
