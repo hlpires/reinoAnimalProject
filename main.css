@@ -670,7 +670,7 @@ a:hover {
             }
 
  }
-@media (min-width:1025px){
+@media (min-width:1601px){
         header{
             background-color: rgb(27, 27, 27);
             height: 6vw;
@@ -1326,7 +1326,7 @@ a:hover {
                 }
  
  }
-@media(min-width: 801px) and (max-width: 1024px){
+@media(min-width: 801px) and (max-width: 1600px){
     
     header{
         background-color: rgb(27, 27, 27);
