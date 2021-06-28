@@ -1601,6 +1601,7 @@ a:hover {
             text-align: center;
             font-family: ralewayB;
             font-size: 25px;
+            max-width: 330px;
          
             background-color: transparent;
             border: none;
@@ -1621,7 +1622,7 @@ a:hover {
             text-align: center;
             font-family: ralewayB;
             font-size: 25px;
-          
+            max-width: 330px;
             background-color: transparent;
             border: none;
             transition: 1.2s;
@@ -1649,7 +1650,7 @@ a:hover {
             text-align: center;
             font-family: ralewayB;
             font-size: 25px;
-           
+            max-width: 330px;
             background-color: transparent;
             border: none;
             transition: 1.2s;
@@ -1670,7 +1671,7 @@ a:hover {
             text-align: center;
             font-family: ralewayB;
             font-size: 25px;
-           
+            max-width: 330px;
             background-color: transparent;
             border: none;
             transition: 1.2s;
@@ -1696,6 +1697,7 @@ a:hover {
             transition: 1.2s;
             transform: translate3d(-100px,0,0);
             opacity: 0;
+            max-width: 330px;
         }
        
         .boxAnime{
@@ -1770,7 +1772,8 @@ a:hover {
              margin-top: 50px;
              width: 100%;
              float: left;
-             font-size: 1.5vw;
+             font-size: 25px;
+             
         }
         .sobredesc{
             height: 30vw;
@@ -1793,12 +1796,12 @@ a:hover {
         #imgSobre{
             width: 35vw;
             margin-left: 10%;
-        
+        max-width: 600px    ;
         }
 
         h20{
          
-            font-size:calc(5px + 1vw);
+            font-size:25px;
             color: rgb(0, 0, 0);
             font-family: ralewayb;
             font-weight: bold;
