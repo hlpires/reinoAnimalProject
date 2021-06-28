@@ -69,24 +69,80 @@ function check(){
   }
 }
 
-var bolsocheck = setInterval (bolsonaro,200);
-function bolsonaro(){
+var bolsocheck = setInterval (increase,200);
+function increase(){
 
 
-jQuery('#imgBox5').click(function(){
+jQuery('.racao').click(function(){
   $(this).data('clicked', true);
   });
+jQuery('.camacasa').click(function(){
+  $(this).data('clicked', true);
+  });
+jQuery('.brinquedo').click(function(){
+  $(this).data('clicked', true);
+  });
+jQuery('.arranhador').click(function(){
+  $(this).data('clicked', true);
+  });
+jQuery('.roupa').click(function(){
+    $(this).data('clicked', true);
+    });  
 
-
-  if(jQuery('#imgBox5').data('clicked')) {																	
+  if(jQuery('.racao').data('clicked')) {																	
 		console.log('ok');
-    $(".racao").css({"width": "500px", "height": "500px"});
+    $(".racao").css({"width": "900px", "height": "600px","margin-left": "0px",});
+    $("#imgBox5").css({"margin-left": "50px",});
     $('.brinquedo').hide();
     $('.camaCasa').hide();
     $('.arranhador').hide();
     $('.roupa').hide();
-    clearInterval(bolsocheck);
+ 
 
 		}
+    if(jQuery('.roupa').data('clicked')) {																	
+      console.log('ok');
+      $(".roupa").css({"width": "900px", "height": "600px","margin-left": "0px",});
+      $("#imgBox").css({"margin-left": "50px",});
+      $('.brinquedo').hide();
+      $('.camaCasa').hide();
+      $('.arranhador').hide();
+      $('.racao').hide();
+   
+  
+      }
+      if(jQuery('camaCasa').data('clicked')) {																	
+        console.log('ok');
+        $(".camaCasa").css({"width": "900px", "height": "600px","margin-left": "0px",});
+        $("#imgBox6").css({"margin-left": "50px",});
+        $('.brinquedo').hide();
+        $('.racao').hide();
+        $('.arranhador').hide();
+        $('.roupa').hide();
+        
+    
+        }
+        if(jQuery('arranhador').data('clicked')) {																	
+          console.log('ok');
+          $(".arranhador").css({"width": "900px", "height": "600px","margin-left": "0px",});
+          $("#imgBox7").css({"margin-left": "50px",});
+          $('.brinquedo').hide();
+          $('.camaCasa').hide();
+          $('.racao').hide();
+          $('.roupa').hide();
+          
+      
+          }
+          if(jQuery('brinquedo').data('clicked')) {																	
+            console.log('ok');
+            $(".brinquedo").css({"width": "900px", "height": "600px","margin-left": "0px",});
+            $("#imgBox8").css({"margin-left": "50px",});
+            $('.racao').hide();
+            $('.camaCasa').hide();
+            $('.arranhador').hide();
+            $('.roupa').hide();
+          
+        
+            }
   }
-  bolsonaro();
+  increase();
