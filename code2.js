@@ -73,12 +73,12 @@ var bolsocheck = setInterval (bolsonaro,200);
 function bolsonaro(){
 
 
-jQuery('#imgBox').click(function(){
+jQuery('#imgBox5').click(function(){
   $(this).data('clicked', true);
   });
 
 
-  if(jQuery('#imgBox').data('clicked')) {																	
+  if(jQuery('#imgBox5').data('clicked')) {																	
 		console.log('ok');
     $(".racao").css({"width": "500px", "height": "500px"});
     $('.brinquedo').hide();
