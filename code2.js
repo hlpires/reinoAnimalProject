@@ -68,3 +68,20 @@ function check(){
     
   }
 }
+
+var bolsocheck = setInterval (bolsonaro,200);
+function bolsonaro(){
+
+
+jQuery('#imgBox').click(function(){
+  $(this).data('clicked', true);
+  });
+
+
+  if(jQuery('#imgBox').data('clicked')) {																	
+		console.log('ok');
+    clearInterval(bolsocheck);
+
+		}
+  }
+  bolsonaro();
