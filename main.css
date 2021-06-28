@@ -670,7 +670,7 @@ a:hover {
             }
 
  }
-@media (min-width:1601px){
+@media (min-width:1401px){
         header{
             background-color: rgb(27, 27, 27);
             height: 6vw;
@@ -1135,6 +1135,7 @@ a:hover {
              margin-top: 50px;
              width: 100%;
              float: left;
+             font-size: 1.5vw;
         }
         .sobredesc{
             height: 30vw;
@@ -1324,9 +1325,12 @@ a:hover {
                     max-width: 1000px;
                     margin-left: 06%;
                 }
+                #camaText{
+                    margin-top: 20px;
+                }
  
  }
-@media(min-width: 801px) and (max-width: 1600px){
+@media(min-width: 801px) and (max-width: 1400px){
     
     header{
         background-color: rgb(27, 27, 27);
@@ -1438,6 +1442,7 @@ a:hover {
         justify-content: center;
         transform: translate3d(-100px,0,0);
         opacity: 0;
+        
     }
     .servicosAnime{
         opacity: 1;
@@ -1540,7 +1545,7 @@ a:hover {
         margin-top: 250px;
         height:calc(20vw + 200px);
         width:20vw;
-        min-height: 250px;
+        min-height: 300px;
         box-shadow: 0 10px 10px 0 rgb(125 144 165), 0 0 0 2px black;
         background-color: white;
         max-height: 880px;
@@ -1548,7 +1553,7 @@ a:hover {
         text-align: center;  
         transition: all .2s ease-in-out;
         min-width: 280px;
-        margin-right: 19vw;
+        margin-right: 20vw;
 
     
     }
@@ -1561,7 +1566,7 @@ a:hover {
         margin-top: 250px;
         height:calc(20vw + 200px);
         width: 280px;
-        min-height: 250px;
+        min-height: 300px;
         box-shadow: 0 10px 10px 0 rgb(125 144 165), 0 0 0 2px black;
         border-radius: 10%;
         max-height: 880px;
@@ -1569,7 +1574,7 @@ a:hover {
         text-align: center;
         transition: all .2s ease-in-out;
         min-width: 280px;
-        margin-left: 19vw;
+        margin-left: 20vw;
    
       
     }
