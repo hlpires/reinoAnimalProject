@@ -559,7 +559,7 @@ a:hover {
     .mapaDiv{
             margin-top: 0vw;
             width: 100%;
-            height: calc(500px + 50vw);
+            height: calc(500px + 60vw);
             text-align: center;
             background-color: rgb(255, 255, 255);
             float: left;
@@ -670,7 +670,7 @@ a:hover {
             }
 
  }
- @media(min-width: 501px) and (max-width: 900px){
+ @media(min-width: 501px) and (max-width: 1000px){
     header{
         background-color: rgb(27, 27, 27);
         height: 2vw;
@@ -1271,7 +1271,7 @@ a:hover {
                 float: left;
             }
             .contato{
-                margin-top:30px;
+                margin-top:5vw;
                 width: 100%;
                
                 max-height: 650px;
@@ -1368,7 +1368,7 @@ a:hover {
                     }
                     .descIntro{
                         width: 60vw;
-                        height:calc(23.0vw + 10vh);
+                        height:calc(23.2vw + 10vh);
                         background-color:rgb(0,0,0); 
                         background-color:rgba(0,0,0,0.3);
                         position: absolute;
@@ -1965,7 +1965,7 @@ a:hover {
                 }
  
  }
-@media(min-width: 901px) and (max-width: 1400px){
+@media(min-width: 1001px) and (max-width: 1400px){
     
     header{
         background-color: rgb(27, 27, 27);
