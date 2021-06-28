@@ -80,6 +80,11 @@ jQuery('#imgBox').click(function(){
 
   if(jQuery('#imgBox').data('clicked')) {																	
 		console.log('ok');
+    $(".racao").css({"width": "500px", "height": "500px"});
+    $('.brinquedo').hide();
+    $('.camaCasa').hide();
+    $('.arranhador').hide();
+    $('.roupa').hide();
     clearInterval(bolsocheck);
 
 		}

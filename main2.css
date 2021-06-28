@@ -25,6 +25,464 @@ body{
     font-family: ralewayb;
     src: url(./fontes/Poppins-Light.ttf);
   }
+
+@media(max-width: 1023px){
+    header{
+        background-color: rgb(27, 27, 27);
+        height: 6vw;
+        width: 100%;
+        float: left;
+        margin: 0 auto;
+        font-family: raleway;
+        border-bottom: 04px solid #070707;
+        max-height: 250px;
+        min-height: 150px;
+        
+        }
+        .logo{
+            width:50vw;
+            float:left;
+            position: relative;
+            margin-top: 20px;
+            margin-left: 130px;
+            max-width: 400px;
+            margin-right: 5vw;
+            }
+            .menu{
+                display:inline-flex;
+                width: 10%;
+                position: relative;
+                text-align:center;
+                margin-top: 70px;
+                display: flex;
+             
+              
+                color: white;
+               
+                }
+        .roupas{
+            height: 300vh;
+            background-color: #f0f0f0;
+            max-height: 4000px;
+        
+          
+        }
+        #position{
+            width: 99.6%;
+            height: 250px;
+            background-color: rgb(255, 255, 255);
+            float: left;
+            justify-content: center;
+            display: flex;
+            border: 4px solid #ba6e2d;
+            max-height: 300px;
+        }
+        h2{
+            
+            color: #ba6e2d;
+            text-align: center;
+            
+        }
+        h4{
+            color: #ba6e2d;
+            text-align: center;
+            font-size: 40px;
+            margin-top: 100px;
+            width: 20%;
+            min-width: 400px;
+        }
+        #gpslogo{
+            margin-top: 20px;
+            width: 200px;
+            height:200px;
+            margin-left: 100px;
+            float: right;
+            transition: 1s;
+        
+        }
+        #gpslogo:hover{
+        transform: scale(1.2);
+        cursor: pointer;
+        }
+        h1{
+            font-weight:lighter;
+            cursor: pointer;
+            font-size: 22px;
+            transition: all .2s ease-in-out;
+            color: white;
+            border: none;
+            border-bottom: transparent;
+            padding:0px;
+            margin-left: 80px;
+            
+        }
+        h1:hover{
+            transform: scale(1.35);
+            color: #ba6e2d;
+        
+        
+        
+        }
+        h2{ 
+            
+             font-family: ralewayB;
+    
+        }
+        .select{
+            float: left;
+            height: 16vw;
+            margin-top: 120px;
+            width: 13vw;
+            background-color: rgb(255, 255, 255);
+            margin-left: 05vw;
+            border: 3px solid grey;
+            font-family: ralewayb;
+            max-height: 340px;
+            max-width: 320px;
+            min-height: 400px;
+            min-width: 250px;
+       
+        }
+        
+        .select form{
+            margin-left: 10px;
+            
+        }
+        .select label{
+            margin-top:15px;
+            display:inline-block;
+    
+        
+        }
+        .itemsBox{
+            height: 60vw;
+            width: 70vw;
+            background-color: #f0f0f0; 
+            float: right;
+           display:flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            max-height: 2500px;
+            max-width: 2000px;
+       
+        }
+        .camaCasa{
+            height:400px;
+            width: 250px;
+            border: 2px solid #ba6e2d;
+            margin: 4vw;
+            cursor: pointer;
+            transition: 1.2s;
+     
+            box-shadow: 0 20px 20px 0 rgb(125 144 165);
+            display: inline-block;
+         
+    
+        }
+        .camaCasa:hover{
+            transform: scale(1.1);
+        }
+        .arranhador{
+            height:400px;
+            width: 250px;
+            border: 2px solid #ba6e2d;
+            margin: 4vw;
+            box-shadow: 0 20px 20px 0 rgb(125 144 165);
+            display: inline-block;
+            cursor: pointer;
+            transition: 1.2s;
+        }
+        .arranhador:hover{
+            transform: scale(1.1);
+        }
+        .brinquedo{
+            height:400px;
+            width: 250px;
+            border: 2px solid #ba6e2d;
+            margin: 4vw;
+            box-shadow: 0 20px 20px 0 rgb(125 144 165);
+            display: inline-block;
+            cursor: pointer;
+            transition: 1.2s;
+    
+        }
+        .brinquedo:hover{
+            transform: scale(1.1);
+        }
+        .roupa{
+            height:400px;
+            width: 250px;
+            border: 2px solid #ba6e2d;
+            margin: 4vw;
+            cursor: pointer;
+            transition: 1.2s;
+            box-shadow: 0 20px 20px 0 rgb(125 144 165);
+            display: inline-block;
+        }
+        .roupa:hover{
+            transform: scale(1.1);
+        }
+        .racao{
+            height:400px;
+            width: 250px;
+            border: 2px solid #ba6e2d;
+            margin: 4vw;
+            box-shadow: 0 20px 20px 0 rgb(125 144 165);
+            display: inline-block;
+            cursor: pointer;
+            transition: 1.2s;
+        }
+        .racao:hover{
+        transform:scale(1.1)
+        }
+        .contato{
+            margin-top:0vw;
+            width: 100%;
+            height:calc(1400px - 60vw);
+            max-height: 450px;
+            background-color: rgb(18, 18, 19);
+            float: left;
+            text-align: center;
+            min-height: 420px;
+        }
+        h8{
+      
+        position:absolute;
+        font-size: 12px;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        float: left;
+        
+        }
+        .endLogo{
+            margin-top:100px;
+            width: 30vw;
+            max-width: 600px;
+            min-width: 500px;
+         
+        }
+        #imgBox{
+           width: 180px;
+            height: 11vw;
+            margin-bottom: 10px;
+            margin-left: 30%;
+            margin-top: 10px;
+           max-width: 120px;
+           max-height: 212px;
+         min-height: 211px;
+        }
+        #imgBox1{
+            width: 180px;
+            height: 10vw;
+            margin-left: 14%;
+            max-width: 200px;
+            max-height: 191px;
+            margin-bottom: 02px;
+            min-height: 191px;
+        }
+        #imgBox2{
+            width: 180px;
+            height: 11vw;
+            margin-left: 15%;
+            max-width: 200px;
+            max-height: 213px;
+            margin-bottom: 40px;
+            min-height: 211px;
+        }
+        #imgBox3{
+            margin-top: 20px;
+            width: 08vw;
+            height: 10vw;
+            margin-left: 20%;
+            max-width: 150px;
+            max-height: 195px;
+          margin-bottom: 38px;
+          min-height: 190px;
+        }
+        #imgBox4{
+            margin-top: 20px;
+            width: 150px;
+            height: 10vw;
+            min-height: 211px;
+            margin-left: 25%;
+            max-width: 150px;
+            max-height: 180px;
+            margin-bottom: 49px;
+            min-height: 180px;
+        }
+        #imgBox5{
+            width: 150px;
+            height: 10vw;
+            min-height: 211px;
+            margin-left: 25%;
+            margin-top: 20px;
+            max-width: 150px;
+            max-height: 193px;
+            margin-bottom: 67px;
+            min-height: 192px;
+        }
+    
+        #imgBox6{
+            width: 200px;
+            height: 9vw;
+            min-height: 173px;
+            margin-left: 10%;
+            margin-top: 30px;
+            max-width: 200px;
+            max-height: 172px;
+            margin-bottom: 46px;
+            
+        }
+        #imgBox7{
+            width: 150px;
+            height: 10vw;
+            margin-bottom: 15px;
+            margin-left: 25%;
+            margin-top: 20px;
+            max-width: 200px;
+            max-height: 193px;
+            min-height: 193px;
+        }
+        #imgBox8{
+            width: 220px;
+            height: 8vw;
+            margin-bottom: 60px;
+            margin-left: 5%;
+            margin-top: 37px;
+            max-width: 200px;
+            max-height: 153px;
+            min-height: 152px;
+        }
+        #imgBox9{
+            width: 220px;
+            height: 10vw;
+            margin-bottom: 27px;
+            min-height: 193px;
+            margin-left: 5%;
+            margin-top: 30px;
+            max-width: 200px;
+            max-height: 193px;
+        }
+    
+    
+    
+    
+    
+    
+        #boxtext{
+            max-width: 270px;
+            max-height: 174px;
+            height: 17.2vw;
+            background-color: rgb(27, 27, 27);
+            margin-top:-23px;
+          
+          
+        }
+        #boxtext1{
+            max-width: 270px;
+            max-height: 174px;
+            height: 17.2vw;
+            background-color: rgb(27, 27, 27);
+           margin-top: 33px;
+         
+                 
+        }
+    
+        #boxtext2{
+            max-width: 270px;
+            max-height: 174px;
+            height: 17.2vw;
+            background-color: rgb(251, 251, 251);
+            margin-top: -43px;
+            
+                       
+        }
+    
+        #boxtext3{
+            max-width: 270px;
+            max-height: 174px;
+            height: 17.2vw;
+            background-color: rgb(27, 27, 27);
+            margin-top: -42px;
+           
+         
+        }
+    
+         #boxtext4{
+            max-width: 270px;
+            max-height: 174px;
+            height: 17.2vw;
+            background-color: rgb(27, 27, 27);
+       
+         
+            margin-top: -42px;
+        }
+        #boxtext5{
+            max-width: 270px;
+            max-height: 174px;
+            height: 17.2vw;
+            background-color: rgb(27, 27, 27);
+            margin-top: -72px;
+         
+           
+        }
+        #boxtext6{
+         width: 250px;
+            max-height: 174px;
+            height: 17.2vw;
+            background-color: rgb(27, 27, 27);
+            margin-top: -41px;
+          
+      
+        }
+        #boxtext7{
+            max-width: 270px;
+            max-height: 174px;
+            height: 17.2vw;
+            background-color: rgb(27, 27, 27);
+            margin-top: -20px;
+          
+         
+        }
+        #boxtext8{
+            max-width: 270px;
+            max-height: 174px;
+            height: 17.2vw;
+            background-color: rgb(27, 27, 27);
+            margin-top: -42px;
+          
+        }
+        #boxtext9{
+            max-width: 270px;
+            max-height: 174px;
+            height: 17.2vw;
+            background-color: rgb(27, 27, 27);
+            margin-top: -42px;
+         
+           
+           
+        }
+    
+    h3{
+    font-family: ralewayB;
+    color: #ba6e2d;
+    text-align: center;
+    }
+    
+    p1{
+    font-family: ralewayb;
+    color: #ba6e2d;
+    text-align: center;
+    width: 100%;
+    float: right;
+    margin-top: 20px;
+    }
+    }
+@media(min-width: 1024px){
 header{
     background-color: rgb(27, 27, 27);
     height: 6vw;
@@ -479,6 +937,6 @@ width: 100%;
 float: right;
 margin-top: 20px;
 }
-
+}
 
 
