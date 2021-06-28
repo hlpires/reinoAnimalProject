@@ -1590,7 +1590,7 @@ a:hover {
         
         }
         .box1{
-            height: 20vw;
+            height: 21vw;
             width: 13vw;
             background-color: transparent;
             float: left;
@@ -1611,7 +1611,7 @@ a:hover {
         }
      
         .box2{
-            height: 20vw;
+            height: 21vw;
             width: 13vw;
             background-color: transparent;
             float: left;
@@ -1639,7 +1639,7 @@ a:hover {
             transform: scale(1.2);
         }
         .box3{
-            height: 20vw;
+            height: 21vw;
             width: 13vw;
             background-color: transparent;
             float: left;
@@ -1660,7 +1660,7 @@ a:hover {
        
        
         .box4{
-            height: 20vw;
+            height: 21vw;
             width: 13vw;
             background-color: transparent;
             float: left;
@@ -1681,7 +1681,7 @@ a:hover {
        
       
         .box5{
-            height: 20vw;
+            height: 21vw;
             width: 13vw;
             background-color: transparent;
             float: left;
@@ -1776,12 +1776,12 @@ a:hover {
              
         }
         .sobredesc{
-            height: 30vw;
+            height: 45vw;
             width: 100vw;
             background-color: white;
             
             float: left;
-            max-height: 700px;
+            max-height: 1000px;
             max-width: 2300px;
             transition: 1.2s;
             transform: translate3d(0,0,0);
@@ -1794,9 +1794,9 @@ a:hover {
         }
 
         #imgSobre{
-            width: 35vw;
-            margin-left: 10%;
-        max-width: 600px    ;
+            width: 45vw;
+            margin-left: 05%;
+        max-width: 700px    ;
         }
 
         h20{
