@@ -632,10 +632,26 @@ header{
         background-color: rgb(255, 255, 255);
         box-shadow: 0 20px 20px 0 rgb(125 144 165);
         display: inline-block;
-     
+        transition: 0.4s;
 
     }
     .camaCasa:hover{
+        transform: scale(1.1);
+    }
+    .casa{
+        height:400px;
+        width: 250px;
+        border: 1px solid black;
+        margin: 4vw;
+        cursor: pointer;
+        transition: 1.2s;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0 20px 20px 0 rgb(125 144 165);
+        display: inline-block;
+     transition: 0.4s;
+
+    }
+    .casa:hover{
         transform: scale(1.1);
     }
     .arranhador{
@@ -648,6 +664,7 @@ header{
         cursor: pointer;
         transition: 1.2s;
         background-color: rgb(255, 255, 255);
+        transition: 0.4s;
     }
     .arranhador:hover{
         transform: scale(1.1);
@@ -660,7 +677,8 @@ header{
         box-shadow: 0 20px 20px 0 rgb(125 144 165);
         display: inline-block;
         cursor: pointer;
-        transition: 1.2s;
+        transition: 0.4s;
+        
         background-color: rgb(255, 255, 255);
 
     }
@@ -673,7 +691,7 @@ header{
         border: 1px solid black;
         margin: 4vw;
         cursor: pointer;
-        transition: 1.2s;
+        transition: 0.4s;
         box-shadow: 0 20px 20px 0 rgb(125 144 165);
         display: inline-block;
         background-color: rgb(255, 255, 255);
@@ -689,7 +707,7 @@ header{
         box-shadow: 0 20px 20px 0 rgb(125 144 165);
         display: inline-block;
         cursor: pointer;
-        transition: 1.2s;
+        transition: 0.4s;
         background-color: rgb(255, 255, 255);
     }
     .racao:hover{

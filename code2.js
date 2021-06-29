@@ -87,7 +87,10 @@ jQuery('.arranhador').click(function(){
   });
 jQuery('.roupa').click(function(){
     $(this).data('clicked', true);
-    });  
+    });
+jQuery('.casa').click(function(){
+      $(this).data('clicked', true);
+      });  
 
   if(jQuery('.racao').data('clicked')) {																	
 		console.log('ok');
@@ -98,11 +101,12 @@ jQuery('.roupa').click(function(){
     $("h3").css({"opacity": "0", });
     $("p1").css({"opacity": "0", });
     $(".imgwpBox").css({"opacity": "1","margin-left": "180px","margin-top": "-230px", });
-    
+    $('.casa').hide();
     $('.brinquedo').hide();
     $('.camaCasa').hide();
     $('.arranhador').hide();
     $('.roupa').hide();
+    clearInterval(bolsocheck);
  
 
 		}
@@ -119,6 +123,8 @@ jQuery('.roupa').click(function(){
       $('.camaCasa').hide();
       $('.arranhador').hide();
       $('.racao').hide();
+      $('.casa').hide();
+      clearInterval(bolsocheck);
       }
       if(jQuery('.camaCasa').data('clicked')) {																	
         console.log('ok');
@@ -133,7 +139,8 @@ jQuery('.roupa').click(function(){
         $('.racao').hide();
         $('.arranhador').hide();
         $('.roupa').hide();
-        
+        $('.casa').hide();
+        clearInterval(bolsocheck);
     
         }
         if(jQuery('.arranhador').data('clicked')) {																	
@@ -149,13 +156,14 @@ jQuery('.roupa').click(function(){
           $('.camaCasa').hide();
           $('.racao').hide();
           $('.roupa').hide();
-          
+          $('.casa').hide();
+          clearInterval(bolsocheck);
       
           }
           if(jQuery('.brinquedo').data('clicked')) {																	
             console.log('ok');
             $(".brinquedo").css({"width": "550px", "height": "600px","margin-left": "60px",});
-            $("#imgBox8").css({"margin-left": "50px","margin-top":"50px","max-width": "1050px","width":"150px","max-height": "450px","height":"200px"});
+            $("#imgBox8").css({"margin-left": "50px","margin-top":"50px","max-width": "1050px","width":"180px","max-height": "450px","height":"150px"});
             $("#boxtext8").css({"margin-left": "80px","margin-top": "-60px", });
             $(".p2").css({"opacity": "1","width":"420px","margin-left": "-40px","margin-top": "-20px" });
             $("h3").css({"opacity": "0", });
@@ -165,8 +173,25 @@ jQuery('.roupa').click(function(){
             $('.camaCasa').hide();
             $('.arranhador').hide();
             $('.roupa').hide();
-          
+            $('.casa').hide();
+            clearInterval(bolsocheck);
         
             }
+            if(jQuery('.casa').data('clicked')) {																	
+              console.log('ok');
+              $(".casa").css({"width": "550px", "height": "600px","margin-left": "60px",});
+              $("#imgBox9").css({"margin-left": "50px","margin-top":"50px","max-width": "1050px","width":"150px","max-height": "450px","height":"200px"});
+              $("#boxtext9").css({"margin-left": "80px","margin-top": "-60px", });
+              $(".p2").css({"opacity": "1","width":"420px","margin-left": "-40px","margin-top": "-20px" });
+              $("h3").css({"opacity": "0", });
+              $("p1").css({"opacity": "0", });
+              $(".imgwpBox").css({"opacity": "1","margin-left": "180px","margin-top": "-230px", });
+              $('.racao').hide();
+              $('.camaCasa').hide();
+              $('.arranhador').hide();
+              $('.roupa').hide();
+              $('.brinquedo').hide();
+              clearInterval(bolsocheck);          
+              }
   }
   increase();
