@@ -92,7 +92,12 @@ jQuery('.roupa').click(function(){
   if(jQuery('.racao').data('clicked')) {																	
 		console.log('ok');
     $(".racao").css({"width": "900px", "height": "600px","margin-left": "0px",});
-    $("#imgBox5").css({"margin-left": "50px",});
+    $("#imgBox5").css({"margin-left": "100px","margin-top":"50px","max-width": "1050px","width":"200px","max-height": "550px","height":"250px"});
+    $("#boxtext5").css({"margin-left": "110px","margin-top": "-130px", });
+    $(".p2").css({"opacity": "1","width":"600px" });
+    $("h3").css({"opacity": "0", });
+    $("p1").css({"opacity": "0", });
+    $("#imgwpBox").css({"opacity": "1","margin-left": "310px","margin-top": "-210px", });
     $('.brinquedo').hide();
     $('.camaCasa').hide();
     $('.arranhador').hide();

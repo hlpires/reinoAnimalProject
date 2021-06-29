@@ -629,7 +629,7 @@ header{
         margin: 4vw;
         cursor: pointer;
         transition: 1.2s;
- 
+        background-color: rgb(255, 255, 255);
         box-shadow: 0 20px 20px 0 rgb(125 144 165);
         display: inline-block;
      
@@ -647,6 +647,7 @@ header{
         display: inline-block;
         cursor: pointer;
         transition: 1.2s;
+        background-color: rgb(255, 255, 255);
     }
     .arranhador:hover{
         transform: scale(1.1);
@@ -660,6 +661,7 @@ header{
         display: inline-block;
         cursor: pointer;
         transition: 1.2s;
+        background-color: rgb(255, 255, 255);
 
     }
     .brinquedo:hover{
@@ -674,6 +676,7 @@ header{
         transition: 1.2s;
         box-shadow: 0 20px 20px 0 rgb(125 144 165);
         display: inline-block;
+        background-color: rgb(255, 255, 255);
     }
     .roupa:hover{
         transform: scale(1.1);
@@ -681,12 +684,13 @@ header{
     .racao{
         height:400px;
         width: 250px;
-        border: 2px solid #ba6e2d;
+        border: 1px solid black;
         margin: 4vw;
         box-shadow: 0 20px 20px 0 rgb(125 144 165);
         display: inline-block;
         cursor: pointer;
         transition: 1.2s;
+        background-color: rgb(255, 255, 255);
     }
     .racao:hover{
     transform:scale(1.1)
@@ -833,7 +837,7 @@ header{
         max-width: 270px;
         max-height: 174px;
         height: 17.2vw;
-        background-color: rgb(27, 27, 27);
+        background-color: rgb(255, 255, 255);
         margin-top:-23px;
       
       
@@ -842,7 +846,7 @@ header{
         max-width: 270px;
         max-height: 174px;
         height: 17.2vw;
-        background-color: rgb(27, 27, 27);
+        background-color: rgb(255, 255, 255);
        margin-top: 33px;
      
              
@@ -852,7 +856,7 @@ header{
         max-width: 270px;
         max-height: 174px;
         height: 17.2vw;
-        background-color: rgb(251, 251, 251);
+        background-color: rgb(255, 255, 255);
         margin-top: -43px;
         
                    
@@ -862,7 +866,7 @@ header{
         max-width: 270px;
         max-height: 174px;
         height: 17.2vw;
-        background-color: rgb(27, 27, 27);
+        background-color: rgb(255, 255, 255);
         margin-top: -42px;
        
      
@@ -872,7 +876,7 @@ header{
         max-width: 270px;
         max-height: 174px;
         height: 17.2vw;
-        background-color: rgb(27, 27, 27);
+        background-color: rgb(255, 255, 255);
    
      
         margin-top: -42px;
@@ -881,7 +885,7 @@ header{
         max-width: 270px;
         max-height: 174px;
         height: 17.2vw;
-        background-color: rgb(27, 27, 27);
+        background-color: rgb(255, 255, 255);
         margin-top: -72px;
      
        
@@ -890,7 +894,7 @@ header{
      width: 250px;
         max-height: 174px;
         height: 17.2vw;
-        background-color: rgb(27, 27, 27);
+        background-color: rgb(255, 255, 255);
         margin-top: -41px;
       
   
@@ -899,7 +903,7 @@ header{
         max-width: 270px;
         max-height: 174px;
         height: 17.2vw;
-        background-color: rgb(27, 27, 27);
+        background-color: rgb(255, 255, 255);
         margin-top: -20px;
       
      
@@ -908,7 +912,7 @@ header{
         max-width: 270px;
         max-height: 174px;
         height: 17.2vw;
-        background-color: rgb(27, 27, 27);
+        background-color: rgb(255, 255, 255);
         margin-top: -42px;
       
     }
@@ -916,7 +920,7 @@ header{
         max-width: 270px;
         max-height: 174px;
         height: 17.2vw;
-        background-color: rgb(27, 27, 27);
+        background-color: rgb(255, 255, 255);
         margin-top: -42px;
      
        
@@ -936,6 +940,18 @@ text-align: center;
 width: 100%;
 float: right;
 margin-top: 20px;
+}
+p2{
+    opacity: 0;
+    position: absolute;
+    font-size: 20px;
+    font-family: ralewayB;
+}
+#imgwpBox{
+    width: 280px;
+    height: 60px;
+    position: absolute;
+    opacity: 0;
 }
 }
 
