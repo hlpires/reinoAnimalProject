@@ -625,7 +625,7 @@ header{
     .camaCasa{
         height:400px;
         width: 250px;
-        border: 2px solid #ba6e2d;
+        border: 1px solid black;
         margin: 4vw;
         cursor: pointer;
         transition: 1.2s;
@@ -641,7 +641,7 @@ header{
     .arranhador{
         height:400px;
         width: 250px;
-        border: 2px solid #ba6e2d;
+        border: 1px solid black;
         margin: 4vw;
         box-shadow: 0 20px 20px 0 rgb(125 144 165);
         display: inline-block;
@@ -655,7 +655,7 @@ header{
     .brinquedo{
         height:400px;
         width: 250px;
-        border: 2px solid #ba6e2d;
+        border: 1px solid black;
         margin: 4vw;
         box-shadow: 0 20px 20px 0 rgb(125 144 165);
         display: inline-block;
@@ -670,7 +670,7 @@ header{
     .roupa{
         height:400px;
         width: 250px;
-        border: 2px solid #ba6e2d;
+        border: 1px solid black;
         margin: 4vw;
         cursor: pointer;
         transition: 1.2s;
@@ -929,13 +929,20 @@ header{
 
 h3{
 font-family: ralewayB;
-color: #ba6e2d;
+color: #000000;
 text-align: center;
 }
-
+h9{
+    font-family: ralewayB;
+    color: #ba6e2d;
+    text-align: center ;
+    font-size: 30px;
+    padding: 10px;
+ 
+    }
 p1{
 font-family: ralewayb;
-color: #ba6e2d;
+color: #000000;
 text-align: center;
 width: 100%;
 float: right;
@@ -944,11 +951,13 @@ margin-top: 20px;
 p2{
     opacity: 0;
     position: absolute;
-    font-size: 20px;
+    font-size: 15px;
     font-family: ralewayB;
+    border: 1px solid #ba6e2d;
+    padding: 25px;
 }
-#imgwpBox{
-    width: 280px;
+.imgwpBox{
+    width: 250px;
     height: 60px;
     position: absolute;
     opacity: 0;

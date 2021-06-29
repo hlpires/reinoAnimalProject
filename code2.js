@@ -76,7 +76,7 @@ function increase(){
 jQuery('.racao').click(function(){
   $(this).data('clicked', true);
   });
-jQuery('.camacasa').click(function(){
+jQuery('.camaCasa').click(function(){
   $(this).data('clicked', true);
   });
 jQuery('.brinquedo').click(function(){
@@ -91,13 +91,14 @@ jQuery('.roupa').click(function(){
 
   if(jQuery('.racao').data('clicked')) {																	
 		console.log('ok');
-    $(".racao").css({"width": "900px", "height": "600px","margin-left": "0px",});
-    $("#imgBox5").css({"margin-left": "100px","margin-top":"50px","max-width": "1050px","width":"200px","max-height": "550px","height":"250px"});
-    $("#boxtext5").css({"margin-left": "110px","margin-top": "-130px", });
-    $(".p2").css({"opacity": "1","width":"600px" });
+    $(".racao").css({"width": "550px", "height": "600px","margin-left": "60px",});
+    $("#imgBox5").css({"margin-left": "50px","margin-top":"50px","max-width": "1050px","width":"150px","max-height": "450px","height":"200px"});
+    $("#boxtext5").css({"margin-left": "80px","margin-top": "-130px", });
+    $(".p2").css({"opacity": "1","width":"420px","margin-left": "-40px","margin-top": "-20px" });
     $("h3").css({"opacity": "0", });
     $("p1").css({"opacity": "0", });
-    $("#imgwpBox").css({"opacity": "1","margin-left": "310px","margin-top": "-210px", });
+    $(".imgwpBox").css({"opacity": "1","margin-left": "180px","margin-top": "-230px", });
+    
     $('.brinquedo').hide();
     $('.camaCasa').hide();
     $('.arranhador').hide();
@@ -107,19 +108,27 @@ jQuery('.roupa').click(function(){
 		}
     if(jQuery('.roupa').data('clicked')) {																	
       console.log('ok');
-      $(".roupa").css({"width": "900px", "height": "600px","margin-left": "0px",});
-      $("#imgBox").css({"margin-left": "50px",});
+      $(".roupa").css({"width": "550px", "height": "600px","margin-left": "60px",});
+      $("#imgBox").css({"margin-left": "50px","margin-top":"50px","max-width": "1050px","width":"150px","max-height": "450px","height":"200px"});
+      $("#boxtext").css({"margin-left": "80px","margin-top": "-60px", });
+      $(".p2").css({"opacity": "1","width":"420px","margin-left": "-40px","margin-top": "-20px" });
+      $("h3").css({"opacity": "0", });
+      $("p1").css({"opacity": "0", });
+      $(".imgwpBox").css({"opacity": "1","margin-left": "180px","margin-top": "-230px", });
       $('.brinquedo').hide();
       $('.camaCasa').hide();
       $('.arranhador').hide();
       $('.racao').hide();
-   
-  
       }
-      if(jQuery('camaCasa').data('clicked')) {																	
+      if(jQuery('.camaCasa').data('clicked')) {																	
         console.log('ok');
-        $(".camaCasa").css({"width": "900px", "height": "600px","margin-left": "0px",});
-        $("#imgBox6").css({"margin-left": "50px",});
+        $(".camaCasa").css({"width": "550px", "height": "600px","margin-left": "60px",});
+        $("#imgBox6").css({"margin-left": "50px","margin-top":"50px","max-width": "1050px","width":"150px","max-height": "450px","height":"200px"});
+        $("#boxtext6").css({"margin-left": "80px","margin-top": "-60px", });
+        $(".p2").css({"opacity": "1","width":"420px","margin-left": "-40px","margin-top": "-20px" });
+        $("h3").css({"opacity": "0", });
+        $("p1").css({"opacity": "0", });
+        $(".imgwpBox").css({"opacity": "1","margin-left": "180px","margin-top": "-230px", });
         $('.brinquedo').hide();
         $('.racao').hide();
         $('.arranhador').hide();
@@ -127,10 +136,15 @@ jQuery('.roupa').click(function(){
         
     
         }
-        if(jQuery('arranhador').data('clicked')) {																	
+        if(jQuery('.arranhador').data('clicked')) {																	
           console.log('ok');
-          $(".arranhador").css({"width": "900px", "height": "600px","margin-left": "0px",});
-          $("#imgBox7").css({"margin-left": "50px",});
+          $(".arranhador").css({"width": "550px", "height": "600px","margin-left": "60px",});
+          $("#imgBox7").css({"margin-left": "50px","margin-top":"50px","max-width": "1050px","width":"150px","max-height": "450px","height":"200px"});
+          $("#boxtext7").css({"margin-left": "80px","margin-top": "-60px", });
+          $(".p2").css({"opacity": "1","width":"420px","margin-left": "-40px","margin-top": "-20px" });
+          $("h3").css({"opacity": "0", });
+          $("p1").css({"opacity": "0", });
+          $(".imgwpBox").css({"opacity": "1","margin-left": "180px","margin-top": "-230px", });
           $('.brinquedo').hide();
           $('.camaCasa').hide();
           $('.racao').hide();
@@ -138,10 +152,15 @@ jQuery('.roupa').click(function(){
           
       
           }
-          if(jQuery('brinquedo').data('clicked')) {																	
+          if(jQuery('.brinquedo').data('clicked')) {																	
             console.log('ok');
-            $(".brinquedo").css({"width": "900px", "height": "600px","margin-left": "0px",});
-            $("#imgBox8").css({"margin-left": "50px",});
+            $(".brinquedo").css({"width": "550px", "height": "600px","margin-left": "60px",});
+            $("#imgBox8").css({"margin-left": "50px","margin-top":"50px","max-width": "1050px","width":"150px","max-height": "450px","height":"200px"});
+            $("#boxtext8").css({"margin-left": "80px","margin-top": "-60px", });
+            $(".p2").css({"opacity": "1","width":"420px","margin-left": "-40px","margin-top": "-20px" });
+            $("h3").css({"opacity": "0", });
+            $("p1").css({"opacity": "0", });
+            $(".imgwpBox").css({"opacity": "1","margin-left": "180px","margin-top": "-230px", });
             $('.racao').hide();
             $('.camaCasa').hide();
             $('.arranhador').hide();
