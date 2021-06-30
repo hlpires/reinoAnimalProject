@@ -978,9 +978,16 @@ header{
 
 h3{
 font-family: ralewayB;
-color: #000000;
+color: #ba6e2d;
 text-align: center;
+
 }
+h5{
+    font-family: ralewayB;
+    color: #ba6e2d;
+    text-align: center;
+    
+    }
 h9{
     font-family: ralewayB;
     color: #ba6e2d;

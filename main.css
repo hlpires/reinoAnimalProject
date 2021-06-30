@@ -1776,7 +1776,7 @@ a:hover {
              
         }
         .sobredesc{
-            height: 45vw;
+            height: 40vw;
             width: 100vw;
             background-color: white;
             
@@ -1797,6 +1797,7 @@ a:hover {
             width: 45vw;
             margin-left: 05%;
         max-width: 700px    ;
+        margin-top: 8vw;
         }
 
         h20{
@@ -1806,7 +1807,8 @@ a:hover {
             font-family: ralewayb;
             font-weight: bold;
             float: right;
-        margin-top: 100px;
+            margin-top: 13vw;
+     
             width: 40vw;
             max-width: 800px;
             margin-right: 10%;
