@@ -289,106 +289,80 @@ body{
          
         }
         #imgBox{
-           width: 180px;
-            height: 11vw;
+           width: 35vw;
+            height: 70vw;
             margin-bottom: 10px;
             margin-left: 30%;
-            margin-top: 10px;
-           max-width: 120px;
-           max-height: 212px;
-         min-height: 211px;
+            margin-top: 06vw;
+                 
+         
         }
         #imgBox1{
-            width: 180px;
-            height: 10vw;
-            margin-left: 14%;
-            max-width: 200px;
-            max-height: 191px;
-            margin-bottom: 02px;
-            min-height: 191px;
+            width: 35vw;
+            height: 70vw;
+            margin-bottom: 10px;
+            margin-left: 30%;
+            margin-top: 06vw;
+                 
         }
-        #imgBox2{
-            width: 180px;
-            height: 11vw;
-            margin-left: 15%;
-            max-width: 200px;
-            max-height: 213px;
-            margin-bottom: 40px;
-            min-height: 211px;
-        }
+   
         #imgBox3{
-            margin-top: 20px;
-            width: 08vw;
-            height: 10vw;
-            margin-left: 20%;
-            max-width: 150px;
-            max-height: 195px;
-          margin-bottom: 38px;
-          min-height: 190px;
+            width: 35vw;
+            height: 70vw;
+            margin-bottom: 10px;
+            margin-left: 30%;
+            margin-top: 06vw;
+                 
         }
         #imgBox4{
-            margin-top: 20px;
-            width: 150px;
-            height: 10vw;
-            min-height: 211px;
-            margin-left: 25%;
-            max-width: 150px;
-            max-height: 180px;
-            margin-bottom: 49px;
-            min-height: 180px;
+            width: 35vw;
+            height: 70vw;
+            margin-bottom: 10px;
+            margin-left: 30%;
+            margin-top: 06vw;
+                 
         }
         #imgBox5{
-            width: 150px;
-            height: 10vw;
-            min-height: 211px;
+            width: 45vw;
+            height: 70vw;
+            margin-bottom: 10px;
             margin-left: 25%;
-            margin-top: 20px;
-            max-width: 150px;
-            max-height: 193px;
-            margin-bottom: 67px;
-            min-height: 192px;
+            margin-top: 06vw;
+                 
         }
     
         #imgBox6{
-            width: 200px;
-            height: 9vw;
-            min-height: 173px;
-            margin-left: 10%;
-            margin-top: 30px;
-            max-width: 200px;
-            max-height: 172px;
-            margin-bottom: 46px;
+            width: 60vw;
+            height: 60vw;
+            margin-bottom: 10px;
+            margin-left: 16%;
+            margin-top: 10vw;
+                 
             
         }
         #imgBox7{
-            width: 150px;
-            height: 10vw;
-            margin-bottom: 15px;
+            width: 45vw;
+            height: 70vw;
+            margin-bottom: 10px;
             margin-left: 25%;
-            margin-top: 20px;
-            max-width: 200px;
-            max-height: 193px;
-            min-height: 193px;
+            margin-top: 06vw;
+                 
         }
         #imgBox8{
-            width: 220px;
-            height: 8vw;
-            margin-bottom: 60px;
-            margin-left: 5%;
-            margin-top: 37px;
-            max-width: 200px;
-            max-height: 153px;
-            min-height: 152px;
+            width: 55vw;
+            height: 50vw;
+            margin-bottom: 10px;
+            margin-left: 18%;
+            margin-top: 10vw;
+                 
         }
         #imgBox9{
-            width: 220px;
-            height: 10vw;
-            margin-bottom: 27px;
-            min-height: 193px;
-            margin-left: 5%;
-            margin-top: 30px;
-            max-width: 200px;
-            max-height: 193px;
+            width: 55vw;
+            height: 60vw;
+            margin-bottom: 10px;
+            margin-left: 18%;
+            margin-top: 06vw;
+                 
         }
     
     
