@@ -130,7 +130,7 @@ body{
         }
         .select{
             float: left;
-            height: 16vw;
+            height: 20vw;
             margin-top: 120px;
             width: 80vw;
             background-color: rgb(255, 255, 255);
@@ -138,36 +138,43 @@ body{
             border: 3px solid grey;
             font-family: ralewayb;
             max-height: 340px;
-            min-height: 400px;
+            
             min-width: 250px;
        
         }
         
         .select form{
-            margin-left: 10px;
-            
+          width: 4vw;
+            display: flex;
         }
         .select label{
-            margin-top:15px;
-            display:inline-flexbox;
+            margin-top:1vw;
+            font-size: 3vw;
+            width: 10vw;
+            margin-left: 6.5vw;
+    
     
         
         }
+        .select input{
+            transform: scale(5.5);
+        }
+      
         .itemsBox{
-            height: 60vw;
-            width: 70vw;
+            height: 400vh;
+            width: 100vw;
             background-color: #f0f0f0; 
             float: right;
            display:flex;
             justify-content: center;
             flex-wrap: wrap;
-            max-height: 2500px;
+         
             max-width: 2000px;
        
         }
         .camaCasa{
-            height:400px;
-            width: 250px;
+            height:60vh;
+            width: 90vw;
             border: 2px solid #ba6e2d;
             margin: 4vw;
             cursor: pointer;
@@ -181,9 +188,25 @@ body{
         .camaCasa:hover{
             transform: scale(1.1);
         }
+        .casa{
+            height:60vh;
+            width: 90vw;
+            border: 2px solid #ba6e2d;
+            margin: 4vw;
+            cursor: pointer;
+            transition: 1.2s;
+     
+            box-shadow: 0 20px 20px 0 rgb(125 144 165);
+            display: inline-block;
+         
+    
+        }
+        .casa:hover{
+            transform: scale(1.1);
+        }
         .arranhador{
-            height:400px;
-            width: 250px;
+            height:60vh;
+            width: 90vw;
             border: 2px solid #ba6e2d;
             margin: 4vw;
             box-shadow: 0 20px 20px 0 rgb(125 144 165);
@@ -195,8 +218,8 @@ body{
             transform: scale(1.1);
         }
         .brinquedo{
-            height:400px;
-            width: 250px;
+            height:60vh;
+            width: 90vw;
             border: 2px solid #ba6e2d;
             margin: 4vw;
             box-shadow: 0 20px 20px 0 rgb(125 144 165);
@@ -209,10 +232,11 @@ body{
             transform: scale(1.1);
         }
         .roupa{
-            height:400px;
-            width: 250px;
+            height:60vh;
+            width: 90vw;
             border: 2px solid #ba6e2d;
-            margin: 4vw;
+            margin: 5vw;
+           
             cursor: pointer;
             transition: 1.2s;
             box-shadow: 0 20px 20px 0 rgb(125 144 165);
@@ -222,10 +246,10 @@ body{
             transform: scale(1.1);
         }
         .racao{
-            height:400px;
-            width: 250px;
+            height:60vh;
+            width: 90vw;
             border: 2px solid #ba6e2d;
-            margin: 4vw;
+            margin: 5vw;
             box-shadow: 0 20px 20px 0 rgb(125 144 165);
             display: inline-block;
             cursor: pointer;
