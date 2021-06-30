@@ -478,6 +478,25 @@ body{
     float: right;
     margin-top: 20px;
     }
+    p2{
+        opacity: 1;
+        position: absolute;
+        font-size: 25px;
+        font-family: ralewayB;
+        border: 1px solid #ba6e2d;
+        padding: 15px;
+        width: 80vw;
+        margin-top:10vw;
+        margin-left: 3vw;
+    }
+    h9{
+        font-family: ralewayB;
+        color: #ba6e2d;
+        text-align: center ;
+        font-size: 30px;
+        padding: 10px;
+     
+        }
     .imgwpBox{
         width: 250px;
         height: 100px;
