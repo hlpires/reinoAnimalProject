@@ -342,6 +342,7 @@ if($(window).width() > 1000){
       $("h3").css({"opacity": "0", });
       $("p1").css({"opacity": "0", });
       $(".imgwpBox").css({"opacity": "1","margin-left": "-30px","margin-top": "-230px", });
+      $(".itemsBox").css({"width":"200vw"});
       $('.brinquedo').hide();
       $('.camaCasa').hide();
       $('.arranhador').hide();
