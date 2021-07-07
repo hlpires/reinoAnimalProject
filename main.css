@@ -494,12 +494,12 @@ a:hover {
          font-size: 15px;
     }
     .sobredesc{
-        height: 225vw;
+        height: 315vw;
         width: 100vw;
         background-color: white;
         
         float: left;
-        max-height: 1400px;
+        max-height: 2500px;
         max-width: 2300px;
     }
 
@@ -513,9 +513,9 @@ a:hover {
         font-family: ralewayB;
         font-weight: bold;
         float: right;
-
-        margin: 05vw;
-        
+        border: 2px solid #ba6e2d;
+        margin: 03vw;
+        padding: 10px;
        
     }
 
@@ -783,7 +783,7 @@ a:hover {
         position: absolute;
         
         margin-left:calc(15px + 3vw);
-        margin-top:calc(100px + 1vw);
+        margin-top:calc(120px + 1vw);
         max-width: 459px;
         max-height: 111px;
         background-image: url(./IMG/wpp.png);
@@ -835,8 +835,8 @@ a:hover {
       
         }
         h2{
-            left:calc(0px + 5vw);
-            font-size:calc(17px );
+            left:calc(0px + 2vw);
+            font-size:calc(25px );
             color:rgb(0, 0, 0);
             opacity: 1!important;
             position: absolute;
