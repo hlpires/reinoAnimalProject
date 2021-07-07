@@ -1129,12 +1129,12 @@ a:hover {
          font-size: 15px;
     }
     .sobredesc{
-        height: 150vw;
+        height: 300vw;
         width: 100vw;
         background-color: white;
         
         float: left;
-        max-height: 1100px;
+        max-height:2500px;
         max-width: 2300px;
     }
 
@@ -1142,16 +1142,15 @@ a:hover {
 
 
     h20{
-     
-        font-size:calc(10px + 1.5vw);
+        font-size:calc(26px + 1.5vw);
         color: rgb(0, 0, 0);
         font-family: ralewayb;
         font-weight: bold;
         float: right;
-    text-align: center;
-        
-        
-       
+        margin:5vw;
+        margin-top: 120px;
+        border: 2px solid #ba6e2d;
+       padding: 30px;
     }
 
     #imgSobre{
@@ -1271,7 +1270,7 @@ a:hover {
                 float: left;
             }
             .contato{
-                margin-top:5vw;
+                margin-top:0vw;
                 width: 100%;
                
                 max-height: 650px;
