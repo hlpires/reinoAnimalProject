@@ -2466,11 +2466,16 @@ a:hover {
       
         max-width: 2300px;
     }
+    .sobreAnime{
+        opacity: 1;
+        transform: translate3d(0,0,0)!important;
+        transition: 0.8s;
+    }
 
 
 
     h20{
-         
+        transform: translate3d(+100px,0,0)!important;
         font-size: 18px;
         color: rgb(0, 0, 0);
         font-family: ralewayB;
@@ -2485,6 +2490,7 @@ a:hover {
     }
 
     #imgSobre{
+        transform: translate3d(-100px,0,0);
         width: 50vw;
         height: 55vw;
         max-height: 400px;
@@ -2608,6 +2614,7 @@ a:hover {
                 background-color: white;
                 float: left;
             }
+            
             .contato{
                 margin-top:0;
                 width: 100%;
