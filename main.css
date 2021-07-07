@@ -1783,26 +1783,29 @@ a:hover {
             float: left;
             max-height: 1000px;
             max-width: 2300px;
-            transition: 1.2s;
-            transform: translate3d(0,0,0);
-            opacity:0;
+            
+            opacity:1;
         }
         .sobreAnime{
             opacity: 1;
-            transform: translate3d(0,0,0);
-            transition: 0.4s;
+            transform: translate3d(0,0,0)!important;
+            transition: 0.8s;
         }
 
-        #imgSobre{
+        .imgSobre{
             width: 30vw;
             height: 31vw;
             margin-left: 12%;
             max-height: 700px;
         max-width: 700px    ;
         margin-top: 110px;
+        transform: translate3d(-200px,0,0);
+     
         }
 
         h20{
+           
+            transform: translate3d(+200px,0,0);
          
             font-size:30px;
             color: rgb(0, 0, 0);
