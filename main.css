@@ -494,12 +494,12 @@ a:hover {
          font-size: 15px;
     }
     .sobredesc{
-        height: 150vw;
+        height: 225vw;
         width: 100vw;
         background-color: white;
         
         float: left;
-        max-height: 700px;
+        max-height: 1400px;
         max-width: 2300px;
     }
 
@@ -508,13 +508,13 @@ a:hover {
 
     h20{
      
-        font-size: 10px;
+        font-size: 20px;
         color: rgb(0, 0, 0);
-        font-family: ralewayb;
+        font-family: ralewayB;
         font-weight: bold;
         float: right;
-    text-align: center;
-        
+
+        margin: 05vw;
         
        
     }
@@ -1794,20 +1794,24 @@ a:hover {
         }
 
         #imgSobre{
-            width: 45vw;
-            margin-left: 05%;
+            width: 30vw;
+            height: 31vw;
+            margin-left: 12%;
+            max-height: 700px;
         max-width: 700px    ;
-        margin-top: 8vw;
+        margin-top: 110px;
         }
 
         h20{
          
-            font-size:25px;
+            font-size:30px;
             color: rgb(0, 0, 0);
             font-family: ralewayb;
             font-weight: bold;
             float: right;
-            margin-top: 13vw;
+            margin-top: 100px;
+            border: 2px solid #ba6e2d;
+            padding: 50px;
      
             width: 40vw;
             max-width: 800px;
@@ -2469,17 +2473,21 @@ a:hover {
         font-family: ralewayB;
         font-weight: bold;
         float: right;
-    margin-top: 100px;
+    margin-top: 60px;
         width: 40vw;
         max-width: 800px;
-        margin-right: 10%;
-        
-       
+       border: 2px solid #ba6e2d;
+        margin-right: 4%;
+       padding: 25px;
     }
 
     #imgSobre{
         width: 50vw;
         height: 55vw;
+        max-height: 400px;
+        margin-top: 60px;
+        max-width: 400px;
+        margin-left: 5%;
     }
 
 

@@ -168,7 +168,7 @@ function tela(){
 						$('.box5').addClass('boxAnime');
 					}, 2400);	
 				}
-				if(documentTop > sobreTop - 700 ){
+				if(documentTop > sobreTop - 900 ){
 					$('.sobredesc').addClass('sobreAnime');
 					
 
