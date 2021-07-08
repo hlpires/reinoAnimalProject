@@ -318,7 +318,7 @@ if($(window).width() > 1000){
  
   var myImage1 = document.getElementById("imgBox8");
 
-  var imageArray1 = ["./IMG/roupas/roupa2.png","./IMG/produtos2.png","./IMG/roupas/roupas3.png","./IMG/roupas/roupas4.png","./IMG/roupas/roupas5.png"]
+  var imageArray1 = ["./IMG/brinquedos/brinquedo.png","./IMG/brinquedos/brinquedo1.png","./IMG/produtos5.PNG"]
                    
                    
   var imageIndex1 = 0;
