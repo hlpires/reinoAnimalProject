@@ -170,6 +170,7 @@ body{
             flex-wrap: wrap;
          
             max-width: 2000px;
+          
        
         }
         .camaCasa{
@@ -548,7 +549,7 @@ header{
            
             }
     .roupas{
-        height: 300vh;
+        height: 210vh;
         background-color: #f0f0f0;
         max-height: 4000px;
     
@@ -651,6 +652,7 @@ header{
         flex-wrap: wrap;
         max-height: 2500px;
         max-width: 2000px;
+       
    
     }
     .camaCasa{
@@ -783,6 +785,8 @@ header{
        max-width: 120px;
        max-height: 212px;
      min-height: 211px;
+     
+   
     }
     #imgBox1{
         width: 180px;
@@ -792,6 +796,7 @@ header{
         max-height: 191px;
         margin-bottom: 02px;
         min-height: 191px;
+      
     }
     #imgBox2{
         width: 180px;
@@ -1017,6 +1022,11 @@ p2{
     height: 60px;
     position: absolute;
     opacity: 0;
+}
+.inside{
+    position: absolute;
+    width: 10vw;
+    
 }
 }
 

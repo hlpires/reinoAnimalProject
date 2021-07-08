@@ -69,6 +69,13 @@ function check(){
   }
 }
 
+var myImage = document.getElementById("imgBox");
+
+var imageArray = ["./IMG/roupas/roupa2.png","./IMG/produtos2.png","./IMG/roupas/roupas3.png","./IMG/roupas/roupas4.png","./IMG/roupas/roupas5.png"]
+                 
+                 
+var imageIndex = 0;
+
 var bolsocheck = setInterval (increase,200);
 function increase(){
 
@@ -121,6 +128,7 @@ if($(window).width() > 1000){
     $('.camaCasa').hide();
     $('.arranhador').hide();
     $('.roupa').hide();
+    
     clearInterval(bolsocheck);
  
 
@@ -154,6 +162,8 @@ if($(window).width() > 1000){
       $('.arranhador').hide();
       $('.racao').hide();
       $('.casa').hide();
+      setInterval(changeR,2000); 
+
       clearInterval(bolsocheck);
       }
   if(jQuery('.camaCasa').data('clicked')) {																	
@@ -249,6 +259,7 @@ if($(window).width() > 1000){
             $('.arranhador').hide();
             $('.roupa').hide();
             $('.casa').hide();
+            setInterval(changeB,2000); 
             clearInterval(bolsocheck);
         
             }
@@ -285,4 +296,37 @@ if($(window).width() > 1000){
               }
   }
 }
+
+ 
   increase();
+
+  var myImage = document.getElementById("imgBox");
+
+  var imageArray = ["./IMG/roupas/roupa2.png","./IMG/produtos2.png","./IMG/roupas/roupas3.png","./IMG/roupas/roupas4.png","./IMG/roupas/roupas5.png"]
+                   
+                   
+  var imageIndex = 0;
+  
+  function changeR() {
+    myImage.setAttribute("src",imageArray[imageIndex]);
+    imageIndex++;
+    if (imageIndex >= imageArray.length) {
+      imageIndex = 0;
+    }
+  }
+  
+ 
+  var myImage1 = document.getElementById("imgBox8");
+
+  var imageArray1 = ["./IMG/roupas/roupa2.png","./IMG/produtos2.png","./IMG/roupas/roupas3.png","./IMG/roupas/roupas4.png","./IMG/roupas/roupas5.png"]
+                   
+                   
+  var imageIndex1 = 0;
+  
+  function changeB() {
+    myImage1.setAttribute("src",imageArray1[imageIndex1]);
+    imageIndex1++;
+    if (imageIndex1 >= imageArray1.length) {
+      imageIndex1 = 0;
+    }
+  }
