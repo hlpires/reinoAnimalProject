@@ -890,7 +890,7 @@ header{
     #boxtext{
         max-width: 270px;
         max-height: 174px;
-        height: 17.2vw;
+        height: 5.2vw;
         background-color: rgb(255, 255, 255);
         margin-top:-23px;
       
@@ -899,7 +899,7 @@ header{
     #boxtext1{
         max-width: 270px;
         max-height: 174px;
-        height: 17.2vw;
+        height: 5.2vw;
         background-color: rgb(255, 255, 255);
        margin-top: 33px;
      
@@ -909,7 +909,7 @@ header{
     #boxtext2{
         max-width: 270px;
         max-height: 174px;
-        height: 17.2vw;
+        height: 5.2vw;
         background-color: rgb(255, 255, 255);
         margin-top: -43px;
         
@@ -919,7 +919,7 @@ header{
     #boxtext3{
         max-width: 270px;
         max-height: 174px;
-        height: 17.2vw;
+        height: 5.2vw;
         background-color: rgb(255, 255, 255);
         margin-top: -42px;
        
@@ -929,7 +929,7 @@ header{
      #boxtext4{
         max-width: 270px;
         max-height: 174px;
-        height: 17.2vw;
+        height: 5.2vw;
         background-color: rgb(255, 255, 255);
    
      
@@ -938,7 +938,7 @@ header{
     #boxtext5{
         max-width: 270px;
         max-height: 174px;
-        height: 17.2vw;
+        height: 5.2vw;
         background-color: rgb(255, 255, 255);
         margin-top: -72px;
      
@@ -947,7 +947,7 @@ header{
     #boxtext6{
      width: 250px;
         max-height: 174px;
-        height: 17.2vw;
+        height: 5.2vw;
         background-color: rgb(255, 255, 255);
         margin-top: -41px;
       
@@ -956,7 +956,7 @@ header{
     #boxtext7{
         max-width: 270px;
         max-height: 174px;
-        height: 17.2vw;
+        height: 5.2vw;
         background-color: rgb(255, 255, 255);
         margin-top: -20px;
       
@@ -965,7 +965,7 @@ header{
     #boxtext8{
         max-width: 270px;
         max-height: 174px;
-        height: 17.2vw;
+        height: 5.2vw;
         background-color: rgb(255, 255, 255);
         margin-top: -42px;
       
@@ -973,7 +973,7 @@ header{
     #boxtext9{
         max-width: 270px;
         max-height: 174px;
-        height: 17.2vw;
+        height: 5.2vw;
         background-color: rgb(255, 255, 255);
         margin-top: -42px;
      
@@ -985,6 +985,7 @@ h3{
 font-family: ralewayB;
 color: #ba6e2d;
 text-align: center;
+margin-top: 50px;
 
 }
 h5{
