@@ -199,6 +199,11 @@ a:hover {
            margin-top: -20;
       
         }
+        p3{
+            font-size:32px;
+            color: #ba6e2d;
+           
+        }
         h2{
             left:calc(0px + 1vw);
             font-size:calc(17px );
@@ -235,7 +240,7 @@ a:hover {
     .tosa{
         margin: auto;
         margin-top: -10px;
-        height:calc(120vw + 200px);
+        height:calc(125vw + 200px);
         width:90vw;
         min-height: 250px;
         box-shadow: 0 10px 10px 0 rgb(125 144 165), 0 0 0 2px black;
@@ -834,6 +839,11 @@ a:hover {
             font-weight:bold;
            margin-top: -20;
       
+        }
+        p3{
+            font-size:42px;
+            color: #ba6e2d;
+            padding:24vw;
         }
         h2{
             left:calc(0px + 2vw);
