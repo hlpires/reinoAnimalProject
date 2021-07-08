@@ -665,7 +665,7 @@ header{
         background-color: rgb(255, 255, 255);
         box-shadow: 0 20px 20px 0 rgb(125 144 165);
         display: inline-block;
-        transition: 0.4s;
+        transition: 0.2s;
 
     }
     .camaCasa:hover{
@@ -681,7 +681,7 @@ header{
         background-color: rgb(255, 255, 255);
         box-shadow: 0 20px 20px 0 rgb(125 144 165);
         display: inline-block;
-     transition: 0.4s;
+        transition: 0.2s;
 
     }
     .casa:hover{
@@ -697,7 +697,7 @@ header{
         cursor: pointer;
         transition: 1.2s;
         background-color: rgb(255, 255, 255);
-        transition: 0.4s;
+        transition: 0.2s;
     }
     .arranhador:hover{
         transform: scale(1.1);
@@ -710,7 +710,7 @@ header{
         box-shadow: 0 20px 20px 0 rgb(125 144 165);
         display: inline-block;
         cursor: pointer;
-        transition: 0.4s;
+        transition: 0.2s;
         
         background-color: rgb(255, 255, 255);
 
@@ -724,7 +724,7 @@ header{
         border: 1px solid black;
         margin: 4vw;
         cursor: pointer;
-        transition: 0.4s;
+        transition: 0.2s;
         box-shadow: 0 20px 20px 0 rgb(125 144 165);
         display: inline-block;
         background-color: rgb(255, 255, 255);
@@ -1022,6 +1022,11 @@ p2{
     height: 60px;
     position: absolute;
     opacity: 0;
+    
+}
+.imgwpBox:hover{
+    transform: scale(1.1);
+    transition: 1s;
 }
 .inside{
     position: absolute;

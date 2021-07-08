@@ -101,22 +101,22 @@ jQuery('.casa').click(function(){
 if($(window).width() > 1000){
   if(jQuery('.racao').data('clicked')) {																	
 		console.log('ok');
-    $(".racao").css({"width": "550px", "height": "600px","margin-left": "60px",});
+    $(".racao").css({"width": "550px", "height": "600px","margin-left": "60px","cursor": "auto"});
     $("#imgBox5").css({"margin-left": "50px","margin-top":"50px","max-width": "1050px","width":"150px","max-height": "450px","height":"200px"});
     $("#boxtext5").css({"margin-left": "80px","margin-top": "-130px", });
-    $(".roupa").css({"width": "550px", "height": "600px","margin-left": "60px",});
+    $(".roupa").css({"width": "550px", "height": "600px","margin-left": "60px","cursor": "auto"});
     $("#imgBox").css({"margin-left": "50px","margin-top":"50px","max-width": "1050px","width":"150px","max-height": "450px","height":"200px"});
     $("#boxtext").css({"margin-left": "80px","margin-top": "-60px", });
-    $(".camaCasa").css({"width": "550px", "height": "600px","margin-left": "60px",});
+    $(".camaCasa").css({"width": "550px", "height": "600px","margin-left": "60px","cursor": "auto"});
     $("#imgBox6").css({"margin-left": "50px","margin-top":"50px","max-width": "1050px","width":"150px","max-height": "450px","height":"200px"});
     $("#boxtext6").css({"margin-left": "80px","margin-top": "-60px", });
-    $(".arranhador").css({"width": "550px", "height": "600px","margin-left": "60px",});
+    $(".arranhador").css({"width": "550px", "height": "600px","margin-left": "60px","cursor": "auto"});
     $("#imgBox7").css({"margin-left": "50px","margin-top":"50px","max-width": "1050px","width":"150px","max-height": "450px","height":"200px"});
     $("#boxtext7").css({"margin-left": "80px","margin-top": "-60px", });
-    $(".brinquedo").css({"width": "550px", "height": "600px","margin-left": "60px",});
+    $(".brinquedo").css({"width": "550px", "height": "600px","margin-left": "60px","cursor": "auto"});
     $("#imgBox8").css({"margin-left": "50px","margin-top":"50px","max-width": "1050px","width":"180px","max-height": "450px","height":"150px"});
     $("#boxtext8").css({"margin-left": "80px","margin-top": "-60px", });
-    $(".casa").css({"width": "550px", "height": "600px","margin-left": "60px",});
+    $(".casa").css({"width": "550px", "height": "600px","margin-left": "60px","cursor": "auto"});
     $("#imgBox9").css({"margin-left": "50px","margin-top":"50px","max-width": "1050px","width":"150px","max-height": "450px","height":"200px"});
     $("#boxtext9").css({"margin-left": "80px","margin-top": "-60px", });   
     $(".p2").css({"opacity": "1","width":"420px","margin-left": "-40px","margin-top": "-20px" });
@@ -135,22 +135,22 @@ if($(window).width() > 1000){
 		}
   if(jQuery('.roupa').data('clicked')) {																	
       console.log('ok');
-      $(".racao").css({"width": "550px", "height": "600px","margin-left": "60px",});
+      $(".racao").css({"width": "550px", "height": "600px","margin-left": "60px","cursor": "auto"});
     $("#imgBox5").css({"margin-left": "50px","margin-top":"50px","max-width": "1050px","width":"150px","max-height": "450px","height":"200px"});
     $("#boxtext5").css({"margin-left": "80px","margin-top": "-130px", });
-    $(".roupa").css({"width": "550px", "height": "600px","margin-left": "60px",});
+    $(".roupa").css({"width": "550px", "height": "600px","margin-left": "60px","cursor": "auto"});
     $("#imgBox").css({"margin-left": "50px","margin-top":"50px","max-width": "1050px","width":"150px","max-height": "450px","height":"200px"});
     $("#boxtext").css({"margin-left": "80px","margin-top": "-60px", });
-    $(".camaCasa").css({"width": "550px", "height": "600px","margin-left": "60px",});
+    $(".camaCasa").css({"width": "550px", "height": "600px","margin-left": "60px","cursor": "auto"});
     $("#imgBox6").css({"margin-left": "50px","margin-top":"50px","max-width": "1050px","width":"150px","max-height": "450px","height":"200px"});
     $("#boxtext6").css({"margin-left": "80px","margin-top": "-60px", });
-    $(".arranhador").css({"width": "550px", "height": "600px","margin-left": "60px",});
+    $(".arranhador").css({"width": "550px", "height": "600px","margin-left": "60px","cursor": "auto"});
     $("#imgBox7").css({"margin-left": "50px","margin-top":"50px","max-width": "1050px","width":"150px","max-height": "450px","height":"200px"});
     $("#boxtext7").css({"margin-left": "80px","margin-top": "-60px", });
-    $(".brinquedo").css({"width": "550px", "height": "600px","margin-left": "60px",});
+    $(".brinquedo").css({"width": "550px", "height": "600px","margin-left": "60px","cursor": "auto"});
     $("#imgBox8").css({"margin-left": "50px","margin-top":"50px","max-width": "1050px","width":"180px","max-height": "450px","height":"150px"});
     $("#boxtext8").css({"margin-left": "80px","margin-top": "-60px", });
-    $(".casa").css({"width": "550px", "height": "600px","margin-left": "60px",});
+    $(".casa").css({"width": "550px", "height": "600px","margin-left": "60px","cursor": "auto"});
     $("#imgBox9").css({"margin-left": "50px","margin-top":"50px","max-width": "1050px","width":"150px","max-height": "450px","height":"200px"});
     $("#boxtext9").css({"margin-left": "80px","margin-top": "-60px", });
       $(".p2").css({"opacity": "1","width":"420px","margin-left": "-40px","margin-top": "-20px" });
@@ -168,22 +168,22 @@ if($(window).width() > 1000){
       }
   if(jQuery('.camaCasa').data('clicked')) {																	
         console.log('ok');
-        $(".racao").css({"width": "550px", "height": "600px","margin-left": "60px",});
+        $(".racao").css({"width": "550px", "height": "600px","margin-left": "60px","cursor": "auto"});
     $("#imgBox5").css({"margin-left": "50px","margin-top":"50px","max-width": "1050px","width":"150px","max-height": "450px","height":"200px"});
     $("#boxtext5").css({"margin-left": "80px","margin-top": "-130px", });
-    $(".roupa").css({"width": "550px", "height": "600px","margin-left": "60px",});
+    $(".roupa").css({"width": "550px", "height": "600px","margin-left": "60px","cursor": "auto"});
     $("#imgBox").css({"margin-left": "50px","margin-top":"50px","max-width": "1050px","width":"150px","max-height": "450px","height":"200px"});
     $("#boxtext").css({"margin-left": "80px","margin-top": "-60px", });
-    $(".camaCasa").css({"width": "550px", "height": "600px","margin-left": "60px",});
+    $(".camaCasa").css({"width": "550px", "height": "600px","margin-left": "60px","cursor": "auto"});
     $("#imgBox6").css({"margin-left": "50px","margin-top":"50px","max-width": "1050px","width":"150px","max-height": "450px","height":"200px"});
     $("#boxtext6").css({"margin-left": "80px","margin-top": "-60px", });
-    $(".arranhador").css({"width": "550px", "height": "600px","margin-left": "60px",});
+    $(".arranhador").css({"width": "550px", "height": "600px","margin-left": "60px","cursor": "auto"});
     $("#imgBox7").css({"margin-left": "50px","margin-top":"50px","max-width": "1050px","width":"150px","max-height": "450px","height":"200px"});
     $("#boxtext7").css({"margin-left": "80px","margin-top": "-60px", });
-    $(".brinquedo").css({"width": "550px", "height": "600px","margin-left": "60px",});
+    $(".brinquedo").css({"width": "550px", "height": "600px","margin-left": "60px","cursor": "auto"});
     $("#imgBox8").css({"margin-left": "50px","margin-top":"50px","max-width": "1050px","width":"180px","max-height": "450px","height":"150px"});
     $("#boxtext8").css({"margin-left": "80px","margin-top": "-60px", });
-    $(".casa").css({"width": "550px", "height": "600px","margin-left": "60px",});
+    $(".casa").css({"width": "550px", "height": "600px","margin-left": "60px","cursor": "auto"});
     $("#imgBox9").css({"margin-left": "50px","margin-top":"50px","max-width": "1050px","width":"150px","max-height": "450px","height":"200px"});
     $("#boxtext9").css({"margin-left": "80px","margin-top": "-60px", });
         $(".p2").css({"opacity": "1","width":"420px","margin-left": "-40px","margin-top": "-20px" });
@@ -200,22 +200,22 @@ if($(window).width() > 1000){
         }
   if(jQuery('.arranhador').data('clicked')) {																	
           console.log('ok');
-          $(".racao").css({"width": "550px", "height": "600px","margin-left": "60px",});
+          $(".racao").css({"width": "550px", "height": "600px","margin-left": "60px","cursor": "auto"});
     $("#imgBox5").css({"margin-left": "50px","margin-top":"50px","max-width": "1050px","width":"150px","max-height": "450px","height":"200px"});
     $("#boxtext5").css({"margin-left": "80px","margin-top": "-130px", });
-    $(".roupa").css({"width": "550px", "height": "600px","margin-left": "60px",});
+    $(".roupa").css({"width": "550px", "height": "600px","margin-left": "60px","cursor": "auto"});
     $("#imgBox").css({"margin-left": "50px","margin-top":"50px","max-width": "1050px","width":"150px","max-height": "450px","height":"200px"});
     $("#boxtext").css({"margin-left": "80px","margin-top": "-60px", });
-    $(".camaCasa").css({"width": "550px", "height": "600px","margin-left": "60px",});
+    $(".camaCasa").css({"width": "550px", "height": "600px","margin-left": "60px","cursor": "auto"});
     $("#imgBox6").css({"margin-left": "50px","margin-top":"50px","max-width": "1050px","width":"150px","max-height": "450px","height":"200px"});
     $("#boxtext6").css({"margin-left": "80px","margin-top": "-60px", });
-    $(".arranhador").css({"width": "550px", "height": "600px","margin-left": "60px",});
+    $(".arranhador").css({"width": "550px", "height": "600px","margin-left": "60px","cursor": "auto"});
     $("#imgBox7").css({"margin-left": "50px","margin-top":"50px","max-width": "1050px","width":"150px","max-height": "450px","height":"200px"});
     $("#boxtext7").css({"margin-left": "80px","margin-top": "-60px", });
-    $(".brinquedo").css({"width": "550px", "height": "600px","margin-left": "60px",});
+    $(".brinquedo").css({"width": "550px", "height": "600px","margin-left": "60px","cursor": "auto"});
     $("#imgBox8").css({"margin-left": "50px","margin-top":"50px","max-width": "1050px","width":"180px","max-height": "450px","height":"150px"});
     $("#boxtext8").css({"margin-left": "80px","margin-top": "-60px", });
-    $(".casa").css({"width": "550px", "height": "600px","margin-left": "60px",});
+    $(".casa").css({"width": "550px", "height": "600px","margin-left": "60px","cursor": "auto"});
     $("#imgBox9").css({"margin-left": "50px","margin-top":"50px","max-width": "1050px","width":"150px","max-height": "450px","height":"200px"});
     $("#boxtext9").css({"margin-left": "80px","margin-top": "-60px", });
           $(".p2").css({"opacity": "1","width":"420px","margin-left": "-40px","margin-top": "-20px" });
@@ -232,22 +232,22 @@ if($(window).width() > 1000){
           }
   if(jQuery('.brinquedo').data('clicked')) {																	
             console.log('ok');
-            $(".racao").css({"width": "550px", "height": "600px","margin-left": "60px",});
+            $(".racao").css({"width": "550px", "height": "600px","margin-left": "60px","cursor": "auto"});
     $("#imgBox5").css({"margin-left": "50px","margin-top":"50px","max-width": "1050px","width":"150px","max-height": "450px","height":"200px"});
     $("#boxtext5").css({"margin-left": "80px","margin-top": "-130px", });
-    $(".roupa").css({"width": "550px", "height": "600px","margin-left": "60px",});
+    $(".roupa").css({"width": "550px", "height": "600px","margin-left": "60px","cursor": "auto"});
     $("#imgBox").css({"margin-left": "50px","margin-top":"50px","max-width": "1050px","width":"150px","max-height": "450px","height":"200px"});
     $("#boxtext").css({"margin-left": "80px","margin-top": "-60px", });
-    $(".camaCasa").css({"width": "550px", "height": "600px","margin-left": "60px",});
+    $(".camaCasa").css({"width": "550px", "height": "600px","margin-left": "60px","cursor": "auto"});
     $("#imgBox6").css({"margin-left": "50px","margin-top":"50px","max-width": "1050px","width":"150px","max-height": "450px","height":"200px"});
     $("#boxtext6").css({"margin-left": "80px","margin-top": "-60px", });
-    $(".arranhador").css({"width": "550px", "height": "600px","margin-left": "60px",});
+    $(".arranhador").css({"width": "550px", "height": "600px","margin-left": "60px","cursor": "auto"});
     $("#imgBox7").css({"margin-left": "50px","margin-top":"50px","max-width": "1050px","width":"150px","max-height": "450px","height":"200px"});
     $("#boxtext7").css({"margin-left": "80px","margin-top": "-60px", });
-    $(".brinquedo").css({"width": "550px", "height": "600px","margin-left": "60px",});
+    $(".brinquedo").css({"width": "550px", "height": "600px","margin-left": "60px","cursor": "auto"});
     $("#imgBox8").css({"margin-left": "50px","margin-top":"50px","max-width": "1050px","width":"180px","max-height": "450px","height":"150px"});
     $("#boxtext8").css({"margin-left": "80px","margin-top": "-60px", });
-    $(".casa").css({"width": "550px", "height": "600px","margin-left": "60px",});
+    $(".casa").css({"width": "550px", "height": "600px","margin-left": "60px","cursor": "auto"});
     $("#imgBox9").css({"margin-left": "50px","margin-top":"50px","max-width": "1050px","width":"150px","max-height": "450px","height":"200px"});
     $("#boxtext9").css({"margin-left": "80px","margin-top": "-60px", });
             $(".p2").css({"opacity": "1","width":"420px","margin-left": "-40px","margin-top": "-20px" });
@@ -265,22 +265,22 @@ if($(window).width() > 1000){
             }
   if(jQuery('.casa').data('clicked')) {																	
               console.log('ok');
-              $(".racao").css({"width": "550px", "height": "600px","margin-left": "60px",});
+              $(".racao").css({"width": "550px", "height": "600px","margin-left": "60px","cursor": "auto"});
     $("#imgBox5").css({"margin-left": "50px","margin-top":"50px","max-width": "1050px","width":"150px","max-height": "450px","height":"200px"});
     $("#boxtext5").css({"margin-left": "80px","margin-top": "-130px", });
-    $(".roupa").css({"width": "550px", "height": "600px","margin-left": "60px",});
+    $(".roupa").css({"width": "550px", "height": "600px","margin-left": "60px","cursor": "auto"});
     $("#imgBox").css({"margin-left": "50px","margin-top":"50px","max-width": "1050px","width":"150px","max-height": "450px","height":"200px"});
     $("#boxtext").css({"margin-left": "80px","margin-top": "-60px", });
-    $(".camaCasa").css({"width": "550px", "height": "600px","margin-left": "60px",});
+    $(".camaCasa").css({"width": "550px", "height": "600px","margin-left": "60px","cursor": "auto"});
     $("#imgBox6").css({"margin-left": "50px","margin-top":"50px","max-width": "1050px","width":"150px","max-height": "450px","height":"200px"});
     $("#boxtext6").css({"margin-left": "80px","margin-top": "-60px", });
-    $(".arranhador").css({"width": "550px", "height": "600px","margin-left": "60px",});
+    $(".arranhador").css({"width": "550px", "height": "600px","margin-left": "60px","cursor": "auto"});
     $("#imgBox7").css({"margin-left": "50px","margin-top":"50px","max-width": "1050px","width":"150px","max-height": "450px","height":"200px"});
     $("#boxtext7").css({"margin-left": "80px","margin-top": "-60px", });
-    $(".brinquedo").css({"width": "550px", "height": "600px","margin-left": "60px",});
+    $(".brinquedo").css({"width": "550px", "height": "600px","margin-left": "60px","cursor": "auto"});
     $("#imgBox8").css({"margin-left": "50px","margin-top":"50px","max-width": "1050px","width":"180px","max-height": "450px","height":"150px"});
     $("#boxtext8").css({"margin-left": "80px","margin-top": "-60px", });
-    $(".casa").css({"width": "550px", "height": "600px","margin-left": "60px",});
+    $(".casa").css({"width": "550px", "height": "600px","margin-left": "60px","cursor": "auto"});
     $("#imgBox9").css({"margin-left": "50px","margin-top":"50px","max-width": "1050px","width":"150px","max-height": "450px","height":"200px"});
     $("#boxtext9").css({"margin-left": "80px","margin-top": "-60px", });
               $(".p2").css({"opacity": "1","width":"420px","margin-left": "-40px","margin-top": "-20px" });
