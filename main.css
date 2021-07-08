@@ -1480,6 +1480,8 @@ a:hover {
                 font-weight:bold;
                 margin:calc(5px + 0.1vw);
                 color: white;
+                border: 2px solid white;
+                padding: 20px;
             }
             h2{
                 left:calc(230px + 3vw);
