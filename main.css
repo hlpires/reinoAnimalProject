@@ -2630,6 +2630,7 @@ a:hover {
                 color: rgb(255, 255, 255);
                 font-family: ralewayB;
                 font-weight: bold;
+                position: absolute;
             }
             .sobre{
                 height: 35vw;
