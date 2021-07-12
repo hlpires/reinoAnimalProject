@@ -1019,11 +1019,11 @@ p2{
     padding: 25px;
 }
 .imgwpBox{
-    width: 250px;
-    height: 60px;
+    width: 120px;
+    height: 100px;
     position: absolute;
     opacity: 0;
-    
+  
 }
 .imgwpBox:hover{
     transform: scale(1.1);
