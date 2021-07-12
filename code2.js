@@ -122,6 +122,7 @@ if($(window).width() > 1000){
     $(".p2").css({"opacity": "1","width":"420px","margin-left": "-40px","margin-top": "-20px" });
     $("h3").css({"opacity": "0", });
     $("p1").css({"opacity": "0", });
+    $("h5").css({"margin-left": "100px","width":"420px","margin-top": "-190px","font-size":"25px", });
     $(".imgwpBox").css({"opacity": "1","margin-left": "180px","margin-top": "-270px", });
     $('.casa').hide();
     $('.brinquedo').hide();
@@ -156,7 +157,7 @@ if($(window).width() > 1000){
       $(".p2").css({"opacity": "1","width":"420px","margin-left": "-40px","margin-top": "-20px" });
       $("h3").css({"opacity": "0", });
       $("p1").css({"opacity": "0", });
-      
+      $("h5").css({"margin-left": "100px","width":"420px","margin-top": "-190px","font-size":"25px", });
       $(".imgwpBox").css({"opacity": "1","margin-left": "180px","margin-top": "-300px" });
       $('.brinquedo').hide();
       $('.camaCasa').hide();
@@ -190,6 +191,7 @@ if($(window).width() > 1000){
         $(".p2").css({"opacity": "1","width":"420px","margin-left": "-40px","margin-top": "-20px" });
         $("h3").css({"opacity": "0", });
         $("p1").css({"opacity": "0", });
+        $("h5").css({"margin-left": "100px","width":"420px","margin-top": "-190px","font-size":"25px", });
         $(".imgwpBox").css({"opacity": "1","margin-left": "180px","margin-top": "-320px", });
         $('.brinquedo').hide();
         $('.racao').hide();
@@ -222,6 +224,7 @@ if($(window).width() > 1000){
           $(".p2").css({"opacity": "1","width":"420px","margin-left": "-40px","margin-top": "-20px" });
           $("h3").css({"opacity": "0", });
           $("p1").css({"opacity": "0", });
+          $("h5").css({"margin-left": "100px","width":"420px","margin-top": "-190px","font-size":"25px", });
           $(".imgwpBox").css({"opacity": "1","margin-left": "180px","margin-top": "-290px", });
           $('.brinquedo').hide();
           $('.camaCasa').hide();
@@ -254,6 +257,7 @@ if($(window).width() > 1000){
             $(".p2").css({"opacity": "1","width":"420px","margin-left": "-40px","margin-top": "-20px" });
             $("h3").css({"opacity": "0", });
             $("p1").css({"opacity": "0", });
+            $("h5").css({"margin-left": "100px","width":"420px","margin-top": "-190px","font-size":"25px", });
             $(".imgwpBox").css({"opacity": "1","margin-left": "180px","margin-top": "-285px", });
             $('.racao').hide();
             $('.camaCasa').hide();
@@ -288,7 +292,7 @@ if($(window).width() > 1000){
               $("h3").css({"opacity": "0", });
               $("p1").css({"opacity": "0", });
               $(".imgwpBox").css({"opacity": "1","margin-left": "180px","margin-top": "-300px", });
-              
+              $("h5").css({"margin-left": "100px","width":"420px","margin-top": "-190px","font-size":"25px", });
               $('.racao').hide();
               $('.camaCasa').hide();
               $('.arranhador').hide();
