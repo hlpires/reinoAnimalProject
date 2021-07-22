@@ -54,8 +54,8 @@ a:hover {
   display: block;
   position: relative;
   top: 30px;
-  left: 50px;
-  
+  right: 50px;
+  float: right;
   z-index: 1;
   
   -webkit-user-select: none;
