@@ -421,7 +421,7 @@ a:hover {
     }
    
     .produtos{
-        height:calc(300px +  50vw);
+        height:calc(300px +  40vw);
         background-color: white!important;
         width: 100vw;
         display: block;
@@ -436,7 +436,7 @@ a:hover {
     }
     .boxes{
       
-        height: 90vw;
+        height: 70vw;
         background-color: rgb(255, 255, 255);
         width: 100vw;
         max-height: 1200px;
@@ -446,12 +446,12 @@ a:hover {
         max-width: 2200px;
         flex-wrap: nowrap;
         background-image:url(./IMG/lolja.png);
-        background-size: 80vw;
+        background-size: 60vw;
         background-repeat: no-repeat;
-        background-position-x: 10vw;
+        background-position-x: 20vw;
     }
     h15{
-        margin-top: 10vw;
+        margin-top: 0vw;
         font-size: 10vw;
         font-family: ralewayB;
         position: relative;
