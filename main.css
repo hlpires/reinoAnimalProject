@@ -644,7 +644,7 @@ a:hover {
          font-size: 15px;
     }
     .sobredesc{
-        height: 290vw;
+        height: 310vw;
         width: 100vw;
         background-color: white;
         
@@ -663,9 +663,9 @@ a:hover {
         font-family: ralewayB;
         font-weight: bold;
         float: right;
-        border: 2px solid #ba6e2d;
-        margin: 03vw;
-        padding: 10px;
+        text-align: center;
+        margin-top: 10vw;
+        padding: 3vw;
        
     }
 
