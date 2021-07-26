@@ -450,11 +450,11 @@ a:hover {
     }
     h15{
         margin-top: 10vw;
-        font-size: 15vw;
+        font-size: 10vw;
         font-family: ralewayB;
         position: relative;
         float: left;
-        margin-left: 35vw;
+        margin-left: 18vw;
         border-bottom: 02px solid black;
     }
     .box1{
@@ -476,7 +476,7 @@ a:hover {
         transform: translate3d(-100px,0,0);
         opacity: 0;
     }
- 
+
     .box2{
         height: 25.5vw;
         width: 10vw;
@@ -817,6 +817,7 @@ a:hover {
                 width:100vw;
                 max-width: 1000px;
             }
+        
 
  }
  @media(min-width: 501px) and (max-width: 1000px){
