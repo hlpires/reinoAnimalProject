@@ -74,7 +74,8 @@ body{
             float: left;
             justify-content: center;
             display: flex;
-            border: 4px solid #ba6e2d;
+            border-bottom: 4px solid #ba6e2d;
+            border-top: 4px solid #ba6e2d;
             max-height: 300px;
         }
         h2{
@@ -174,7 +175,7 @@ body{
        
         }
         .camaCasa{
-            height:180vw;
+            height:185vw;
             width: 90vw;
             border: 2px solid #ba6e2d;
             margin: 4vw;
@@ -190,7 +191,7 @@ body{
             transform: scale(1.1);
         }
         .casa{
-            height:180vw;
+            height:170vw;
             width: 90vw;
             border: 2px solid #ba6e2d;
             margin: 4vw;
@@ -206,7 +207,7 @@ body{
             transform: scale(1.1);
         }
         .arranhador{
-            height:180vw;
+            height:185vw;
             width: 90vw;
             border: 2px solid #ba6e2d;
             margin: 4vw;
@@ -247,7 +248,7 @@ body{
             transform: scale(1.1);
         }
         .racao{
-            height:200vw;
+            height:210vw;
             width: 90vw;
             border: 2px solid #ba6e2d;
             margin: 5vw;
@@ -468,7 +469,7 @@ body{
     font-family: ralewayB;
     color: #ba6e2d;
     text-align: center;
-    font-size: 35px;
+    font-size: calc(40px + 2vw);
     width: 90vw;
     margin-top: 10vw;
     }
