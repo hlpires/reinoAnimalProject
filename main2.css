@@ -238,6 +238,7 @@ body{
             width: 90vw;
             border: 2px solid #ba6e2d;
             margin: 5vw;
+            margin-top: -20vw;
            
             cursor: pointer;
             transition: 1.2s;
