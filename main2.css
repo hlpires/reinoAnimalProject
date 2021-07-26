@@ -161,7 +161,7 @@ body{
         }
       
         .itemsBox{
-            height: 1000vw;
+            height: 1200vw;
             width: 100vw;
             background-color: #f0f0f0; 
             float: right;
@@ -174,7 +174,7 @@ body{
        
         }
         .camaCasa{
-            height:140vw;
+            height:180vw;
             width: 90vw;
             border: 2px solid #ba6e2d;
             margin: 4vw;
@@ -190,7 +190,7 @@ body{
             transform: scale(1.1);
         }
         .casa{
-            height:140vw;
+            height:180vw;
             width: 90vw;
             border: 2px solid #ba6e2d;
             margin: 4vw;
@@ -206,7 +206,7 @@ body{
             transform: scale(1.1);
         }
         .arranhador{
-            height:140vw;
+            height:180vw;
             width: 90vw;
             border: 2px solid #ba6e2d;
             margin: 4vw;
@@ -219,7 +219,7 @@ body{
             transform: scale(1.1);
         }
         .brinquedo{
-            height:140vw;
+            height:180vw;
             width: 90vw;
             border: 2px solid #ba6e2d;
             margin: 4vw;
@@ -233,7 +233,7 @@ body{
             transform: scale(1.1);
         }
         .roupa{
-            height:140vw;
+            height:180vw;
             width: 90vw;
             border: 2px solid #ba6e2d;
             margin: 5vw;
@@ -247,7 +247,7 @@ body{
             transform: scale(1.1);
         }
         .racao{
-            height:140vw;
+            height:200vw;
             width: 90vw;
             border: 2px solid #ba6e2d;
             margin: 5vw;
@@ -490,7 +490,7 @@ body{
     p2{
         opacity: 1;
         position: absolute;
-        font-size: 25px;
+        font-size: calc(30px + 2vw);
         font-family: ralewayB;
         border: 1px solid #ba6e2d;
         padding: 15px;
