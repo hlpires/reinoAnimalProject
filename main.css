@@ -1083,7 +1083,7 @@ a:hover {
     }
     .boxes{
       
-        height: 60vw;
+        height: 80vw;
         background-color: rgb(255, 255, 255);
         width: 100vw;
         max-height: 1200px;
@@ -1093,15 +1093,17 @@ a:hover {
         max-width: 2200px;
         flex-wrap: nowrap;
         background-image:url(./IMG/lolja.png);
-        background-size: 100vw;
+        background-size: 60vw;
+        background-repeat: no-repeat;
+        background-position-x: 20vw;
     }
     h15{
-        margin-top: 06vw;
-        font-size: 15vw;
+        margin-top:-10vw;
+        font-size: 10vw;
         font-family: ralewayB;
         position: relative;
         float: left;
-        margin-left: 35vw;
+        margin-left: 20vw;
         border-bottom: 02px solid black;
     }
     .box1{
