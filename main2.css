@@ -503,7 +503,7 @@ body{
         font-family: ralewayB;
         color: #ba6e2d;
         text-align: center ;
-        font-size: 30px;
+        font-size: calc(30px + 3vw);
         padding: 10px;
      
         }
