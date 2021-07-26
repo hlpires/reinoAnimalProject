@@ -266,7 +266,7 @@ a:hover {
    
     .servicos{
         background-color: #2b2b2b;
-        height:calc(100vh  + 600px);
+        height:calc(130vh  + 600px);
         width: 100vw;
         float: left;
         margin-top: 0vw;
@@ -446,7 +446,9 @@ a:hover {
         max-width: 2200px;
         flex-wrap: nowrap;
         background-image:url(./IMG/lolja.png);
-        background-size: 100vw;
+        background-size: 80vw;
+        background-repeat: no-repeat;
+        background-position-x: 10vw;
     }
     h15{
         margin-top: 10vw;
@@ -721,7 +723,7 @@ a:hover {
         }
         .mapa{
           margin-top:calc(80px + 2vw);
-            width: 80vw;
+            width: 60vw;
             max-width: 600px;
             margin: 0 auto;
      
