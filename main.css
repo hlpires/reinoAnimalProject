@@ -1579,7 +1579,7 @@ a:hover {
             margin-top: 0vw;
             max-width: 2350px;
             max-height: 1280px;
-            background-image: url(./IMG/paw.png);
+            background-image: url(./IMG/paw2.png);
             flex-wrap: nowrap;
             display: flex;
             justify-content: center;
@@ -2318,10 +2318,11 @@ a:hover {
         
         h4{
             margin-top: 10px;
-            font-size: 30px;
+            font-size: 35px;
             color: #ba6e2d;
             font-family: ralewayB;
             font-weight: bold;
+            padding: 20px;
         }
        
         p{
