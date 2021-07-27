@@ -1634,9 +1634,9 @@ a:hover {
             }
             
             h4{
-                margin-top: 100px;
-                font-size: 30px;
-                color: rgb(255, 255, 255);
+                margin-top: 50px;
+                font-size: 40px;
+                color:#ba6e2d;
                 font-family: ralewayB;
                 font-weight: bold;
             }
@@ -1674,28 +1674,22 @@ a:hover {
         .img1{
             margin-top: 03vw;
             position: relative;
-            width: 12.4vw;
+            width: 15vw;
+            height: 13vw;
             max-width: 320px;
             
       
          }
          .img2{
-            margin-top: 02vw;
+            margin-top: 03vw;
             position: relative;
-            width: 10vw;
+            width: 15vw;
+            height: 13vw;
             max-width: 320px;
             
          
         }
-        .img3{
-            margin-top: 03vw;
-            position: relative;
-            width: 16vw;
-            max-width: 420px;
-            
-            min-width: 230px;
-        }
-    
+  
         
        
         .petHotel:hover{
@@ -1707,17 +1701,12 @@ a:hover {
             margin-top: 250px;
             height:17vw;
             width:17vw;
-        
-            box-shadow: 0 08px 08px 0 rgb(125 144 165), 0 0 0 2px black;
-            background-color: white;
+            background-color: transparent;
             max-height: 580px;
             border-radius: 10%;
             text-align: center;  
-            transition: all .2s ease-in-out;
-            
-            margin-right: 28%;
-
-        
+            transition: all .2s ease-in-out;            
+            margin-right: 31%;       
         }
       
       
@@ -1725,16 +1714,13 @@ a:hover {
             margin: auto;
             margin-top: 250px;
             height:17vw;
-            width:17vw;
-            box-shadow: 0 08px 08px 0 rgb(125 144 165), 0 0 0 2px black;
+            width:17vw;           
             border-radius: 10%;
             max-height: 580px;
-            background-color: white;
+            background-color: transparent;
             text-align: center;
-            transition: all .2s ease-in-out;
-            
-            margin-left: 28%;
-          
+            transition: all .2s ease-in-out;           
+            margin-left: 31%;          
         }
     
        
@@ -1747,8 +1733,7 @@ a:hover {
             float: left;
             max-height: 800px;
             max-width: 2300px;  
-            margin: 0 auto;
-           
+            margin: 0 auto;           
         }
         .boxes{
             margin-top: 0px;
