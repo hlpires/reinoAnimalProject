@@ -826,24 +826,24 @@ a:hover {
  @media(min-width: 501px) and (max-width: 1000px){
     header{
         background-color: rgb(27, 27, 27);
-        height: 2vw;
+        height: 4vw;
         width: 100%;
         float: left;
         margin: 0 auto;
         font-family: raleway;
             
-        max-height: 250px;
-        min-height: 80px;
+        max-height: 450px;
+        min-height: 120px;
         
         }
         #menuToggle{
             opacity: 0;
         }
     .logo{
-        width:calc(2vw + 200px);
+        width:calc(15vw + 200px);
         float:left;
         position: relative;
-        margin-top: 13px;
+        margin-top: 23px;
         margin-left: 10px;
         max-width: 400px;
         
@@ -914,7 +914,7 @@ a:hover {
    
     .servicos{
         background-color: #2b2b2b;
-        height:270vw;
+        height:250vw;
         width: 100vw;
         float: left;
         margin-top: 0vw;
@@ -934,18 +934,19 @@ a:hover {
     }
     .wpp{
         background-color: transparent;
-        height: 17vw;
-        width:60vw;
+        height: 10vw;
+        width:40vw;
         position: absolute;
         
-        margin-left:calc(15px + 3vw);
+        margin-left:calc(15px + 10vw);
         margin-top:calc(120px + 1vw);
         max-width: 459px;
         max-height: 111px;
         background-image: url(./IMG/wpp.png);
         background-repeat: no-repeat;
-        background-size: 80%;
+        background-size: 90%;
         cursor: pointer;
+        border: 2px solid black;
         }
         .wpp:hover{
             transform: scale(1.1);
@@ -985,9 +986,9 @@ a:hover {
         p{
             font-family: ralewayB;
             margin: 40px;
-            font-size:22px;
+            font-size:25px;
             font-weight:bold;
-           margin-top: -20;
+           margin-top: 4vw;
       
         }
         p3{
