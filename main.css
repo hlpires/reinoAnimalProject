@@ -227,6 +227,16 @@ a:hover {
                 
                 
                 }
+                #back1{
+                    opacity: 1;
+                    position: absolute;
+                    z-index: 0;
+                }
+                #back2{
+                    opacity: 0;
+                    position: absolute;
+                    z-index: 0;
+                }
                 .descIntro{
                     width: 60vw;
                     height:calc(28.2vw + 10vh);
@@ -874,6 +884,16 @@ a:hover {
                 
                 
                 
+                }
+                #back1{
+                    opacity: 0;
+                    position: absolute;
+                    z-index: 0;
+                }
+                #back2{
+                    opacity: 1;
+                    position: absolute;
+                    z-index: 0;
                 }
                 .descIntro{
                     width: 60vw;
@@ -1533,6 +1553,16 @@ a:hover {
                     
                     
                     }
+                    #back1{
+                        opacity: 0;
+                        position: absolute;
+                        z-index: 0;
+                    }
+                    #back2{
+                        opacity: 1;
+                        position: absolute;
+                        z-index: 0;
+                    }
                     .descIntro{
                         width: 60vw;
                         height:calc(23.2vw + 10vh);
@@ -1677,7 +1707,7 @@ a:hover {
             width: 15vw;
             height: 13vw;
             max-width: 320px;
-            
+            max-height: 300px;
       
          }
          .img2{
@@ -1686,7 +1716,7 @@ a:hover {
             width: 15vw;
             height: 13vw;
             max-width: 320px;
-            
+            max-height: 300px;
          
         }
   
@@ -2199,6 +2229,16 @@ a:hover {
                 
                 
                 
+                }
+                #back1{
+                    opacity: 0;
+                    position: absolute;
+                    z-index: 0;
+                }
+                #back2{
+                    opacity: 1;
+                    position: absolute;
+                    z-index: 0;
                 }
                 .descIntro{
                     width: 60vw;
