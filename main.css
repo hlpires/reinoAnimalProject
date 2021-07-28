@@ -59,7 +59,7 @@ a:hover {
   position: relative;
   top: 40px;
   left: 20px;
-  outline: 1px solid red;
+ 
   z-index: 1;
   max-width: 12vw;
   -webkit-user-select: none;
