@@ -179,8 +179,8 @@ a:hover {
                 float: left;
                 position: relative;
                 max-height: 800px;
-                border-bottom: 4px solid #ba6e2d;
-                border-top:4px solid #ba6e2d;
+                border-bottom: 4px solid #d1721f;
+                border-top:4px solid #d1721f;
             
             }
             .backgroundIntro{
@@ -287,7 +287,7 @@ a:hover {
         h3{
             top:calc(420px + 18vw);
             font-size: 30px;
-            color: #ba6e2d;
+            color: #d1721f;
             max-height: 80px;
             font-family: ralewayB;
             margin-left: auto;
@@ -301,7 +301,7 @@ a:hover {
         }
         h3{
             width: 240px;
-            border-bottom: 4px solid #ba6e2d;
+            border-bottom: 4px solid #d1721f;
             position: absolute;
             top: 0%;
             color: white;
@@ -313,7 +313,7 @@ a:hover {
             color: black;
             font-family: ralewayB;
             font-weight: bold;
-            color: #ba6e2d;
+            color: #d1721f;
         }
        
         p{
@@ -326,7 +326,7 @@ a:hover {
         }
         p3{
             font-size:32px;
-            color: #ba6e2d;
+            color: #d1721f;
            
         }
         h2{
