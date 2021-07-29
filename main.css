@@ -91,7 +91,7 @@ a:hover {
   
   cursor: pointer;
   
-  opacity: 0; 
+  opacity: 0;
   z-index: 2; 
   
   -webkit-touch-callout: none;
@@ -647,10 +647,9 @@ a:hover {
          font-size: 15px;
     }
     .sobredesc{
-        height: 1400px;
+        height: 1100px;
         width: 100vw;
-        background-color: white;
-        
+        background-color: #2b2b2b;
         float: left;
         max-height: 2500px;
         max-width: 2300px;
@@ -661,15 +660,16 @@ a:hover {
 
     h20{
      
-        font-size: 25px;
-        color: rgb(0, 0, 0);
+        font-size: 20px;
+        color: #fff;
         font-family: ralewayB;
-        font-weight: bold;
+        font-weight: 700;
         float: right;
         text-align: center;
         margin-top: 10vw;
         padding: 3vw;
        
+
     }
 
     #imgSobre{
@@ -684,12 +684,12 @@ a:hover {
 
     h6{
      
-        font-size: 20px;
+        font-size: 18px;
         color: rgb(0, 0, 0);
         font-family: ralewayb;
         font-weight: bold;
         text-align: center;
-        width: 90vw;
+        width: 100vw;
        
      
        
