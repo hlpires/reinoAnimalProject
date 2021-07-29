@@ -103,9 +103,9 @@ a:hover {
 #menuToggle span
 {
   display: block;
-  width: 43px;
-  height: 4px;
-  margin-bottom: 5px;
+  width: 33px;
+  height: 3px;
+  margin-bottom: 6px;
   position: relative;
   
   background: white;
@@ -346,6 +346,7 @@ a:hover {
             color: black;
             font-family: ralewayB;
             font-weight: bold;
+            color: #ba6e2d;
         }
        
         p{
@@ -378,7 +379,7 @@ a:hover {
         position: relative;
         width: 80vw;
         height: 60vw;
-      
+     
       
      }
      .img2{
