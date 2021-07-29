@@ -333,13 +333,13 @@ a:hover {
             color: black;
             font-family: ralewayB;
             font-weight: bold;
-            color: #c0681c;
+            color: #ba6e2d;
         }
        
         p{
             font-family: ralewayB;
             margin: 40px;
-            font-size:22px;
+            font-size:20px;
             font-weight:bold;
            margin-top: -20;
       
@@ -649,7 +649,7 @@ a:hover {
     .sobredesc{
         height: 1100px;
         width: 100vw;
-        background-color: #2b2b2b;
+        background-color: rgb(255,255,255);
         float: left;
         max-height: 2500px;
         max-width: 2300px;
@@ -661,9 +661,9 @@ a:hover {
     h20{
      
         font-size: 20px;
-        color: #fff;
+        color: rgb(0, 0, 0);
         font-family: ralewayB;
-        font-weight: 700;
+        font-weight:bolder;
         float: right;
         text-align: center;
         margin-top: 10vw;
