@@ -50,7 +50,7 @@ a:hover {
         font-family: raleway;
         
         max-height: 250px;
-        min-height: 80px;
+        min-height: 21.5vw;
         
         }
  #menuToggle
@@ -101,7 +101,7 @@ a:hover {
 #menuToggle span
 {
   display: block;
-  width: 33px;
+  width: 10vw;
   height: 3px;
   margin-bottom: 6px;
   position: relative;
@@ -183,7 +183,7 @@ a:hover {
 }
 
     .logo{
-        width:calc(2vw + 200px);
+        width:calc(30vw + 100px);
         float:right;
         position: relative;
         margin-top: 13px;
@@ -267,7 +267,7 @@ a:hover {
    
     .servicos{
         background-color: #2b2b2b;
-        height:calc(130vh  + 600px);
+        height:calc(120vh  + 600px);
         width: 100vw;
         float: left;
         margin-top: 0vw;
@@ -338,7 +338,7 @@ a:hover {
        
         p{
             font-family: ralewayB;
-            margin: 40px;
+            margin: 4vw;
             font-size:20px;
             font-weight:bold;
            margin-top: -20;
@@ -386,7 +386,7 @@ a:hover {
     .tosa{
        
         
-        height:calc(113vw + 200px);
+        height:calc(92vw + 200px);
         width:90vw;
         min-height: 250px;
         box-shadow: 0 10px 10px 0 rgb(125 144 165), 0 0 0 2px black;
@@ -405,7 +405,7 @@ a:hover {
     .banho{
    
         margin-top: 150px;
-        height:calc(105vw + 200px);
+        height:calc(100vw + 200px);
         width:90vw;
    
         box-shadow: 0 10px 10px 0 rgb(125 144 165), 0 0 0 2px black;
@@ -452,6 +452,7 @@ a:hover {
         background-size: 60vw;
         background-repeat: no-repeat;
         background-position-x: 20vw;
+        background-position-y: 13vw;
     }
     h15{
         margin-top: 0vw;
