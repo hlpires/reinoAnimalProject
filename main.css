@@ -129,26 +129,6 @@ a:hover {
 }
 
 
-
-#menuToggle input:checked ~ span
-{
-  opacity: 1;
-  transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
-}
-
-#menuToggle input:checked ~ span:nth-last-child(3)
-{
-  opacity: 0;
-  transform: rotate(0deg) scale(0.2, 0.2);
-}
-
-
-#menuToggle input:checked ~ span:nth-last-child(2)
-{
-  transform: rotate(-45deg) translate(0, -1px);
-}
-
 #menu
 {
   position: absolute;
@@ -183,7 +163,7 @@ a:hover {
 }
 
     .logo{
-        width:calc(30vw + 100px);
+        width:56vw;
         float:right;
         position: relative;
         margin-top: 13px;
@@ -355,11 +335,11 @@ a:hover {
             color:rgb(0, 0, 0);
             opacity: 1!important;
             position: absolute;
-            top: 30px;
+            top: 6vw;
             margin: 0 auto;
             max-width: 500px;
            
-            font-family: raleway;
+            font-family: ralewayB;
         }
     .img1{
         margin-top: 04vw;

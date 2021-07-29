@@ -114,13 +114,15 @@ const menuItems = document.querySelectorAll('.menu a[href^="#"]');
 function tela(){
 
 
-	if($(window).width() < 1000){
+	if($(window).width() < 1000 ){
 
 
 		function animeScroll1() {
 			
 			$('.servicos').addClass('servicosAnime');
 			$('.mapaDiv').addClass('mapaAnime');
+			$('.imgSobre').addClass('sobreAnime');
+			$('h20').addClass('sobreAnime');
 			clearInterval(clock);
 	
 			
