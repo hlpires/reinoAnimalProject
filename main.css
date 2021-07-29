@@ -187,7 +187,7 @@ a:hover {
         float:right;
         position: relative;
         margin-top: 13px;
-       margin-right: 18vw;
+       margin-right: 20vw;
         max-width: 400px;
         
         }
@@ -206,7 +206,7 @@ a:hover {
             .backgroundIntro{
                 flex: 1;
                 width: 100vw;
-                height:calc(28.2vw + 10vh);
+                height:calc(28.5vw + 10vh);
                 margin: 0 auto;
                 margin-top: 0px;
                 align-items: center;
