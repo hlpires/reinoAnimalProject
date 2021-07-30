@@ -628,7 +628,7 @@ a:hover {
          font-size: 15px;
     }
     .sobredesc{
-        height: calc(850px + 80vw);
+        height: calc(900px + 60vw);
         width: 100vw;
         background-color: rgb(255,255,255);
         float: left;
