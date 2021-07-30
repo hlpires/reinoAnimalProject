@@ -214,3 +214,9 @@ $('#fotos').slick({
 });
 }
 
+function retardo (){
+	$('.imageLoad').Lazy();
+
+}
+
+retardo();
