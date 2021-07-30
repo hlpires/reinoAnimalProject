@@ -13,23 +13,38 @@
 <body>
     <header>
             <a href="./index.html">   <img class="logo" src="./IMG/reinoAnimalLogo.png">  </a>
-           <!--<div class="menu" >
-                <a href="#servicos" >
-                    <h1 id="bServicos">Rações</h1>
-                </a>
-                <a href="#visite-nos">
-                <h1 id="Localizacao">Roupas</h1>
-                </a>
-                <a href="#fotos">
-                <h1 id="bFotos">Fotos</h1>
-                </a>
-                <a href="#sobre">
-                    <h1 id="sobre">Sobre</h1>
-                </a>
-                <a href="#products">
-                    <h1 id="produtos">Produtos</h1>
-                </a>
-            </div>   -->
+            <nav role="navigation">
+                <div id="menuToggle">
+                  <!--
+                  A fake / hidden checkbox is used as click reciever,
+                  so you can use the :checked selector on it.
+                  -->
+                  <input type="checkbox" />
+                  
+                  <!--
+                  Some spans to act as a hamburger.
+                  
+                  They are acting like a real hamburger,
+                  not that McDonalds stuff.
+                  -->
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  
+                  <!--
+                  Too bad the menu has to be inside of the button
+                  but hey, it's pure CSS magic.
+                  -->
+                  <ul id="menu">
+                    
+                    <a href="https://www.google.com.br/maps/place/Reino+animal/@-8.2769643,-35.9516151,15.5z/data=!4m12!1m6!3m5!1s0x7a98b89c4352cb5:0x77074ca8d0ae612a!2sReino+animal!8m2!3d-8.2770764!4d-35.944581!3m4!1s0x7a98b89c4352cb5:0x77074ca8d0ae612a!8m2!3d-8.2770764!4d-35.944581">
+                    <li>Localizacão</li></a>
+                    <a href="#fotos"><li>Fotos</li></a>
+                    <a href="./index2.html"><li>Produtos</li></a>
+                    
+                  </ul>
+                </div>
+              </nav>       
     </header>
   
 

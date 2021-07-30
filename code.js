@@ -210,6 +210,7 @@ $('#fotos').slick({
   autoplay:true,
   autoplaySpeed:1000,
   speed:1000,
+  lazyLoad:'ondemand'
   
 });
 }
