@@ -9,7 +9,7 @@ const menuItems = document.querySelectorAll('.menu a[href^="#"]');
 	 
 	  smoothScrollTo(0, to);
 	}
-	/*var reseti = setInterval(scrollToIdOnClick,4000);*/
+	
 	
 	function scrollToIdOnClick(event) {
 		event.preventDefault();
