@@ -1,12 +1,6 @@
 
 
-/*function loadAll() {
-  var x, i;
-  x = document.getElementsByClassName("product");
-  for (i = 0; i < x.length; i++) {
-    w3AddClass(x[i], "show");
-  }
-}*/
+
 
 $("form input:checkbox").on('change', function() {
   $("form input:checkbox").not(this).prop('checked', false);
