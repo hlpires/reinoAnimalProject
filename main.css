@@ -499,7 +499,7 @@ a:hover {
         margin: 10px;
         margin-top:calc(2vw + 40px);
         max-height: 450px;
-        box-shadow: 0 20px 20px 0 rgb(125 144 165), 0 0 0 1px #aebedf;
+        box-shadow: 0   20px 20px 0 rgb(125 144 165), 0 0 0 1px #aebedf;
         text-align: center;
         font-family: ralewayB;
         font-size: 25px;
@@ -628,7 +628,7 @@ a:hover {
          font-size: 15px;
     }
     .sobredesc{
-        height: calc(900px + 60vw);
+        height: calc(900px + 70vw);
         width: 100vw;
         background-color: rgb(255,255,255);
         float: left;
