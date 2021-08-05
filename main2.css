@@ -147,10 +147,7 @@ body{
           font-size: 6.5vw;
           font: bolder;
         }
-        
-        /*
-         * And let's slide it in from the left
-         */
+    
         #menuToggle input:checked ~ ul
         {
           transform: none;
