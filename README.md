@@ -1,4 +1,12 @@
+<img class="logo" align="center" src="./IMG/reinoAnimalLogo.png"> 
 
-<h1 align="center" font-size = "40px" > Reino Animal<h1>
 
- <p1>Status: Devoloping<p1>
+
+
+
+
+Reino Animal is a Website made to: 
+- Publicize the work and create trust with the customer
+- Facilitate being located
+- Show available services
+- Show some products
