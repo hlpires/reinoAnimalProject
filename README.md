@@ -1,0 +1,1 @@
+<img class="logo" src="./IMG/reinoAnimalLogo.png">
