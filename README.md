@@ -1,4 +1,4 @@
 
-<h1 align="center" font size="50px"> Reino Animal<h1>
+<h1 align="center" font size="100px"> Reino Animal<h1>
 
  Status: Devoloping
