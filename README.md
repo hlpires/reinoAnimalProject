@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="./read.css">
 
 
-<h1>Reino Animal<h1>
+<h1 size =50px>Reino Animal<h1>
 
-> Status: Devoloping
+ Status: Devoloping
