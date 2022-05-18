@@ -41,5 +41,7 @@ The carrousel of photos was made with a Jquery plugin **Slick**
 ---
 ## Download
 
-
-
+---
+![download](https://user-images.githubusercontent.com/60366579/169167063-ae03c590-a110-4862-ac7a-c9e55990becf.png)
+#### Make the download of the zip archive and Open the index.html file to view the website
+---
