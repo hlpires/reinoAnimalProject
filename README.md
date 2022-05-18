@@ -15,7 +15,7 @@
 - Google maps guide
 - Reveal Website Elements On Scroll
 - Picture carousel
-- Products Filter "Devoloping⚠️"
+- Products Filter ( devoloping⚠)
 - Multi-Page
 - Click to message WhatsApp 
 
