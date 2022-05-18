@@ -22,4 +22,8 @@ The carrousel of photos was made with a Jquery plugin "Slick"
 * Give her the class imageLoad
 * Add the image you want
 
-![carbon (1)](https://user-images.githubusercontent.com/60366579/169144516-c0c0c12c-e0bf-475b-8ed3-502e350f8b40.png)
+
+![carbon (5)](https://user-images.githubusercontent.com/60366579/169146247-ce11402e-a23c-4942-b18a-4fddad15584b.png)
+
+
+
