@@ -10,6 +10,11 @@
 
 ## Features
 
+- Picture carousel
+- Mobile friendly
+- Smooth scroll
+- Google maps guide
+
 ## How to customise and add new photos
 The carrousel of photos was made with a Jquery plugin "Slick"
 
