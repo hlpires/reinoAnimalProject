@@ -12,7 +12,7 @@
 
 - Mobile friendly
 - Smooth scroll
-- Google maps guide
+- Click to guide via Google maps 
 - Reveal Website Elements On Scroll
 - Picture carousel
 - Products Filter ( devoloping⚠)
