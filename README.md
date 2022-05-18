@@ -22,9 +22,9 @@
 ## How to customise and add new photos
 The carrousel of photos was made with a Jquery plugin **Slick**
 
-* First step create a div with the image you want in the HTML file inside the class "fotos" 
-* Give her the class imageLoad
-* Add the image you want
+1. First step create a div with the image you want in the HTML file inside the class "fotos" 
+1. Give her the class imageLoad
+1. Add the image you want
 
 ---
 
