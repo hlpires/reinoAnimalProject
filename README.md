@@ -10,10 +10,14 @@
 
 ## Features
 
-- Picture carousel
 - Mobile friendly
 - Smooth scroll
 - Google maps guide
+- Reveal Website Elements On Scroll
+- Picture carousel
+- Products Filter "Devoloping⚠️"
+- Multi-Page
+- Click to message WhatsApp 
 
 ## How to customise and add new photos
 The carrousel of photos was made with a Jquery plugin "Slick"
