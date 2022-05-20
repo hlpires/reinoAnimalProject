@@ -32,7 +32,7 @@ The carrousel of photos was made with a Jquery plugin **Slick**
 
 ---
 
-### Customization 
+## Customization 
 
 In the javascript file you can do the complete customization of the carousel
 
@@ -42,11 +42,13 @@ In the javascript file you can do the complete customization of the carousel
 
 ---
 
+## Demo
+---
 ![Sem Título-3](https://user-images.githubusercontent.com/60366579/169416741-74cbb59c-0532-40f5-a84a-b08efca40831.gif)
 
 
 ---
-## Download
+## Deployment/Download
 
 ---
 ![download](https://user-images.githubusercontent.com/60366579/169167063-ae03c590-a110-4862-ac7a-c9e55990becf.png)
