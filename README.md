@@ -46,12 +46,6 @@ In the javascript file you can do the complete customization of the carousel
 ![Sem Título-3](https://user-images.githubusercontent.com/60366579/169416741-74cbb59c-0532-40f5-a84a-b08efca40831.gif)
 
 
----
-## Deployment/Download
-
----
-![download](https://user-images.githubusercontent.com/60366579/169167063-ae03c590-a110-4862-ac7a-c9e55990becf.png)
-#### Make the download of the zip archive and Open the index.html file
 
 
 
