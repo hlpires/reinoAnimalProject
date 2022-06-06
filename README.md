@@ -1,11 +1,7 @@
 <img class="logo" align="center" src="./IMG/reinoAnimalLogo.png"> 
 
 ## Is a Website made to: 
-- Publicize the work and create trust with the customer
-- Facilitate being located
-- Show available services
-- Show some products
-- Show the service performed
+
 
 
 ## Features
