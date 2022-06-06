@@ -34,7 +34,8 @@ In the javascript file you can do the complete customization of the carousel
 
 ---
 
-![carbon (8)](https://user-images.githubusercontent.com/60366579/169146578-7fa4b36a-27b3-4e6f-83d4-01cab7407c9b.png)
+![config1](https://user-images.githubusercontent.com/60366579/172231671-3d06676c-1583-4960-a642-89f4703f6147.png)
+
 
 ---
 
