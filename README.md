@@ -24,7 +24,9 @@ The carrousel of photos was made with a Jquery plugin **Slick**
 
 ---
 
-![carbon (5)](https://user-images.githubusercontent.com/60366579/169146247-ce11402e-a23c-4942-b18a-4fddad15584b.png)
+
+![config2](https://user-images.githubusercontent.com/60366579/172232340-d1816c33-24f7-4e85-b91c-97a8b3a5081f.png)
+
 
 ---
 
