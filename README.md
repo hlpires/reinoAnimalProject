@@ -1,6 +1,6 @@
 <img class="logo" align="center" src="./IMG/reinoAnimalLogo.png"> 
 
-## an Website made with Javascript,HTML and CSS
+## An Website made with Javascript,HTML and CSS
 
 
 
