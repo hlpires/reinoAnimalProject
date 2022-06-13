@@ -46,4 +46,4 @@ In the javascript file you can do the complete customization of the carousel
 ![Sem Título-3](https://user-images.githubusercontent.com/60366579/169416741-74cbb59c-0532-40f5-a84a-b08efca40831.gif)
 
 
-<p align="center">Copyright © 2021 hlpires</p>
+<p align="center">Copyright © 2022 hlpires</p>
