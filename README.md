@@ -43,7 +43,8 @@ In the javascript file you can do the complete customization of the carousel
 
 ## Demo
 ---
-![Sem Título-3](https://user-images.githubusercontent.com/60366579/169416741-74cbb59c-0532-40f5-a84a-b08efca40831.gif)
+![Sem Título-1](https://user-images.githubusercontent.com/60366579/173419704-df40c0ca-0e7b-4b0f-933b-febe6462a588.png)
+
 
 
 <p align="center">Copyright © 2022 hlpires</p>
