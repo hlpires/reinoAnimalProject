@@ -42,12 +42,7 @@ const menuItems = document.querySelectorAll('.menu a[href^="#"]');
 			var to = getScrollTopByHref(event.currentTarget)-k;
 			scrollToPosition(to);
 		}
-		if(jQuery('#bprodutos').data('clicked')){
 
-
-		var to = getScrollTopByHref(event.currentTarget)-k;
-		scrollToPosition(to);
-}
 
 }
 	jQuery('#bServicos').click(function(){
@@ -65,9 +60,6 @@ const menuItems = document.querySelectorAll('.menu a[href^="#"]');
 	  });
 
 	  jQuery('#bsobre').click(function(){
-		$(this).data('clicked', true);
-	  });
-	  jQuery('#bprodutos').click(function(){
 		$(this).data('clicked', true);
 	  });
 
@@ -139,7 +131,7 @@ function tela(){
 			$target.each(function(){
 				var servicosTop = $('#servicos').offset().top;
 				var visiteTop = $('#mapaDiv').offset().top;
-				var produtosTop = $('#box1').offset().top;
+				
 				var sobreTop = $('#sobreDiv').offset().top;
 			
 				if (documentTop > servicosTop - 800) {
@@ -150,26 +142,7 @@ function tela(){
 					$('.mapaDiv').addClass('mapaAnime');
 					
 				}
-				 if(documentTop > produtosTop - 1000 ){
-					
-					$('.box').addClass('boxAnime');
-					
-					setTimeout(function() { 
-						$('.box1').addClass('boxAnime');
-					}, 800);
-					setTimeout(function() { 
-						$('.box2').addClass('boxAnime');
-					}, 1200);
-					setTimeout(function() { 
-						$('.box3').addClass('boxAnime');
-					}, 1600);
-					setTimeout(function() { 
-						$('.box4').addClass('boxAnime');
-					}, 2000);
-					setTimeout(function() { 
-						$('.box5').addClass('boxAnime');
-					}, 2400);	
-				}
+			
 				if(documentTop > sobreTop - 600 ){
 					$('.imgSobre').addClass('sobreAnime');
 					$('h20').addClass('sobreAnime');
